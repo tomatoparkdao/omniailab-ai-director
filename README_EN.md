@@ -4,7 +4,7 @@
 
 </div>
 
-# OmniAiLab AI Director — Complete Edition
+# OmniAiLab AI Film & TV Director
 
 > © OmniAiLab ｜ Developer: Mochiball ｜ Platform: [omniailabx.com](https://www.omniailabx.com/)
 
@@ -13,7 +13,7 @@
 | Item | Value |
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
-| Display name | OmniAiLab AI Director — Complete Edition |
+| Display name | OmniAiLab AI Film & TV Director |
 | Version | v2.0.24 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |

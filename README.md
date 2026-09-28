@@ -4,7 +4,7 @@
 
 </div>
 
-# OmniAiLab AI导演完整版
+# OmniAiLab AI 影视导演
 
 > © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：[omniailabx.com](https://www.omniailabx.com/)
 
@@ -13,14 +13,14 @@
 | 项目 | 值 |
 |---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` |
-| 显示名 | OmniAiLab AI导演完整版 |
+| 显示名 | OmniAiLab AI 影视导演 |
 | 版本 | v2.0.24 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball |
 | 许可 | MIT（见 [LICENSE](LICENSE)） |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) |
 | 开源仓库（公开） | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) |
 
-调用名是**全小写连字符**写法（`omniailab-ai-director`），不是"OmniAiLab AI导演完整版"这个显示名。支持 skill 的工具直接用调用名最稳；不支持原生 skill 的工具，用自然语言描述任务也能触发（本 skill 允许隐式调用）。
+调用名是**全小写连字符**写法（`omniailab-ai-director`），不是「OmniAiLab AI 影视导演」这个显示名。支持 skill 的工具直接用调用名最稳；不支持原生 skill 的工具，用自然语言描述任务也能触发（本 skill 允许隐式调用）。
 
 ---
 
