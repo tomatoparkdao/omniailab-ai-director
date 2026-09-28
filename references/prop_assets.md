@@ -2,6 +2,10 @@
 
 # 关键道具母板
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 阶段位置与筛选
 
 关键道具位于全部角色与必要形态确认之后，场景资产与分镜设计之前。先从剧本提取候选并输出一张无批次生产清单，再询问创作者确认范围：

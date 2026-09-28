@@ -2,6 +2,10 @@
 
 # 站位数据模型（OmniAiLab 导演台 SCENE_JSON）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 本文件是 `BLOCKING SKILL.md` 的数据字典，定义**场景数据（`SCENE_JSON`）**的字段与取值。使用无注释的有效 JSON，**坐标与尺寸单位一律为米**。
 
 ## 字段映射说明（重要）

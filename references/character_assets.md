@@ -2,6 +2,10 @@
 
 # 角色母板、依赖与角色设定板
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 先建立依赖图
 
 以创作者确认的剧本解析与人物小传为上游真相，提取全部出场人物、生物、怪物及被提及但影响视觉设计的实体。为每个实体登记：年龄、国籍/族裔、身份职业、人物弧、外貌、体型、服装、道具、状态变化和依赖。不得在角色提示词阶段重新发明国家、年代、职业或家庭关系。

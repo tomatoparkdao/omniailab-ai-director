@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 长片工程层（分解 · 空间图 · 世界 · 法条 · 监督）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 短片靠手感，**长片靠制度**。这一层是把"上百场戏、几百个资产"跑完并保持一致的工程方法——每一条都是**因为某个镜头在没有它的时候失败了**才存在的。
 
 ## 在本流水线中的定位与边界

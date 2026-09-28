@@ -2,6 +2,10 @@
 
 # 配图索引（案例库插图）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 **这套图是干什么用的**：`references/` 是**文字规范**，`examples/case-studies/` 是**可照抄的成品提示词**，**这里是"看得见的样子"**——把最难用文字说清的那几件事（角色表怎么排、状态怎么分、站位示意图长什么样、颜色被拉跑是什么样、运动物件"像贴图"是什么样）直接给图。
 
 **共 49 张，约 2.4 MB。** 全部来自各案例公开的制作复盘，已按本 skill 的中文口径重新命名与压缩，无第三方标识。

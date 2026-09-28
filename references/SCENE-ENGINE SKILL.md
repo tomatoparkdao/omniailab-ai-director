@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 剧本引擎（五要素 · 压力测试 · 三层修法）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 **给剧本做结构体检。** 在 AI 影视里，一场戏不成立是要花真金白银才发现的——你只有生成了才知道它不行。所以**在生成任何一个镜头之前**，先让每一场戏过一遍这台引擎。
 
 ## 在本流水线中的定位与边界

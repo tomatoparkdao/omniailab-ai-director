@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 音乐场景与唇形同步（让模型演唱一首已经做完的歌）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 **核心结论：视频模型不会表演你的歌。** 你让它说唱，它给你一张对着空气动的嘴；你让它生成音乐，它要么拒绝，要么给你一段剪辑会打架的东西。所以**音乐永远不从模型来**——**歌先写完录完，然后让模型去"演"它。**
 
 ## 在本流水线中的定位与边界

@@ -2,6 +2,10 @@
 
 # COMBAT — 打斗专项层（高燃对抗动作导演）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 把打斗创意转换为可执行的 Seedance 2.5 高密度对抗提示词契约。目标不是堆叠"电影级、顶级、震撼"等形容词，而是让镜头有明确观察位置和运动目的，让角色在清楚的空间内持续交战，每次攻击都有防守、受力、环境反馈和可见终点。
 
 ## 在本流水线中的定位与边界

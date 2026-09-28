@@ -2,6 +2,10 @@
 
 # 导演与摄影师视觉语言
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 仅在用户选择导演风格、输入 `Dxx`、要求推荐导演画风或使用锚点模式时读取本文件。
 
 导演姓名是检索标签，稳定模式将对应条目展开为具体视觉特征。每次根据用户主体和场景选择相关特征，保持内部一致。

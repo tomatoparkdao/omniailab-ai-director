@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 光学层（视场角锚点 · 镜头决策树 · 多镜一致性）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 **核心认知**：视频模型对**可观察到的镜头结果**的反应，远好于对**摄影机元数据**的反应。不要拿毫米数、光圈、感光度、镜头品牌或老镜头型号当主要控制手段。
 
 ## 在本流水线中的定位与边界

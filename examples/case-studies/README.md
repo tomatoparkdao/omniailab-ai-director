@@ -2,6 +2,10 @@
 
 # 案例库 · 索引（AI 影视实战复盘）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 > **配套配图**：`examples/images/`（49 张，约 2.4 MB）——把最难用文字说清的那几件事直接给图（角色表怎么排、状态怎么分、站位示意图长什么样、颜色被拉跑是什么样、运动物件「像贴图」是什么样）。**索引与关键词反查表见 [`../images/INDEX.md`](../images/INDEX.md)。****硬规则：凡引用案例里的某条规范，必须同时把对应图给用户看。**
 
 这里沉淀的是**真实商业级 AI 短片**的公开制作复盘中被验证过的**提示词写法与问题解法**。它们不是参考读物，是**可以整段复制的成品块**。

@@ -2,6 +2,10 @@
 
 # 剧本解析、世界规则与人物小传
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 目的
 
 在造型和摄影设计前，把会影响视觉、表演、声音与连续性的隐含前提变成创作者确认的事实。不要改写剧情；只补足制作所需的世界坐标。

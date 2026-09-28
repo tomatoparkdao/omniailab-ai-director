@@ -2,6 +2,10 @@
 
 # 美学配方字典（A01–A07）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 配合 `AESTHETICS SKILL.md` 使用。本文件承载七套配方的**完整拆解与核心参数**；每套的**现成可抄提示词**见 `examples/aesthetics/`。
 
 读法：先按 `AESTHETICS SKILL.md` 第三节的匹配表选中配方，再回到本文件取核心参数，展开为自然视觉语言写进画面描述。**参数进画面描述，比例／分辨率／时长／模型名不进提示词正文。**

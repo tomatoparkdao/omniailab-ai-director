@@ -2,6 +2,10 @@
 
 # P5 视频提示词生成与 OmniAiLab 参数
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 阶段位置与目标
 P5 位于分镜和首帧全部确认之后，视频生成之前。目标是为每个镜头生成可直接粘贴到 OmniAiLab 视频节点的提示词，并指定模型、时长、比例等参数。P5 不实际生成视频，只输出提示词和参数表，供 P6 阶段批量执行。
 

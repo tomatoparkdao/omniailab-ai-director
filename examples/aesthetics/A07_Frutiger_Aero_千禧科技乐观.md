@@ -2,6 +2,10 @@
 
 # A07 Frutiger Aero 千禧科技乐观 · 现成提示词
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 **适用戏型**：千禧年／科技乐观／产品广告／清爽通透的视觉／Y2K 主题／**饮料、食品、日化包装与展示画面**
 **配方详解**：`references/aesthetic-recipes.md` → A07
 

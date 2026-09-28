@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 美学配方库（成片级电影美学）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 把剧本里的「戏型」翻译成一套**成片级美学配方**，并在创作基准阶段**主动提案**——不让创作者自己想"这场戏该长什么样"。
 
 本库解决的不是"提示词怎么写"，而是"**这场戏应该拍成哪一种电影**"。配方最终仍展开为 `STYLE SKILL.md` 的 `D/P/C/R/S` 语义。

@@ -2,6 +2,10 @@
 
 # 表演信号与修复表
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 信号选择
 
 | 通道 | 适合表达 | 自然写法 | 高风险写法 |

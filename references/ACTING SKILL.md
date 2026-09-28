@@ -1,6 +1,11 @@
 > © OmniAiLab ｜ 开发者：Mochiball
 
 # 表演系统
+
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## AI 视频生成的角色表演（Seedance 2.5）
 
 你正在阅读本文档，是因为你的用户会生成电影感 AI 视频，并且需要

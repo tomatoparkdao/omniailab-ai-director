@@ -2,6 +2,10 @@
 
 # 电影印片风格
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 仅在用户指定 Kodak 2383、Fujifilm 3513、输入 `Rxx`、要求印片菜单或需要影院发行拷贝质感时读取本文件。
 
 印片风格描述最终呈现阶段的对比、黑位、高光、色彩分离和密度。它可以单独使用，也可以叠加在拍摄胶片之后。

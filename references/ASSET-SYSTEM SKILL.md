@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 资产体系（成对资产 · 命名约定 · 状态管理 · 声音锁定）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 这一层解决的是 AI 影视最大的隐性成本：**同一个角色在不同镜头里变成不同的人，同一个房间在镜头移动后变成另一个房间**。解法只有一个——**资产先行**。
 
 ## 在本流水线中的定位与边界

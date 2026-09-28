@@ -2,6 +2,10 @@
 
 # BLOCKING — 站位与场面调度层（跨镜站位锁定）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 把「人物站在哪、朝哪、怎么动」从散文描述升级为**可复用、可核查的坐标数据**，让同一场景的站位在全部镜头之间保持一致，消除「上一镜还在原位、下一镜就漂了」的问题。
 
 ---

@@ -2,6 +2,10 @@
 
 # P1摄影、色彩与声音创作基准
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 范围
 
 默认媒介为**真人实拍质感**：人物、怪物、材质、光线和物理反馈像真实摄影机在真实空间中拍到。**动画／混合媒介项目先按 `references/ANIMATION SKILL.md` 做媒介判定**（写实／风格化三维／二维／混合），判定为动画时以该声明为全片唯一媒介口径——此时胶片、真人皮肤与实拍光源规则**不适用**，改按动画线的造型、笔触、运动口径与光线公式执行；未判定为动画时一律按写实执行。

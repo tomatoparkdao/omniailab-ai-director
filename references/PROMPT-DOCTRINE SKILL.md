@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 提示词教义（固定块序 · 十一条铁律 · 静帧优先 · 物理与光线）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 本层把"提示词怎么写才不会翻车"固化成可执行规则。它来自真人实拍级 AI 短片的实战复盘：**每一条都是先做错、再改对换来的**，不是理论。
 
 ## 在本流水线中的定位与边界

@@ -2,6 +2,10 @@
 
 # 通用摄影风格
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 仅在用户选择通用摄影风格、输入 `Pxx`、要求摄影画风菜单或画面更适合摄影语言而非导演语言时读取本文件。
 
 ## 预设

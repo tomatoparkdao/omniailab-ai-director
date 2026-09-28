@@ -9,6 +9,10 @@ developer: Mochiball
 
 # EMOTION — 情绪导演（情绪层子技能）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 在本流水线中的定位与边界
 
 本文件是 OmniAiLab AI导演 skill 的**情绪层子技能**，与 ACTING（表演）、LIRA（图像）、CINEDANCE（视频提示词）并列。它只负责「情绪怎么在关系里发生」与「如何不被常见生成故障毁掉」，不负责镜头设计，也不负责全片声音基调。

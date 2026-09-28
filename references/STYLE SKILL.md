@@ -10,6 +10,10 @@ developer: Mochiball
 
 # 视觉语言库（导演 / 摄影 / 胶片 / 印片）
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 把用户的自然语言画面需求，转换为一条模型无关、中文、可直接复制的文生图正向提示词。保持原意，合理补全视觉信息，让所有描述服务于同一个画面意图。
 
 画风由一套可检索的代码体系承载：`Dxx` 导演视觉语言、`Pxx` 通用摄影风格、`Cxx` 拍摄胶片、`Rxx` 印片风格、`S1–S3` 风格强度。成品把代码展开为自然视觉语言，代码本身不进提示词。

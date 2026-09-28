@@ -2,6 +2,10 @@
 
 # P4 分镜设计与首帧生成
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 阶段位置与目标
 P4 位于场景资产确认之后，视频提示词生成之前。目标是把剧本拆成可执行的镜头序列，为每个镜头确定景别、角度、运镜、时长、内容和声音，并生成首帧图。分镜是连接前期资产和视频生成的核心桥梁。
 

@@ -2,6 +2,10 @@
 
 # 全片情绪曲线自动可视化
 
+**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
+**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
+**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+
 ## 1. 触发与职责
 
 只在P0A前9项文字分析全部完成后自动执行1次，作为P0A的第10项；不在P0项目接收阶段生成，也不在P0A前9项之前展示。生成前不单独询问用户。该图用于让创作者直观看见全片呼吸、升级、高潮、反转和余震，不是资产母板，也不替代剧本确认。
