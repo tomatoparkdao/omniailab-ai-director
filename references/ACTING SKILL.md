@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-acting
+description: 表演子技能 —— 把抽象情绪转成可被摄影机拍到的行为（目标／障碍／策略／节拍／倾听／身体任务），产出角色表演主档案与单镜表演段落，含表演任务法附录。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # 表演系统
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 ## AI 视频生成的角色表演（Seedance 2.5）
 

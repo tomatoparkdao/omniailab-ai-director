@@ -1,18 +1,15 @@
 ---
 name: omniailab-prompt-doctrine
-description: >
-  提示词教义层 — 视频与图像提示词的固定块序（16 段）、十一条铁律（说有什么不说不要什么／几何绑画框不绑物件／一节拍一次反应／规模用线索、道具尺度用「数值＋关系」／可数事件要证据／物理用节拍链／镜别角度必变／可数部位要点检／参考里不想要的东西要"关掉"）、「把难的东西放进静帧」原则（光学、曝光、画面内文字一律在 plate 阶段解决）与「物理锁与光线优先级」。供 P1 锁基准、P4 出首帧、P5 写视频提示词时调用。
+description: 提示词教义层 —— 16 段固定块序、十一条铁律、把难的放进静帧、物理与连续性怎么写下来。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 提示词教义（固定块序 · 十一条铁律 · 静帧优先 · 物理与光线）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 本层把"提示词怎么写才不会翻车"固化成可执行规则。它来自真人实拍级 AI 短片的实战复盘：**每一条都是先做错、再改对换来的**，不是理论。
 

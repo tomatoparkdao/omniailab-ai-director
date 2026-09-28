@@ -1,18 +1,15 @@
 ---
 name: omniailab-asset-system
-description: >
-  资产体系层 — 把角色/场景/道具做成"文本＋图像"成对资产并统一命名（@char_／@loc_／@prop_／@staging_），新状态一律新建资产而不覆盖；角色表两遍法（先 close-up 定身份、底片永不再过模型、状态用遮罩逐点合成）；声音锁定（VOICE LOCK）与单条参考重配音。供 P1 起草、P2/P3 建资产、P4/P5 引用资产时调用。
+description: 资产体系层 —— 「文本＋图像」成对资产、@char_／@loc_／@prop_／@staging_ 命名约定、新状态新资产与声音锁定。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 资产体系（成对资产 · 命名约定 · 状态管理 · 声音锁定）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 这一层解决的是 AI 影视最大的隐性成本：**同一个角色在不同镜头里变成不同的人，同一个房间在镜头移动后变成另一个房间**。解法只有一个——**资产先行**。
 

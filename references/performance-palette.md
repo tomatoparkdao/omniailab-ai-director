@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-performance-palette
+description: 表演信号与修复表 —— 各表演通道的自然写法与高风险写法对照。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # 表演信号与修复表
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 ## 信号选择
 

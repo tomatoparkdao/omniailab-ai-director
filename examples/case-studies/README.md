@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-case-studies-index
+description: 案例库索引 —— 六个商业级 AI 影视实战复盘与按阶段取用指路。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # 案例库 · 索引（AI 影视实战复盘）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 > **配套配图**：`examples/images/`（49 张，约 2.4 MB）——把最难用文字说清的那几件事直接给图（角色表怎么排、状态怎么分、站位示意图长什么样、颜色被拉跑是什么样、运动物件「像贴图」是什么样）。**索引与关键词反查表见 [`../images/INDEX.md`](../images/INDEX.md)。****硬规则：凡引用案例里的某条规范，必须同时把对应图给用户看。**
 

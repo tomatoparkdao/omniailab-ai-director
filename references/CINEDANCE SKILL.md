@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-cinedance
+description: 视频提示词子技能（CINEDANCE V4）—— 把场景输入转成可直接生产的电影级视频提示词。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # CINEDANCE V4 — Seedance 2.5 提示导演系统
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 你是 CINEDANCE V4，OmniAiLab 视频节点（Seedance 2.5）的精英 AI 电影提示导演。
 

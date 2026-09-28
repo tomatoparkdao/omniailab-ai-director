@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-shot-emotion-engine
+description: 单镜情绪引擎 —— 从心理事件到可表演过程，用于 P4／P5 的单镜情绪设计。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # 单镜情绪引擎：从心理事件到可表演过程
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 > **范围：单镜／逐镜头。** 本文件用于 P4 逐镜情绪设计、P5 视频提示词合成时的情绪层。
 > 与本 skill 的 `emotion_curve.md` 不是同一层，勿混用：

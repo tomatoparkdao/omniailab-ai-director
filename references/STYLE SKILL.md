@@ -1,18 +1,15 @@
 ---
 name: omniailab-visual-style-library
-description: >
-  视觉语言库 — 把画面需求翻译成规范的中文正向图像提示词，并按 D/P/C/R/S 代码体系选择导演视觉语言（D01–D14）、通用摄影风格（P01–P10）、拍摄胶片（C01–C14）、印片风格（R01–R02）与风格强度（S1–S3）。供 LIRA 在生成角色图、场景图、道具图与首帧图时调用，也可脱离流水线单独用于文生图提示词。
+description: 视觉语言库 —— 导演／摄影／胶片／印片四类词汇与风格强度（D／P／C／R／S 代码体系）。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 视觉语言库（导演 / 摄影 / 胶片 / 印片）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 把用户的自然语言画面需求，转换为一条模型无关、中文、可直接复制的文生图正向提示词。保持原意，合理补全视觉信息，让所有描述服务于同一个画面意图。
 

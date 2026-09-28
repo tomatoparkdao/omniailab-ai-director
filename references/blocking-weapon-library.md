@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-blocking-weapon-library
+description: 站位武器库与动作映射 —— 武器稳定 ID 与适配动作／姿势对照表。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # 站位武器库与动作映射
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 配合 `BLOCKING SKILL.md` 使用：站位数据里的 `weapon` 必须使用下表**稳定 ID**，使同一武器在全部镜头之间保持同一形制与握持方式，避免跨镜换了一把握法不同的同类兵器。
 

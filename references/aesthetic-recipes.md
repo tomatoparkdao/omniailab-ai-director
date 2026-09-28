@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-aesthetic-recipes-dict
+description: 美学配方字典 —— A01–A07 七套配方的完整拆解与核心参数，配合 AESTHETICS SKILL.md 使用。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # 美学配方字典（A01–A07）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 配合 `AESTHETICS SKILL.md` 使用。本文件承载七套配方的**完整拆解与核心参数**；每套的**现成可抄提示词**见 `examples/aesthetics/`。
 

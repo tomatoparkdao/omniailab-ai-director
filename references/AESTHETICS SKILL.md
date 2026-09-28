@@ -1,18 +1,15 @@
 ---
 name: omniailab-aesthetic-recipes
-description: >
-  美学配方库 — 把「这场戏该用哪种导演电影美学」变成可执行的成套配方，并在 P1 创作基准阶段主动向创作者提案。承载 7 套成片级配方：A01 库布里克《2001太空漫游》工业级秩序深空、A02 徐克江湖失控狂沙、A03 邵氏兄弟复古棚拍、A04 胡金铨东方空灵肃杀、A05 迈克尔·贝式英雄镜头、A06 诺兰《敦刻尔克》克制战争史诗、A07 Frutiger Aero 千禧科技乐观。每套含美学内核、核心参数、画面拆解、适用戏型与现成提示词（详见 examples/aesthetics/）。供 P1 定全片美学、P4 做局部换配方时调用；其现成提示词分两类——分镜级图像提示词供 P4 首帧、视频动效提示词供 P5 视频。
+description: 美学配方库 —— A01–A07 七套成片级电影美学配方，P1 主动提案、P4 命中戏型时二次触发。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 美学配方库（成片级电影美学）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 把剧本里的「戏型」翻译成一套**成片级美学配方**，并在创作基准阶段**主动提案**——不让创作者自己想"这场戏该长什么样"。
 

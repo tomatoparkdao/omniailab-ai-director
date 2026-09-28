@@ -1,25 +1,22 @@
 ---
 name: omniailab-music-scene
-description: >
-  音乐场景与唇形同步 — 让视频模型"演唱"一首已经做完的歌：把终混切成约 12 秒的块、做成黑画面视频文件、关掉生成的音频只让波形驱动口型，再用唇形锁与"嘴的所有权"两条附加指令锁住每一帧。用于 MV、说唱段落、音乐短剧、品牌歌曲类叙事片段。供 P4 分镜、P5 提示词、P6 生成与剪辑时调用。
+description: 音乐场景与唇形同步 —— 先歌后演，12 秒切块与唇形锁让模型「演唱」一首已完成的歌。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 音乐场景与唇形同步（让模型演唱一首已经做完的歌）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 **核心结论：视频模型不会表演你的歌。** 你让它说唱，它给你一张对着空气动的嘴；你让它生成音乐，它要么拒绝，要么给你一段剪辑会打架的东西。所以**音乐永远不从模型来**——**歌先写完录完，然后让模型去"演"它。**
 
 ## 在本流水线中的定位与边界
 
 - **只管音乐场景的生成与对位**：歌→块→黑画面视频→提示词→唇形锁。曲风、编曲、混音属于音乐制作，不在本层。
-- **与主流程的关系**：音乐段落仍然走完整流水线（P1 风格锁定、P4 分镜、P5 提示词、P6 生成剪辑）；本层是它的**专项加法**。所有镜头级规范（块序、九条铁律、资产、站位）**照常适用**。
+- **与主流程的关系**：音乐段落仍然走完整流水线（P1 风格锁定、P4 分镜、P5 提示词、P6 生成剪辑）；本层是它的**专项加法**。所有镜头级规范（块序、十一条铁律、资产、站位）**照常适用**。
 - **不单独计为一个子技能**。
 
 ## 何时调用 · 怎么调用

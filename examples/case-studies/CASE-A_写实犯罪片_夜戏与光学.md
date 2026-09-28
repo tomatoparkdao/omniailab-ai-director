@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-case-a
+description: 实战案例 A —— 写实犯罪短片，夜戏与光学，含 16 段成品提示词与 11 条问题解法。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # CASE-A · 写实犯罪短片（夜戏与光学）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 **一句话**：一支全流程生成的写实犯罪短片，两条互不相通的时间线（雨夜都市 / 沙漠白昼），人物只作为参考资产存在，每一镜都由"参考资产 + 文本"生成。
 

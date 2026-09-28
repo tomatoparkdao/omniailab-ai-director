@@ -1,18 +1,15 @@
 ---
 name: omniailab-scene-engine
-description: >
-  剧本引擎层 — 用五要素戏剧引擎（目标／障碍／战术／反转／价值转变）撰写与审计场次、序列与整本剧本，输出逐要素判定、唯一最弱点与三层「如果……会怎样」修法。用于 P0 之前的剧本压力测试，与 P0A 剧本解析时的结构诊断。默认只诊断、不改戏；改写仅在用户明确要求时进行。
+description: 剧本引擎层 —— 五要素戏剧引擎与剧本压力测试，流水线内只诊断、不改戏。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 剧本引擎（五要素 · 压力测试 · 三层修法）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 **给剧本做结构体检。** 在 AI 影视里，一场戏不成立是要花真金白银才发现的——你只有生成了才知道它不行。所以**在生成任何一个镜头之前**，先让每一场戏过一遍这台引擎。
 

@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-case-f
+description: 实战案例 F —— 动画短片，三维预演与手绘背景、混合美学分权。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # CASE-F｜动画短片：三维预演 ＋ 生成，风格化角色与手绘背景
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 > **一句话**：一部 4 分半的**手绘感动画动作短片**——风格化立体角色跑过水彩世界，公路追逐、警察追捕、忍者群战、古代战车接连撞进来。它的制作复盘把"动画线怎么做才不糊"这件事讲得最透：**混合美学怎么分权、会动的资产怎么验、光怎么统一全片、以及"先拼全片再重生单镜"的工程组织**。
 >

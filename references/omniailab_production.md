@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-production
+description: P6 生成、剪辑与成片质检规范 —— OmniAiLab 无限画布执行与交付清单。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # P6 OmniAiLab 生成、剪辑与成片质检
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 ## 1. 阶段位置与目标
 P6 是全流程最后阶段，位于视频提示词全部确认之后。目标是在 OmniAiLab 无限画布中完成视频生成、音频制作、剪辑拼接、字幕添加和成片导出，并通过质检清单确保交付质量。P6 是唯一实际调用 OmniAiLab 生成视频的阶段。

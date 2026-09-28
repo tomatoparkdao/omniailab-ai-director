@@ -1,18 +1,15 @@
 ---
 name: omniailab-animation
-description: >
-  动画与混合媒介制作层 — 把本流水线从"真人实拍质感"扩展到动画：三维预演与生成式 AI 的分工判据、风格化角色＋手绘背景的混合美学、光决定风格、360° 转身视频取代角色表、会动的资产必须先过视频测试、动画原理优先于物理正确、角色设计里幽默与"酷"的配比、人工精修层，以及分幕—分段—先拼全片再重生单镜的工程组织。适用于纯动画、2D 卡通、3D 游戏引擎渲染风格、三维＋手绘混合、三维预演（previs）与生成混合制作。供 P1 定基准、P2/P3 建资产、P4 分镜、P5 提示词、P6 生成剪辑时调用。
+description: 动画与混合媒介制作层 —— 媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 动画与混合媒介制作层（三维预演 ＋ 生成式 AI）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 **核心结论：动画不是"换一种画风"，而是换一套运动逻辑与管理方式。** 写实管线里"物理正确"是目标；动画管线里**动画原理优先于物理正确**——角色可以看起来写实，但运动必须服从挤压、拉伸、预备动作与弧形轨迹，否则出来的东西是"会动的人偶"，不是动画。
 

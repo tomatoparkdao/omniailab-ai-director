@@ -14,7 +14,7 @@
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.25 |
+| Version | v2.0.26 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |

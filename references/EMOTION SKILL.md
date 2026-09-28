@@ -1,17 +1,15 @@
 ---
-name: emotion-performance
-description: 情绪层子技能。将用户提供的场景、行为、人物关系、台词和目标情绪，完善或修复为自然、克制、动人且可直接用于 Seedance（OmniAiLab 视频节点）的情绪 / 表演层提示词。用于微表情、哭笑怒惧、失望、背叛、告别、重逢、暧昧、武侠文戏、多人反应、无台词表演、长场景分组，以及修复呆眼、乱流泪、情绪串染、误亲吻、动作误补、死人出现反应、台词爆音、强度突跳、AI乱运镜等问题。
+name: omniailab-emotion
+description: 情绪子技能 —— 情绪命题、内外双线、情绪节拍、眼神落点与声音包络，并做角色权限隔离与故障修复。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # EMOTION — 情绪导演（情绪层子技能）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 ## 在本流水线中的定位与边界
 

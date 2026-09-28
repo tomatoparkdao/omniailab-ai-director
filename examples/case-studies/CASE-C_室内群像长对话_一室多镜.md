@@ -1,10 +1,15 @@
-> © OmniAiLab ｜ 开发者：Mochiball
+---
+name: omniailab-case-c
+description: 实战案例 C —— 室内群像长对话，一室多镜的稳定性与 14 段成品提示词。
+version: 2.0.26
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
+---
 
 # CASE-C · 室内群像长对话（一室多镜的稳定性）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 **一句话**：一支约二十分钟的全流程生成写实短片。全片的脊梁是**一场发生在同一间房间里的长对话**（四个朋友讨论一台能把你送进任何世界的机器），中途三次**猛切**进入各自幻想的类型世界（古战场／太空巡洋舰／童话山谷），最后一个镜头把前面全部重新框定。
 

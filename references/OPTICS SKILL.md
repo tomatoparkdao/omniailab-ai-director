@@ -1,18 +1,15 @@
 ---
 name: omniailab-optics
-description: >
-  光学层 — 用"可观察的镜头结果"控制镜组，而不是厂家元数据：对角线视场角锚点（8°/18°/29°/47°/84°/107°）、按内容类型选镜头的决策树、内容—视场对齐规则、六组可直接复制的角度语言块、长焦/广角结果栈、多镜镜头一致性与反漂移锁。供 P1 锁镜头家族、P4 出首帧、P5 写视频提示词时调用。
+description: 光学层 —— 视场角锚点、按内容选镜头的决策树、内容—视场对齐与多镜镜头一致性。
+version: 2.0.26
 author: OmniAiLab
 developer: Mochiball
+agent_created: true
+开源仓库: https://github.com/tomatoparkdao/omniailab-ai-director
+操作手册: https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball
-
 # 光学层（视场角锚点 · 镜头决策树 · 多镜一致性）
-
-**出品：OmniAiLab　|　开发者：Mochiball　|　版本：2.0.25**
-**开源仓库**：https://github.com/tomatoparkdao/omniailab-ai-director
-**操作手册**：https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA
 
 **核心认知**：视频模型对**可观察到的镜头结果**的反应，远好于对**摄影机元数据**的反应。不要拿毫米数、光圈、感光度、镜头品牌或老镜头型号当主要控制手段。
 
