@@ -14,10 +14,11 @@
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Director — Complete Edition |
-| Version | v2.0.23 |
+| Version | v2.0.24 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
+| Open-source repo (public) | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) |
 
 The invocation name is **all-lowercase with hyphens** (`omniailab-ai-director`) — it is not the display name. Tools with native Skill support work best with the invocation name; tools without it will still trigger on a natural-language description (implicit invocation is allowed).
 
@@ -53,6 +54,8 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
   ~/.workbuddy/skills/omniailab-ai-director
 ```
+
+The repository is **public** and always tracks the latest skill version; update later with `git pull` in that folder. Issues are welcome in the repo.
 
 ### 2. Where the script comes from (pick one)
 
