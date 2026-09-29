@@ -14,7 +14,7 @@
 |---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` |
 | 显示名 | OmniAiLab AI 影视导演 |
-| 版本 | v2.0.27 |
+| 版本 | v2.0.28 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball |
 | 许可 | MIT（见 [LICENSE](LICENSE)） |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) |
@@ -46,7 +46,7 @@
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
 | **Codex** | 没有原生 skill 目录：把文件夹放进项目，例如 `<你的项目>/skills/omniailab-ai-director/`，再在项目根目录的 `AGENTS.md` 里加一行：<br>`影视制作任务：先读 skills/omniailab-ai-director/SKILL.md，并按其流程执行。` | 说"按 SKILL.md 开始做片子"。它读 `AGENTS.md` 后会加载这个 skill。 |
 
-> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实）、视觉语言库、7 套现成提示词、纪实模板与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
+> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
 **克隆安装（推荐）**
 
@@ -291,6 +291,8 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 | **FEATURE-PRODUCTION** 长片工程层 | `references/FEATURE-PRODUCTION SKILL.md` | 镜头表四组卡片、每场开启仪式、资产压力测试、迭代纪律、法条式锁定 |
 | **MUSIC-SCENE** 音乐场景层 | `references/MUSIC-SCENE SKILL.md` | 先歌后演与唇形同步：切 12 秒块、黑画面视频文件、关掉生成音频、硬唇形锁 |
 | **ANIMATION** 动画与混合媒介层 | `references/ANIMATION SKILL.md` | 媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先 |
+| **PROMO** 宣传片线 | `references/PROMO SKILL.md` | 14 个商业短片方向的子调度（品牌广告／TVC、品牌短片、流线 MG、产品片、UI 动效、片头、动态视觉、游戏 PV、音乐短片、达人视频、教育、绘画延时、视频拆解、音色克隆）＋六步流程与商业硬约束；**视频统一用 MiniMax H3 在 OmniAiLab 画布生成** |
+| **ONBOARDING** 入门引导层 | `references/ONBOARDING SKILL.md` | **先定作品形态**：电影／短剧／动画片／纪录片／宣传片／片头／MV／游戏 PV／UI 动效／达人视频／教育 分流表 ＋ 三问收敛法 |
 | **DOCUMENTARY** 纪实／纪录片层 | `references/DOCUMENTARY SKILL.md` | 观察式纪实影像：纪实规格八项、去戏剧化叙事、6–12 秒镜头与三级运镜、自然光逻辑与空气感、人物跨镜一致性、色卡提取；**对话判定为纪录片时启用**，生成方法仍沿用既有影视级层级 |
 | **实战案例库** | `examples/case-studies/` | 六个商业级 AI 影视项目的成品提示词块 ＋「问题→解法」清单，**可整段照抄** |
 | **纪实模板** | `examples/documentary/` | 七套可直接套用的纪实提示词模板：人物三视图／定妆参考板／场景图／道具图／色卡图／首帧／视频 |
@@ -318,6 +320,8 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 | 只问唱 / 说唱段落（"口型对不上""怎么让模型唱我们的歌"） | MUSIC-SCENE 音乐场景层 |
 | 只问动画／混合媒介怎么做（"这个能不能做成动画""运动物件一动就像贴图"） | ANIMATION 动画与混合媒介层 |
 | 只问纪实／纪录片怎么做（"我想做一部纪录片""怎么拍真实的人""自然光怎么用""色卡怎么提"） | DOCUMENTARY 纪实／纪录片层 |
+| 只做宣传片／广告／商业短片（"我要做宣传片""做条品牌广告""Logo 动效""UI 动效""片头""游戏 PV""达人视频""教学视频"） | PROMO 宣传片线（先选方向） |
+| 说不清要做什么（"我想做个片子""不知道该做哪种""从哪开始"） | ONBOARDING 入门引导层（先定形态） |
 
 **完整镜头链路**：ACTING → EMOTION → BLOCKING（先定站位）→ LIRA（＋ STYLE 画风）→ CINEDANCE。**打斗镜头**在 CINEDANCE 前先接 COMBAT。**写之前先过 PROMPT-DOCTRINE 的固定块序与铁律；手上每一个角色 / 场景 / 道具都先按 ASSET-SYSTEM 命名并锁定。**
 
@@ -414,13 +418,16 @@ omniailab-ai-director/
 │   ├── MUSIC-SCENE SKILL.md
 │   ├── ANIMATION SKILL.md
 │   ├── DOCUMENTARY SKILL.md
+│   ├── PROMO SKILL.md
+│   ├── ONBOARDING SKILL.md
+│   ├── promo/                   # 宣传片线 14 个方向（78 个文件，原细则目录完整保留）
 │   ├── story_bible.md / emotion_curve.md / creative_baseline.md
 │   ├── character_assets.md / prop_assets.md / scene_assets.md
 │   ├── storyboard.md / video_prompts.md / omniailab_production.md
 │   ├── director-styles.md / photo-styles.md / capture-films.md / print-films.md
 │   ├── shot-emotion-engine.md / performance-palette.md
 │   ├── generation-guardrails.md / seedance-production.md
-│   └── (共 36 个规范文档)
+│   └── (共 38 个规范文档；另有 promo/ 下 78 个方向文件)
 └── examples/                    # 成品层：可整段照抄
     ├── floor17_script.md        # 默认剧本《17楼》（30 秒悬疑短片）
     ├── aesthetics/              # A01–A07 七套美学的现成提示词

@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-studies-index
 description: 案例库索引 —— 六个商业级 AI 影视实战复盘与按阶段取用指路。
-version: 2.0.27
+version: 2.0.28
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

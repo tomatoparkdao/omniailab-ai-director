@@ -1,7 +1,7 @@
 # © OmniAiLab ｜ 开发者：Mochiball
 
 interface:
-  display_name: "OmniAiLab AI导演完整版 2.0.27"
+  display_name: "OmniAiLab AI导演完整版 2.0.28"
   short_description: "从定稿剧本到OmniAiLab成片的全流程影视制作Skill，覆盖剧本解析、创作基准、角色道具场景资产、分镜首帧、视频提示词、OmniAiLab生成剪辑导出；媒介不限（写实／纯动画／2D卡通／3D游戏引擎渲染风格／三维＋手绘混合）、体量不限（30秒短片至上百场次长片）；内置ACTING表演、EMOTION情绪、LIRA图像（含D/P/C/R/S视觉语言库）、CINEDANCE视频提示词四个子技能，并附打斗专项层COMBAT（对抗镜头接入）、站位层BLOCKING（跨镜站位锁定，多人镜头必用）与美学配方库AESTHETICS（含A01–A07七套电影美学，P1主动提案、P4二次触发），并附提示词教义层（固定块序与九条铁律、把难的东西放进静帧、物理与连续性怎么写下来）与资产体系层（成对资产、统一命名、状态管理、声音锁定），剧本引擎层（五要素戏剧引擎与剧本压力测试）与光学层（视场角锚点、镜头决策树、多镜一致性），长片工程层（镜头表卡片、主镜与空间图、压力测试、法条式锁定）与音乐场景层（先歌后演与唇形同步），、动画／混合媒介层（媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先、分幕与先拼全片），实战案例库 examples/case-studies/（六个商业级 AI 影视实战案例的成品提示词块与问题解法，含动画案例）与案例配图层 examples/images/（49 张方法示意图＋关键词反查索引，约 2.4 MB），模型口径统一为OmniAiLab（Seedream 5.0 / Flux / 香蕉Pro / Qwen Image / image2 / image2.5 / Seedance 2.5 / Kling O3 / Vidu）"
   author: "OmniAiLab"
   developer: "Mochiball"
