@@ -10,7 +10,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2ea043?style=flat-square" alt="License MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/Platform-OmniAiLab-8957e5?style=flat-square" alt="Platform OmniAiLab"></a>
   <img src="https://img.shields.io/badge/Medium-Live_action_%2B_Animation-db6d28?style=flat-square" alt="Medium: Live action and Animation">
-  <img src="https://img.shields.io/badge/Works_with-Codex_%7C_Claude_%7C_WorkBuddy-0969da?style=flat-square" alt="Works with Codex / Claude / WorkBuddy">
+  <img src="https://img.shields.io/badge/Works_with-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-0969da?style=flat-square" alt="Works with Codex / Claude / WorkBuddy / OmniAiLab">
 </p>
 
 <p align="center">
@@ -72,6 +72,7 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 | **Codex** (recommended) | No native skill directory: drop the folder into your project, e.g. `<your project>/skills/omniailab-ai-director/`, then add one line to `AGENTS.md` in the project root:<br>`For film production tasks: first read skills/omniailab-ai-director/SKILL.md and follow its workflow.` | Say "start making the film per SKILL.md". |
 | **Claude / Claude Code** | Personal: `~/.claude/skills/omniailab-ai-director/`<br><br>Project: `<your project>/.claude/skills/omniailab-ai-director/` | Type **`/omniailab-ai-director`**, or describe the task (e.g. "run the full film pipeline for this script"). |
 | **WorkBuddy** | User level (global): `~/.workbuddy/skills/omniailab-ai-director/`<br><br>Project level: `<your project>/.workbuddy/skills/omniailab-ai-director/` | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
+| **OmniAiLab** (omniailabx) | First [download and install](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); then put the whole folder into its **skill directory** (the client shows where that is) | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
 
 > **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY / PROMO / ONBOARDING), the visual-language library, the 7 ready-made prompt sets, the documentary templates, **all 14 promo directions in full detail**, **7 real promo samples**, **camera & lighting indexes** and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
 
@@ -608,6 +609,7 @@ This Skill is a pure-text specification and is not bound to any one model — it
 | **Codex** (recommended) | Running the full P0→P6: strong engineering, direct project-file access, batch asset-list processing and scripted output organisation |
 | **Claude** | Script breakdown, prompt refinement, long-form documents (native Skill support, stable long-text rewriting) |
 | **WorkBuddy** | Running the full P0→P6: read/write files and run scripts in-session, with each stage's output landing on disk |
+| **OmniAiLab** (omniailabx) | Running the full P0→P6: a chat client in the same class as WorkBuddy, [download and install](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); read/write files and run scripts in-session, generation unified in the OmniAiLab canvas |
 
 **Model guidance**
 
@@ -625,7 +627,7 @@ This Skill is a **workflow specification and prompt system**. It deploys no loca
 
 | Item | Minimum | Recommended | Purpose |
 |---|---|---|---|
-| Chat client | An AI coding assistant that can read local files (any of Codex / Claude / WorkBuddy) | As above; **Codex** is the most stable on long pipelines | Loading the Skill and producing prompts and project files stage by stage |
+| Chat client | An AI coding assistant that can read local files (any of Codex / Claude / WorkBuddy / OmniAiLab) | As above; **Codex** is the most stable on long pipelines | Loading the Skill and producing prompts and project files stage by stage |
 | Local disk | 1 GB free | 5 GB or more | The Skill itself is about 3 MB; final cuts, first frames and asset images are stored per project |
 | Network | Access to OmniAiLab and to your chat service | Stable broadband | Generation, asset download, repository sync |
 | Browser | Chrome or Edge from the last two years | Latest version | Running generation in the OmniAiLab canvas |

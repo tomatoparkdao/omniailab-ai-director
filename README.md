@@ -10,7 +10,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
   <img src="https://img.shields.io/badge/%E5%AA%92%E4%BB%8B-%E5%86%99%E5%AE%9E_%2B_%E5%8A%A8%E7%94%BB-db6d28?style=flat-square" alt="媒介 写实与动画">
-  <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy-0969da?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy">
+  <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-0969da?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy / OmniAiLab">
 </p>
 
 <p align="center">
@@ -72,6 +72,7 @@
 | **Codex**（推荐主用） | 没有原生 skill 目录：把文件夹放进项目，例如 `<你的项目>/skills/omniailab-ai-director/`，再在项目根目录的 `AGENTS.md` 里加一行：<br>`影视制作任务：先读 skills/omniailab-ai-director/SKILL.md，并按其流程执行。` | 说"按 SKILL.md 开始做片子"。它读 `AGENTS.md` 后会加载这个 skill。 |
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
 | **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
+| **OmniAiLab**（omniailabx） | 先[下载安装](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；安装后把整个文件夹放进它的 **技能目录**（客户端内可查看技能目录位置） | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
 > **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**、**机位与布光索引**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
@@ -608,6 +609,7 @@ omniailab-ai-director/
 | **Codex**（推荐） | 完整跑 P0→P6：工程能力强，可直接操作项目文件、批量处理资产清单、脚本化整理各阶段产物 |
 | **Claude** | 剧本解析、提示词打磨、长篇文档产出（原生支持 skills，长文本改写稳定） |
 | **WorkBuddy** | 完整跑 P0→P6：会话内可读写文件、跑脚本，每阶段产物直接落盘 |
+| **OmniAiLab**（omniailabx） | 完整跑 P0→P6：与 WorkBuddy 同类的对话客户端，[下载安装](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；会话内可读写文件、跑脚本，生成统一在 OmniAiLab 画布完成 |
 
 **模型建议**
 
@@ -625,7 +627,7 @@ omniailab-ai-director/
 
 | 项目 | 最低要求 | 推荐配置 | 用途 |
 |---|---|---|---|
-| 对话客户端 | 能读取本地文件的 AI 编程助手（Codex / Claude / WorkBuddy 任一） | 同上；**Codex** 在长链路下的稳定性最好 | 加载 Skill、逐阶段产出提示词与工程文件 |
+| 对话客户端 | 能读取本地文件的 AI 编程助手（Codex / Claude / WorkBuddy / OmniAiLab 任一） | 同上；**Codex** 在长链路下的稳定性最好 | 加载 Skill、逐阶段产出提示词与工程文件 |
 | 本地磁盘 | 1 GB 可用空间 | 5 GB 以上 | Skill 本体约 3 MB；成片、首帧与资产图按项目另行存放 |
 | 网络 | 可访问 OmniAiLab 与所用对话服务 | 稳定宽带 | 生成、下载素材、同步仓库 |
 | 浏览器 | Chrome 或 Edge 近两年版本 | 最新版 | 使用 OmniAiLab 画布进行生成 |
