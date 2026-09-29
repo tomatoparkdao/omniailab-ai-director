@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-cool-art
 description: 「炫酷艺术风｜H3 融合执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“炫酷艺术风”，或参考明确要求折射塑料、像素故障、主体驱动变形字体、高密度赛事海报、暗黑扫描裂变时读取。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

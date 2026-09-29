@@ -1,7 +1,7 @@
 ---
 name: omniailab-blocking
 description: 站位与场面调度层 —— 跨镜站位基线锁定，含附录 C 站位示意图法与附录 D 首帧占用与格式模式。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

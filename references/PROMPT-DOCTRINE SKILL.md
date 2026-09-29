@@ -1,7 +1,7 @@
 ---
 name: omniailab-prompt-doctrine
 description: 提示词教义层 —— 16 段固定块序、十一条铁律、把难的放进静帧、物理与连续性怎么写下来。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

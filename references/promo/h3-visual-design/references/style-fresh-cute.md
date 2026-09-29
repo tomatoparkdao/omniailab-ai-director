@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-fresh-cute
 description: 「清新可爱风｜手绘综艺片头执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“清新可爱风”，或素材明确要求手绘综艺片头、粉笔/蜡笔动画、人物定格、涂鸦互动、旅行回忆录时读取。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

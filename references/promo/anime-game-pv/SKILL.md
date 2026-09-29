@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv
 description: 二次元漫画 ／ 游戏 PV —— 宣传片线方向之一：15 秒以内的动漫、漫画或游戏 PV：角色宣传、觉醒、战斗、世界观与抽卡活动。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

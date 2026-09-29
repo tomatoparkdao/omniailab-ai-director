@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-product-motion
 description: 「产品主角广告」—— 品牌广告与 TVC（官方） 方向细则：仅在 brand-ad 已选择“产品主角广告”路线后读取。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

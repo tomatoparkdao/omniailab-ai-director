@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-poster-collage
 description: 「海报大字拼贴风｜H3 执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“海报大字拼贴风”，或需要纸张、油墨、撕纸、套印、网点和版面分栏时读取本文件。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-example-floor17
 description: 样例剧本《17楼》—— 约 30 秒都市悬疑短片，仅在用户明确要求时使用。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

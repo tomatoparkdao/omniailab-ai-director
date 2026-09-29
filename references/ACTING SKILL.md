@@ -1,7 +1,7 @@
 ---
 name: omniailab-acting
 description: 表演子技能 —— 把抽象情绪转成可被摄影机拍到的行为（目标／障碍／策略／节拍／倾听／身体任务），产出角色表演主档案与单镜表演段落，含表演任务法附录。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

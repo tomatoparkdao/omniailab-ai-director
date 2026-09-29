@@ -1,7 +1,7 @@
 ---
 name: omniailab-production
 description: P6 生成、剪辑与成片质检规范 —— OmniAiLab 无限画布执行与交付清单。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

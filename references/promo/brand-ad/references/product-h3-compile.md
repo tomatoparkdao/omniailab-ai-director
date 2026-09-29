@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-product-h3-compile
 description: 「产品广告 H3 动态编译」—— 品牌广告与 TVC（官方） 方向细则：仅在“产品主角广告”路线准备生成视频时读取。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

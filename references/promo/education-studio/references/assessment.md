@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio-assessment
 description: 「教育评量与练习」—— 教育内容工作室 方向细则：先写目标，再写题目。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

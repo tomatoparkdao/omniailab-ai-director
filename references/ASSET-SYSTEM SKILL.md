@@ -1,7 +1,7 @@
 ---
 name: omniailab-asset-system
 description: 资产体系层 —— 「文本＋图像」成对资产、@char_／@loc_／@prop_／@staging_ 命名约定、新状态新资产与声音锁定。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -14,7 +14,7 @@
 |---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` |
 | 显示名 | OmniAiLab AI 影视导演 |
-| 版本 | v2.0.29 |
+| 版本 | v2.0.30 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball |
 | 许可 | MIT（见 [LICENSE](LICENSE)） |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) |
@@ -46,7 +46,7 @@
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
 | **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
-> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
+> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
 **克隆安装（推荐）**
 
@@ -297,6 +297,7 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 | **实战案例库** | `examples/case-studies/` | 六个商业级 AI 影视项目的成品提示词块 ＋「问题→解法」清单，**可整段照抄** |
 | **纪实模板** | `examples/documentary/` | 七套可直接套用的纪实提示词模板：人物三视图／定妆参考板／场景图／道具图／色卡图／首帧／视频 |
 | **案例配图层** | `examples/images/` | 49 张方法示意图（角色表怎么排、状态怎么分、站位示意图长什么样、颜色被拉跑是什么样、运动物件「一动就像贴图」是什么样）＋ `INDEX.md` 的「关键词 → 图」反查表；约 2.4 MB |
+| **宣传片成品样例库** | `examples/promo-cases/` | 7 条真实 MiniMax H3 成片的**原话输入／成品提示词**，按子方向分目录（品牌广告 ×4、动态视觉设计 ×2、UI 动效 ×1），并附「记录 → 子技能 → 文件」一一对应表 |
 
 ### 调度速查
 
@@ -314,6 +315,7 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 | 只问"资产怎么建、怎么命名、怎么不漂" | ASSET-SYSTEM 资产体系层 |
 | 想要现成能用的句子 / 想知道别人踩过什么坑 | 实战案例库（`examples/case-studies/`） |
 | 想看某条规范到底长什么样 / 说「不明白」「没概念」 | 案例配图层（`examples/images/`，反查表见 `images/INDEX.md`） |
+| 要照抄一条**真实跑过**的宣传片样例 / 想知道某方向实际怎么写 | 宣传片成品样例库（`examples/promo-cases/`，按子方向分目录） |
 | 只问剧本结构（"这场戏行不行""哪里弱""有救吗"） | SCENE-ENGINE 剧本引擎层 |
 | 只问镜头选型 / 镜组漂移（"这种镜头该多广""广角感老漂"） | OPTICS 光学层 |
 | 只问长片怎么组织（"上百场戏怎么管""资产怎么验收"） | FEATURE-PRODUCTION 长片工程层 |
@@ -433,10 +435,11 @@ omniailab-ai-director/
     ├── aesthetics/              # A01–A07 七套美学的现成提示词
     ├── case-studies/            # 六个商业级 AI 影视案例复盘 + README 阶段索引
     ├── documentary/            # 纪实七套现成提示词模板
+    ├── promo-cases/            # 七条真实宣传片样例 + 索引（按子方向分目录）
     └── images/                  # 49 张案例配图 + INDEX.md（关键词 → 图 反查表），约 2.4 MB
 ```
 
-> **规范在 `references/`，可照抄的成品在 `examples/case-studies/`，看得见的样子在 `examples/images/`。** 凡涉"这句话到底怎么写"，先取 `examples/case-studies/` 的成品块；凡涉"这到底长什么样"，先取 `examples/images/` 的图（索引里的关键词反查表）。
+> **规范在 `references/`，可照抄的成品在 `examples/case-studies/`，看得见的样子在 `examples/images/`。** 凡涉"这句话到底怎么写"，先取 `examples/case-studies/` 的成品块；凡涉"这到底长什么样"，先取 `examples/images/` 的图（索引里的关键词反查表）；凡涉"某个商业短片方向实际怎么写"，先取 `examples/promo-cases/` 对应方向的样例。
 
 ---
 

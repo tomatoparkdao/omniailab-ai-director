@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video-source-routing
 description: 「产品事实与 Reference 路由」—— 达人原生社交视频（KOC ／ UGC） 方向细则：本阶段只回答三件事：什么是可靠事实；
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

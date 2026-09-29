@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-music
 description: 「复古潮流拼贴音乐执行」—— 酷感音乐短片（15 秒横屏） 方向细则：音乐是镜头、人物动作和文字动效的上游，不是最后补一段“有氛围音乐”。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

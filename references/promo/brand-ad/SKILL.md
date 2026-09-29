@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad
 description: 品牌广告与 TVC（官方） —— 宣传片线方向之一：用户自定义时长的官方品牌广告或 TVC：产品片、剧情 TVC、品牌大片与系列 Campaign。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

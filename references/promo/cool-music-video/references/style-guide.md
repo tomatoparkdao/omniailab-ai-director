@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-style-guide
 description: 「复古潮流拼贴风格参考」—— 酷感音乐短片（15 秒横屏） 方向细则：本文件是内部执行参考，不是用户要看到的额外风格卡片。
-version: 2.0.29
+version: 2.0.30
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
