@@ -1,7 +1,7 @@
 ---
 name: omniailab-shot-emotion-engine
 description: 单镜情绪引擎 —— 从心理事件到可表演过程，用于 P4／P5 的单镜情绪设计。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

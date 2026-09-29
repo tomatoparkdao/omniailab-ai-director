@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio-visual-production
 description: 「教育视频视觉制作」—— 教育内容工作室 方向细则：按内容选择视觉语言，让风格服务于概念清晰度：
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

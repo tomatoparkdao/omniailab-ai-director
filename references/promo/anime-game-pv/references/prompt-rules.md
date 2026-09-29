@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-prompt-rules
 description: 「PV Prompt 编译规则」—— 二次元漫画 ／ 游戏 PV 方向细则：最终 Prompt 是一份 Markdown 文档，不是聊天摘要、分镜概述或单段自然语言。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion
 description: UI 动效与产品演示 —— 宣传片线方向之一：UI 动效、应用界面动画、SaaS 首屏动画与产品界面演示。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

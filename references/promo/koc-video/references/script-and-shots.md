@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video-script-and-shots
 description: 「口播、分镜与视频 Prompt」—— 达人原生社交视频（KOC ／ UGC） 方向细则：先确定整条内容如何推进，再完成一条连续表达，最后决定镜头如何承载它。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

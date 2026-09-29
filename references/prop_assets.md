@@ -1,7 +1,7 @@
 ---
 name: omniailab-prop-assets
 description: P2 关键道具母板规范 —— 筛选、依赖与连续性锚点。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

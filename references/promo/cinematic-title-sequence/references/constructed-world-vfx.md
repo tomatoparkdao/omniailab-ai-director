@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-constructed-world-vfx
 description: 「架空世界特效型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在不可能世界、巨型异象、真实微缩模型、太空/抽象舞台、粒子物理或空间变形本身是主要视觉事件时读取。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

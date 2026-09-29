@@ -1,7 +1,7 @@
 ---
 name: omniailab-ai-director
 description: AI导演完整版。读取定稿剧本后，按影视工业标准连续完成P0项目接收、P0A十项剧本解析与全片情绪曲线图、P1摄影色彩与声音创作基准、P2角色母板/角色设定板/关键道具母板、P3场景资产与环境色卡、P4分镜设计与首帧生成、P5视频提示词与OmniAiLab参数、P6在OmniAiLab无限画布中生成剪辑导出成片。媒介不限（真人实拍写实、纯动画／2D卡通／3D游戏引擎渲染风格、三维＋手绘混合），体量不限（30秒短片至上百场次长片），从剧本到成片一站式交付。内置ACTING表演、EMOTION情绪、LIRA图像（含视觉语言库 D/P/C/R/S 画风体系）、CINEDANCE视频提示词四个子技能，并附打斗专项层COMBAT（遇对抗场面时接入）、站位层BLOCKING（跨镜站位锁定，多人镜头必用）与美学配方库AESTHETICS（剧本命中特定戏型时主动提案，见 references/AESTHETICS SKILL.md）、提示词教义层（16 段固定块序与十一条铁律、把难的东西放进静帧、物理与连续性怎么写下来，见 references/PROMPT-DOCTRINE SKILL.md）与资产体系层（成对资产、统一命名、状态管理、声音锁定，见 references/ASSET-SYSTEM SKILL.md）、剧本引擎层（五要素戏剧引擎与剧本压力测试，见 references/SCENE-ENGINE SKILL.md）、光学层（视场角锚点、镜头决策树、多镜镜头一致性，见 references/OPTICS SKILL.md）、长片工程层（镜头表卡片、主镜与空间图、压力测试、迭代纪律、法条式锁定，见 references/FEATURE-PRODUCTION SKILL.md）、音乐场景层（先歌后演与唇形同步，见 references/MUSIC-SCENE SKILL.md）与动画／混合媒介层（媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先、分幕与先拼全片，见 references/ANIMATION SKILL.md）；并附实战案例库 `examples/case-studies/`（六个商业级 AI 影视实战案例的成品提示词块与问题解法，含动画案例）与案例配图层 `examples/images/`（49 张方法示意图 ＋ 关键词反查索引，约 2.4 MB）；并附**纪实／纪录片层**（观察式纪实影像工作流：纪实规格、去戏剧化叙事、自然光逻辑、人物跨镜一致性、色卡提取与纪实提示词模板，对话中判定为纪录片项目时启用，见 references/DOCUMENTARY SKILL.md 与 examples/documentary/）；并附**入门引导层**（每次对话先定作品形态：电影／短剧／动画片／纪录片／宣传片／片头／MV／游戏 PV／UI 动效／达人视频／教育，见 references/ONBOARDING SKILL.md）与**宣传片线**（14 个商业短片方向的子调度、六步流程与共性硬约束，视频统一在 OmniAiLab 画布中选择 MiniMax H3 生成，见 references/PROMO SKILL.md 与 references/promo/）；并附**宣传片成品样例库** `examples/promo-cases/`（7 条真实 MiniMax H3 成片的原话输入／成品提示词，按子方向分目录，与子技能一一对应）。并附**导演视界层与 20 位导演预设库**（references/DIRECTOR-VISION SKILL.md 与 examples/director-presets/：按作品类型推荐、可多选混搭，选定后产出「导演风格声明」在全片沿用）。配套操作手册见飞书文档，凡有不清楚先查阅该手册。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -33,6 +33,8 @@ agent_created: true
 - **不指定** → 按作品类型走 `CAMERA-LIGHT` 的 A 表基线，**不要为了"有风格"硬塞一位导演**。
 
 机制、混合规则与声明格式见 `references/DIRECTOR-VISION SKILL.md`；预设清单与推荐表见 `examples/director-presets/README.md`。
+
+> **主动报菜单（不要等用户问）**：定完形态与导演后，用一段话告诉创作者——「**导演风格（20 位，可单选可混搭）、摄影机与镜头（机型档／镜头性格／焦段／景深／运动）、布光（33 套现成方案）、美学配方与画风档位**都可以你自己指定，也可以交给我判断」。完整清单与照抄话术见 `references/ONBOARDING SKILL.md` 第二节「你可以自己指定这些东西」。
 
 ## 配套操作手册（不清楚时先查这里）
 本 skill 的完整操作手册、使用方法说明与开源仓库地址，见**本文件顶部 frontmatter 的「操作手册」与「开源仓库」两行**。凡对流程、调用方式、安装位置、模型口径或避坑要点有任何不清楚，先查阅手册（手册含：如何调用本 Skill、三步启动、全流程总览、逐阶段操作细则、子技能调度速查、模型口径速查、避坑总表、常见问题、交付物清单）。

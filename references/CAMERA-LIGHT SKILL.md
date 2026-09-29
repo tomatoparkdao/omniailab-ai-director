@@ -1,7 +1,7 @@
 ---
 name: omniailab-camera-light
 description: 机位与布光预设层——五维机位坐标、三灯布光结构、意图→组合检索与块位注入模板。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

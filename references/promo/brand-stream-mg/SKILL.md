@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-stream-mg
 description: 品牌流线 MG 动效（15 秒） —— 宣传片线方向之一：一张品牌 Logo ＋ 品牌名或主题词，做成 15 秒品牌流线 MG 动效（IP／3D 图标／能量节点领航元素）。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

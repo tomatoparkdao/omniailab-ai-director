@@ -1,7 +1,7 @@
 ---
 name: omniailab-documentary
 description: 纪实／纪录片层 —— 观察式纪实影像的工作流与规范（真实的人与日常生活、自然光逻辑、去戏剧化、跨镜人物一致性），并给出与主线 P0–P6 的逐阶段对接方式。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

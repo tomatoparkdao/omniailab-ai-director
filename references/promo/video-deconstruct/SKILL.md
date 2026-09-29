@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-video-deconstruct
 description: 视频拆解与逐镜复刻 —— 宣传片线方向之一：拆解用户提供的视频或关键帧，提取镜头顺序、运镜、光影与节奏证据，编译为逐镜复刻提示词。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

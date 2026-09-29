@@ -14,7 +14,7 @@
 |---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` |
 | 显示名 | OmniAiLab AI 影视导演 |
-| 版本 | v2.0.33 |
+| 版本 | v2.0.34 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball |
 | 许可 | MIT（见 [LICENSE](LICENSE)） |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) |

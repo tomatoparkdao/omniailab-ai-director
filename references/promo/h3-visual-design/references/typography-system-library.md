@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-typography-system-library
 description: 「动态字体系统库｜H3 可执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：生成最终 Prompt 时读取本文件。
-version: 2.0.33
+version: 2.0.34
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
