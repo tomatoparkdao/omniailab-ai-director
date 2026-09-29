@@ -1,7 +1,7 @@
 ---
 name: omniailab-onboarding
 description: 入门引导层 —— 用户进来说不清要做什么时，先判定作品形态（电影／短剧／动画片／纪录片／宣传片／广告／MV／游戏PV／片头／UI动效／达人视频／教育等），再分流到主干、纪实线或宣传片线。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -30,6 +30,8 @@ agent_created: true
 | **达人／种草视频** | "种草""测评""口播""用户证言""带货" | **宣传片线** → `references/promo/koc-video/SKILL.md` | 先定**开场钩子与人物锚点** |
 | **教育／知识内容** | "教学视频""讲题""课程片""知识点动画" | **宣传片线** → `references/promo/education-studio/SKILL.md` | 先定**教学目标与考点** |
 | **拿参考片要复刻** | "照着这条做""反推提示词""保留结构重制" | **宣传片线** → `references/promo/video-deconstruct/SKILL.md` | 先收**参考素材与证据要求** |
+
+> **形态定完，紧接着定导演**（与定形态同步、越早越好）：问一句"这片想拍成什么味道"——点名了就加载 `examples/director-presets/` 里那一位；没说清就从其 `README.md` 的「按作品类型推荐」给 2–3 个候选；想混搭就定主导演 ＋ 借用维度。机制与声明格式见 `references/DIRECTOR-VISION SKILL.md`。
 
 ## 二、用户说不清时：只问三个问题
 

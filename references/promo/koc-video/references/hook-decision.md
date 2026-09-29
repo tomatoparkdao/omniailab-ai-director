@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video-hook-decision
 description: 「创意与 0–3 秒开场」—— 达人原生社交视频（KOC ／ UGC） 方向细则：Hook 是观众在开头实际看到和听到、让其愿意继续看的内容。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

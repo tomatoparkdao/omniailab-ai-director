@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-promo-video-generator
 description: 品牌宣传短片 —— 宣传片线方向之一：新品发布、官网展示与社交推广用的品牌宣传短片。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

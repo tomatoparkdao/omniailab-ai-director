@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-voice-keyword-typography
 description: 「广告文案与艺术字体包装参考」—— 品牌广告与 TVC（官方） 方向细则：当广告需要 LLM 编译屏幕文案、CTA、旁白关键词或艺术字体包装时按需读取。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

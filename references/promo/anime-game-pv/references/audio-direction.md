@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-audio-direction
 description: 「二次元游戏 PV 音频方向」—— 二次元漫画 ／ 游戏 PV 方向细则：仅在 anime-game-pv 已触发后读取。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

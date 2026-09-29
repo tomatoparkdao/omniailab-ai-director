@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-methods
 description: 「复古潮流拼贴表现形式」—— 酷感音乐短片（15 秒横屏） 方向细则：把方法写进镜头，而不是只在开头列一串风格名。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

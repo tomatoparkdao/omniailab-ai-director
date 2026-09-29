@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-c
 description: 「Style C — Futuristic 3D Product」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-aesthetic-a07
 description: A07 Frutiger Aero 千禧科技乐观 · 现成提示词 —— Y2K／产品与包装画面。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

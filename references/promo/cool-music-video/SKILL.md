@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video
 description: 酷感音乐短片（15 秒横屏） —— 宣传片线方向之一：15 秒横屏音乐短片：复古拼贴、说唱与时尚表演。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

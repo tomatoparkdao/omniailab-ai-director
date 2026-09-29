@@ -1,7 +1,7 @@
 ---
 name: omniailab-lira
 description: 图像提示词子技能（Lira）—— 图像提示词的构建、修复与迭代，含 4-D 方法论。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

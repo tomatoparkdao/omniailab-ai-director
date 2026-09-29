@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-style-research
 description: 「品牌广告与 TVC 风格 Research」—— 品牌广告与 TVC（官方） 方向细则：在 brand-ad 需要补充风格、产品氛围、叙事世界或 Campaign 差异参考时读取。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

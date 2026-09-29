@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-long-form
 description: 「Long-form (>15s) continuation chains」—— UI 动效与产品演示 方向细则：The base skill has two explicit duration modes. A request up to and in
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

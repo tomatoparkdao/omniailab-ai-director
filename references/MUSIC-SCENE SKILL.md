@@ -1,7 +1,7 @@
 ---
 name: omniailab-music-scene
 description: 音乐场景与唇形同步 —— 先歌后演，12 秒切块与唇形锁让模型「演唱」一首已完成的歌。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

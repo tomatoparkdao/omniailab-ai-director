@@ -1,7 +1,7 @@
 ---
 name: omniailab-combat
 description: 打斗专项层 —— 近身对抗／兵器／拳脚／终结战场面的镜头契约、动作脊柱与物理闭环。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence
 description: 电影与剧集片头（标题序列） —— 宣传片线方向之一：15 秒电影或剧集片头、标题序列、卡司序列与概念预告。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

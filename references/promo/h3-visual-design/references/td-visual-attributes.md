@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-td-visual-attributes
 description: 「视觉风格参考库 / Visual Style Attributes Reference」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：[Visual style]
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

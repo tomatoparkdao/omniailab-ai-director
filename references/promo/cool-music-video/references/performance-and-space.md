@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-performance-and-space
 description: 「Fashion 人物动作与空间调度」—— 酷感音乐短片（15 秒横屏） 方向细则：每次生成提示词前完整读取本文件。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

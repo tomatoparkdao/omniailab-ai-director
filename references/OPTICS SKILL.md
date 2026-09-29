@@ -1,7 +1,7 @@
 ---
 name: omniailab-optics
 description: 光学层 —— 视场角锚点、按内容选镜头的决策树、内容—视场对齐与多镜镜头一致性。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

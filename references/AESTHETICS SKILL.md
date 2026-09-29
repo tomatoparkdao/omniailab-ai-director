@@ -1,7 +1,7 @@
 ---
 name: omniailab-aesthetic-recipes
 description: 美学配方库 —— A01–A07 七套成片级电影美学配方，P1 主动提案、P4 命中戏型时二次触发。
-version: 2.0.32
+version: 2.0.33
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -26,6 +26,8 @@ agent_created: true
 | 关系 | **底层词汇表** | **建立在其上**；配方最终展开为 D/P/C/R/S 语义 |
 
 一句话区分：**STYLE 是字典，AESTHETICS 是菜谱。** 字典负责"这个词怎么写"，菜谱负责"这道菜整道怎么配"。
+
+> **与导演预设（`references/DIRECTOR-VISION SKILL.md`）的关系**：两者都是成片级，**导演预设优先**——先按「导演风格声明」冻结摄影与视听取舍，再从配方里取**不冲突的部分**（通常是色彩策略与氛围）；冲突时以导演声明为准。
 
 ## 二、配方索引
 
