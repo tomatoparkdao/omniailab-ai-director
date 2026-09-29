@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-e
 description: 实战案例 E —— 长片级工程，全片风格前缀与表演法。
-version: 2.0.26
+version: 2.0.27
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

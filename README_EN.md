@@ -14,7 +14,7 @@
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.26 |
+| Version | v2.0.27 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
@@ -46,7 +46,7 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 | **Claude / Claude Code** | Personal: `~/.claude/skills/omniailab-ai-director/`<br><br>Project: `<your project>/.claude/skills/omniailab-ai-director/` | Type **`/omniailab-ai-director`**, or describe the task (e.g. "run the full film pipeline for this script"). |
 | **Codex** | No native skill directory: drop the folder into your project, e.g. `<your project>/skills/omniailab-ai-director/`, then add one line to `AGENTS.md` in the project root:<br>`For film production tasks: first read skills/omniailab-ai-director/SKILL.md and follow its workflow.` | Say "start making the film per SKILL.md". |
 
-> **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION), the visual-language library, the 7 ready-made prompt sets and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
+> **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY), the visual-language library, the 7 ready-made prompt sets, the documentary templates and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
 
 **Install by cloning (recommended)**
 
@@ -290,8 +290,10 @@ You don't need all of them every time. **To do just one small thing, say "only d
 | **OPTICS** | `references/OPTICS SKILL.md` | Seven field-of-view anchors (8/18/29/47/84/107°), lens decision tree, multi-shot lens consistency statement |
 | **FEATURE-PRODUCTION** | `references/FEATURE-PRODUCTION SKILL.md` | Four shot-table card groups, per-scene opening ritual, asset stress tests, iteration discipline, statute-style locks |
 | **MUSIC-SCENE** | `references/MUSIC-SCENE SKILL.md` | Sing-first-then-perform with lip sync: cut 12-second blocks, black-frame video files, disable generated audio, hard lip lock |
+| **DOCUMENTARY** | `references/DOCUMENTARY SKILL.md` | Observational documentary: eight spec items, de-dramatised narration, 6–12 s shots with three-tier camera moves, natural-light logic and airborne texture, cross-shot character consistency, colour-system extraction; **enabled when the conversation is a documentary**, while generation methods stay on the existing film-grade layers |
 | **ANIMATION** | `references/ANIMATION SKILL.md` | Medium determination, previs vs generation division of labour, hybrid aesthetic split, light defines style, 360° turnaround video, animation principles first |
 | **Case-study library** | `examples/case-studies/` | Finished prompt blocks from six commercial-grade AI film projects + "problem → solution" lists, **copy-paste ready** |
+| **Documentary templates** | `examples/documentary/` | Seven ready-to-use documentary prompt templates: character turnaround / look board / location / prop / colour card / first frame / video |
 | **Case-study figures** | `examples/images/` | 49 method diagrams (how a three-panel character sheet is laid out, how states are separated, what a staging diagram looks like, what colour drift looks like, what "a moving prop behaving like a decal" looks like) + a keyword→figure lookup in `INDEX.md`; ~2.4 MB |
 
 ### Dispatch quick reference
@@ -315,6 +317,7 @@ You don't need all of them every time. **To do just one small thing, say "only d
 | How to organise a feature ("how to manage 100+ scenes") | FEATURE-PRODUCTION layer |
 | Singing / rap sections ("lip sync is off", "how do I make it sing our song") | MUSIC-SCENE layer |
 | Animation / hybrid medium ("can this be animated", "moving objects look like stickers") | ANIMATION layer |
+| Documentary only ("I want to make a documentary", "how do I shoot real people", "how to use natural light") | DOCUMENTARY layer |
 
 **Full shot chain:** ACTING → EMOTION → BLOCKING (blocking first) → LIRA (+ STYLE look) → CINEDANCE. **Fight shots** route through COMBAT before CINEDANCE. **Before writing, pass the PROMPT-DOCTRINE fixed block order and iron rules; name and lock every character / scene / prop per ASSET-SYSTEM first.**
 
@@ -410,17 +413,19 @@ omniailab-ai-director/
 │   ├── FEATURE-PRODUCTION SKILL.md
 │   ├── MUSIC-SCENE SKILL.md
 │   ├── ANIMATION SKILL.md
+│   ├── DOCUMENTARY SKILL.md
 │   ├── story_bible.md / emotion_curve.md / creative_baseline.md
 │   ├── character_assets.md / prop_assets.md / scene_assets.md
 │   ├── storyboard.md / video_prompts.md / omniailab_production.md
 │   ├── director-styles.md / photo-styles.md / capture-films.md / print-films.md
 │   ├── shot-emotion-engine.md / performance-palette.md
 │   ├── generation-guardrails.md / seedance-production.md
-│   └── (35 specification documents in total)
+│   └── (36 specification documents in total)
 └── examples/                    # Finished-work layer: copy-paste ready
     ├── floor17_script.md        # Default script “Floor 17” (30-second suspense short)
     ├── aesthetics/              # Ready-made prompts for the seven A01–A07 aesthetics
     ├── case-studies/            # Six commercial-grade AI film case studies + README stage index
+    ├── documentary/            # Seven ready-to-use documentary prompt templates
     └── images/                  # 49 case-study figures + INDEX.md (keyword → figure lookup), ~2.4 MB
 ```
 

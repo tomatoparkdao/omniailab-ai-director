@@ -1,7 +1,7 @@
 ---
 name: omniailab-character-assets
 description: P2 角色母板、依赖图与角色设定板规范。
-version: 2.0.26
+version: 2.0.27
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

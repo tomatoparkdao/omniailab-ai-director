@@ -1,7 +1,7 @@
 ---
 name: omniailab-creative-baseline
 description: P1 摄影、色彩与声音创作基准 —— 全片风格锁定与光线口径。
-version: 2.0.26
+version: 2.0.27
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

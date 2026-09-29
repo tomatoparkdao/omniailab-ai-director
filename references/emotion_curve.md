@@ -1,7 +1,7 @@
 ---
 name: omniailab-emotion-curve
 description: P0A 全片情绪曲线自动可视化 —— 8–14 个节点的观众紧张度曲线。
-version: 2.0.26
+version: 2.0.27
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

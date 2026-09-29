@@ -1,7 +1,7 @@
 ---
 name: omniailab-feature-production
 description: 长片工程层 —— 镜头表卡片、每场戏开启仪式、资产压力测试、迭代纪律与法条式锁定。
-version: 2.0.26
+version: 2.0.27
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

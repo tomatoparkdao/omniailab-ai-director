@@ -1,7 +1,7 @@
 ---
 name: omniailab-blocking-weapon-library
 description: 站位武器库与动作映射 —— 武器稳定 ID 与适配动作／姿势对照表。
-version: 2.0.26
+version: 2.0.27
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
