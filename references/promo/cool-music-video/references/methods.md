@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-methods
 description: 「复古潮流拼贴表现形式」—— 酷感音乐短片（15 秒横屏） 方向细则：把方法写进镜头，而不是只在开头列一串风格名。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -36,7 +36,7 @@ agent_created: true
 
 15 秒默认 8–10 个主镜头，每镜内部允许 1–2 次节拍级动作或图层变化；这样能让开场、Hook、变化、回归和结尾各有落点，同时把最终生成指令提示词稳定压在 6800 字符以内。每镜只有一个语义主词、一个主要人物动作和一个主要媒介变化。
 
-人物动作与空间路线不要在本文件取样，必须改从 `references/performance-and-space.md` 选择。媒介方法要绑定动作的落点、空间接触或镜头反馈，但不能用包装效果掩盖动作重复。
+人物动作与空间路线不要在本文件取样，必须改从 `performance-and-space.md` 选择。媒介方法要绑定动作的落点、空间接触或镜头反馈，但不能用包装效果掩盖动作重复。
 
 ## 设计主导镜头
 

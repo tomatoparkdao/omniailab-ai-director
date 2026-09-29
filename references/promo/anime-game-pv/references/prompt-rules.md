@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-prompt-rules
 description: 「PV Prompt 编译规则」—— 二次元漫画 ／ 游戏 PV 方向细则：最终 Prompt 是一份 Markdown 文档，不是聊天摘要、分镜概述或单段自然语言。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -47,7 +47,7 @@ agent_created: true
 - 用户允许重新设计角色时，只有确认后的新版角色视觉权威图进入 Prompt，旧素材只保留用户允许继承的核心概念。
 - Storyboard Preview 永远不进入视频参考绑定；即使九宫格位于画布，也不得为其分配 `roles`、视频参考路径标签或参考槽位。它只在下方分镜编译阶段贡献文字化镜头约束。
 
-全局基准只写一次最终画风，不并列多个“同时遵循”的视觉系统。内部默认视觉路径必须完整消费 `references/visual-inputs.md` 已锁定的 `palette_authority / accent_policy / character_palette_policy / saturation_policy`，并用自然视觉语言写入 Prompt，不重复维护另一份颜色比例或视觉语法。其它画风按已确认来源编译，不添加内部默认路径的单色规则。
+全局基准只写一次最终画风，不并列多个“同时遵循”的视觉系统。内部默认视觉路径必须完整消费 `visual-inputs.md` 已锁定的 `palette_authority / accent_policy / character_palette_policy / saturation_policy`，并用自然视觉语言写入 Prompt，不重复维护另一份颜色比例或视觉语法。其它画风按已确认来源编译，不添加内部默认路径的单色规则。
 
 ## Render Contract 与执行预算
 

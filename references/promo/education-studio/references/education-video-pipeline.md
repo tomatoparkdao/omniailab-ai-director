@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio-education-video-pipeline
 description: 「教育视频生产管道」—— 教育内容工作室 方向细则：全部阶段产物必须物化到 OmniAiLab 画布 画布。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

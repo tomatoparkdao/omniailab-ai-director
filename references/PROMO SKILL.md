@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo
 description: 宣传片线总调度 —— 判定为宣传片／广告／TVC／品牌片／产品片／MG／片头／游戏PV／UI动效／KOC／教育等商业短片后，选择对应方向、按该方向规范编译提示词，并在 OmniAiLab 画布中用 MiniMax H3 生成。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -90,7 +90,7 @@ agent_created: true
 | **P1** | 需要统一片级风格时，仍写一份「全片风格锁定」（品牌向可只锁视觉与声音基调） |
 | **P2／P3** | 出现角色、产品、场景资产时，按 `references/character_assets.md`／`prop_assets.md`／`scene_assets.md` 建资产并绑定 |
 | **P4** | 分镜与首帧仍按 `references/storyboard.md`；**故事板整板与含中文文字的画面优先 `image2.5`** |
-| **P5** | 提示词编译：主线块序与铁律（`references/PROMPT-DOCTRINE SKILL.md`）与**方向细则同时适用**，冲突时以方向细则的硬规则为准；机位组合与光照方案按 `references/CAMERA-LIGHT SKILL.md` 选取，块 9／块 13 按其注入模板写 |
+| **P5** | 提示词编译：主线块序与铁律（`references/PROMPT-DOCTRINE SKILL.md`）与**方向细则同时适用**，冲突时以方向细则的硬规则为准；机位组合与光照方案按 `references/CAMERA-LIGHT SKILL.md` 选取（产品／TVC 类先查 `examples/camera-light/调度反查表.md` 的「宣传片／广告／TVC／产品」基线，再查布光 #24 商业产品光、#33 影棚遮旗塑形），块 9／块 13 按其注入模板写 |
 | **P6** | 在 OmniAiLab 画布生成（MiniMax H3）→ 剪辑、声音、字幕、导出与质检按 `references/omniailab_production.md` |
 
 ## 七、交付前质检

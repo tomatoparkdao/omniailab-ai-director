@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-adsqa-target-answers
 description: 「AdsQA 目标答案与证据卡」—— 品牌广告与 TVC（官方） 方向细则：当用户只给出模糊的情绪、受众或“高级感”要求，或成片需要更强的说服力时读取。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

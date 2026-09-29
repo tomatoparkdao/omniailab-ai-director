@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-prompt-blueprint
 description: 「规整生成蓝图」—— 酷感音乐短片（15 秒横屏） 方向细则：最终提示词按“项目 → 参考 → 创意 → 音乐/歌词/表演 → 视觉/字体 → 镜头 → 全局负面”排序。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -11,7 +11,7 @@ agent_created: true
 
 # 规整生成蓝图
 
-最终提示词按“项目 → 参考 → 创意 → 音乐/歌词/表演 → 视觉/字体 → 镜头 → 全局负面”排序。执行说明使用 `working_language`；生成的屏幕文案默认 English-only 英语包装，准确用户原文和必要术语保持原样。不在最终 prompt 中写白名单元数据。有人物的项目在写镜头前必须读取 `references/performance-and-space.md`，先完成动作族选择和空间路线，不能边写边重复临时动作。
+最终提示词按“项目 → 参考 → 创意 → 音乐/歌词/表演 → 视觉/字体 → 镜头 → 全局负面”排序。执行说明使用 `working_language`；生成的屏幕文案默认 English-only 英语包装，准确用户原文和必要术语保持原样。不在最终 prompt 中写白名单元数据。有人物的项目在写镜头前必须读取 `performance-and-space.md`，先完成动作族选择和空间路线，不能边写边重复临时动作。
 
 编排 Agent 必须先完成并展示整段 prompt，不能把写作职责交给执行层。随后只进行一次视频生成，并把已展示的同一字符串原样交给执行层；只发送角色、风格、歌词和动作摘要属于失败。不要在编排层展开底层实现细节。
 

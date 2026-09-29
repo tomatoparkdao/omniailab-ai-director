@@ -1,7 +1,7 @@
 ---
 name: omniailab-aesthetic-recipes
 description: 美学配方库 —— A01–A07 七套成片级电影美学配方，P1 主动提案、P4 命中戏型时二次触发。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

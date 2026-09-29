@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-b
 description: 实战案例 B —— 港式新黑色短片，颜色偏色战与打斗帧链。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

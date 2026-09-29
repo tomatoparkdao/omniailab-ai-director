@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-visual-inputs
 description: 「视频模式、视觉权威与分镜预览」—— 二次元漫画 ／ 游戏 PV 方向细则：所有图片、视频和用户文字先形成视觉候选，不直接形成最终画风。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

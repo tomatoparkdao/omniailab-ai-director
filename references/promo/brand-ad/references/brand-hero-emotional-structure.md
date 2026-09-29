@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-brand-hero-emotional-structure
 description: 「品牌 Hero 情绪结构参考」—— 品牌广告与 TVC（官方） 方向细则：在 brand-ad 承接品牌 Hero Film、剧情 TVC、宏观前置设定、情绪推进或高密度镜头提案时按需读取。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

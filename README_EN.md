@@ -14,7 +14,7 @@
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.31 |
+| Version | v2.0.32 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
@@ -288,7 +288,7 @@ You don't need all of them every time. **To do just one small thing, say "only d
 | **ASSET-SYSTEM** | `references/ASSET-SYSTEM SKILL.md` | Text + image paired assets, `@char_/@loc_/@prop_/@staging_` naming, "new state = new asset", voice lock |
 | **SCENE-ENGINE** | `references/SCENE-ENGINE SKILL.md` | Five-element dramatic engine (objective / obstacle / tactic / reversal / value shift) + script stress test; **diagnose only, never rewrite** |
 | **OPTICS** | `references/OPTICS SKILL.md` | Seven field-of-view anchors (8/18/29/47/84/107°), lens decision tree, multi-shot lens consistency statement |
-| **CAMERA-LIGHT** | `references/CAMERA-LIGHT SKILL.md` | Five-axis camera coordinates (body format × lens character × focal × aperture × movement) + three-light structure and colour-temperature variants; **intent → combination lookup** (`examples/camera-light/`) and a block 9 / block 13 injection template; **hardware tiers are selection-only, prompts carry observable results** |
+| **CAMERA-LIGHT** | `references/CAMERA-LIGHT SKILL.md` | Five-axis camera coordinates (body format × lens character × focal × aperture × movement); **four-way dispatch lookup tables by genre / scene / character / story beat** (16 genres, 22 scenes, 16 character functions, 18 story beats) plus 10 quick-response cards + three-light structure and colour-temperature variants; **intent → combination lookup** (`examples/camera-light/`) and a block 9 / block 13 injection template; **hardware tiers are selection-only, prompts carry observable results** |
 | **FEATURE-PRODUCTION** | `references/FEATURE-PRODUCTION SKILL.md` | Four shot-table card groups, per-scene opening ritual, asset stress tests, iteration discipline, statute-style locks |
 | **MUSIC-SCENE** | `references/MUSIC-SCENE SKILL.md` | Sing-first-then-perform with lip sync: cut 12-second blocks, black-frame video files, disable generated audio, hard lip lock |
 | **PROMO** | `references/PROMO SKILL.md` | Dispatch across 14 commercial-short directions (brand ad / TVC, brand short, stream MG, product film, UI motion, title sequence, motion design, game PV, music short, creator video, education, drawing timelapse, video deconstruction, voice clone) + six-step flow and commercial hard rules; **video generated with MiniMax H3 on the OmniAiLab canvas** |
@@ -317,7 +317,7 @@ You don't need all of them every time. **To do just one small thing, say "only d
 | Ready-made sentences / what others got wrong | Case-study library (`examples/case-studies/`) |
 | Want to see what a rule actually looks like / "I don't get it" | Case-study figures (`examples/images/`; lookup table in `images/INDEX.md`) |
 | Want to copy a **real, already-produced** promo sample / see how a direction is actually written | Promo sample library (`examples/promo-cases/`, organised by direction) |
-| Camera setup / lighting only ("what lens and light for this shot", "that clean product look") | CAMERA-LIGHT layer |
+| Camera setup / lighting only ("what lens and light for this shot", "that clean product look", "how should the whole thriller be lit") | CAMERA-LIGHT layer (dispatch lookup first: genre → scene → character → story beat) |
 | Script structure only ("does this scene work", "where is it weak") | SCENE-ENGINE layer |
 | Lens choice / lens drift only ("how wide should this lens be") | OPTICS layer |
 | How to organise a feature ("how to manage 100+ scenes") | FEATURE-PRODUCTION layer |
@@ -437,7 +437,7 @@ omniailab-ai-director/
     ├── aesthetics/              # Ready-made prompts for the seven A01–A07 aesthetics
     ├── case-studies/            # Six commercial-grade AI film case studies + README stage index
     ├── documentary/            # Seven ready-to-use documentary prompt templates
-    ├── camera-light/            # Camera & lighting indexes (five-axis coordinates + 33 lighting setups)
+    ├── camera-light/            # Camera & lighting indexes (five-axis coordinates + 33 lighting setups + dispatch tables by genre/scene/character/story beat)
     ├── promo-cases/            # Seven real promo samples + index (organised by direction)
     └── images/                  # 49 case-study figures + INDEX.md (keyword → figure lookup), ~2.4 MB
 ```

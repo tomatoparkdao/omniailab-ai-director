@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-h3-execution-grammar
 description: 「H3 字体包装生成指令执行语法」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：本文件只规定 MiniMax H3 能直接执行的可见、可听、可计时语言。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

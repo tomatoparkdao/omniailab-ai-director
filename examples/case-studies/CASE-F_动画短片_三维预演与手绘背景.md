@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-f
 description: 实战案例 F —— 动画短片，三维预演与手绘背景、混合美学分权。
-version: 2.0.31
+version: 2.0.32
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
