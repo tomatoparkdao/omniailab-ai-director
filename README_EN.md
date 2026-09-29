@@ -21,15 +21,15 @@
 
 **A film-industry-grade, end-to-end AI director Skill — and a creative system that guides your decisions.** It doesn't just run a pipeline: **the first thing it does is ask what kind of piece you're making** (narrative film / short drama / animation / documentary / commercial / title sequence / music video / game PV / UI motion — each takes a different track), then lets you pin down the director, camera, lighting and aesthetics yourself or leave it to the Skill; after that it walks you from script breakdown to finished film following real production standards. **Works for both live-action realism and animation**, from a 30-second short to a feature with a hundred-plus scenes.
 
-| Item | Value |
-|---|---|
-| Skill invocation name (unique ID) | `omniailab-ai-director` |
-| Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.35 |
-| Publisher / Developer | OmniAiLab / Mochiball |
-| License | MIT (see [LICENSE](LICENSE)) |
-| Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
-| Open-source repo (public) | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) |
+| Item | Value | Notes |
+|---|---|---|
+| Skill invocation name (unique ID) | `omniailab-ai-director` | All-lowercase with hyphens. Tools with native Skill support invoke it directly; tools without it also trigger it from a natural-language task description (implicit invocation is allowed) |
+| Display name | OmniAiLab AI Film & TV Director | The name shown on the repository page and in the docs — not the invocation name |
+| Version | v2.0.35 | Kept identical across the repository, the manual and this README; every update is pushed together |
+| Publisher / Developer | OmniAiLab / Mochiball | — |
+| License | MIT (see [LICENSE](LICENSE)) | Free to use, modify and redistribute |
+| Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) | How to invoke, 3-step start, stage-by-stage detail, dispatch lookup, model reference, pitfall table, FAQ, deliverables |
+| Open-source repo (public) | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) | Clone it to install the latest version (`git clone` into your skills folder); update with `git pull`; issues welcome |
 
 The invocation name is **all-lowercase with hyphens** (`omniailab-ai-director`) — it is not the display name. Tools with native Skill support work best with the invocation name; tools without it will still trigger on a natural-language description (implicit invocation is allowed).
 
@@ -106,16 +106,18 @@ Just say "start" — instead of asking "what is your script?", it asks "do you h
 
 **Want only one capability?** Name it directly; the full pipeline is optional:
 
-| What you want | Just say |
-|---|---|
-| Image prompts | "image only — give me the prompt for this shot" |
-| Video prompts | "video prompt only — how do I shoot this shot" |
-| Performance design | "performance only — how should this character play this scene" |
-| Emotion control | "emotion only — how do I play this crying scene" |
-| Look selection | "give me the look menu" / "use D01 + C04 + R01 + S2" |
-| Aesthetic recommendation | "which film aesthetic fits this scene" |
-| Fight choreography | "how should this fight go — give me a high-energy fight prompt" |
-| Blocking / staging | "how should these people stand" / "the positions shifted again in the next shot" |
+| What you want | Just say | What you get back |
+|---|---|---|
+| Image prompts | "image only — give me the prompt for this shot" | A ready-to-feed image prompt with look tier, composition and light positions |
+| Video prompts | "video prompt only — how do I shoot this shot" | A complete video prompt in the 16-block fixed order, checked against the eleven iron rules |
+| Performance design | "performance only — how should this character play this scene" | A performance task block: objective / obstacle / tactic, beat by beat |
+| Emotion control | "emotion only — how do I play this crying scene" | A whole-film emotion curve or a single-shot emotion engine output |
+| Look selection | "give me the look menu" / "use D01 + C04 + R01 + S2" | Visual-language tiers with ready-to-use phrasing |
+| Aesthetic recommendation | "which film aesthetic fits this scene" | 2–3 film-level recipe candidates, each with a one-line reason |
+| Fight choreography | "how should this fight go — give me a high-energy fight prompt" | Fight frame-chain, named actions with vectors, money-shot timeline |
+| Blocking / staging | "how should these people stand" / "the positions shifted again in the next shot" | A blocking baseline plus cross-shot lock — required whenever several people share the frame |
+| Camera and lighting | "what lens and light for this shot" / "how do I light the whole film" | A camera and lighting plan resolved from genre / scene / character / plot lookups |
+| Director style | "who should direct this" / "can I mix Wong Kar-wai with Fincher" | 2–3 director candidates with reasons, or a blend plan with the do-not-mix list |
 
 > **The more specific the request, the less rework.** Three things matter most: ① the full locked script; ② delivery specs (aspect ratio, resolution, frame rate, duration); ③ hard constraints (what must not appear, what must appear). Give these up front and you save far more than patching later.
 
@@ -364,20 +366,20 @@ You don't need all of them every time. **To do just one small thing, say "only d
 
 These are the whole-film's single source of truth. **Do not mix in model names from other platforms.**
 
-| Purpose | Model |
-|---|---|
-| Character generation / consistency | Seedream 5.0 |
-| Scene / environment master plates | Flux |
-| Prop / product master plates | Nano Banana Pro (香蕉Pro) |
-| Image editing (first choice) | Nano Banana Pro (香蕉Pro) |
-| Rough AI texture repair | Seedream |
-| Local micro-edits / location viewpoint changes | Qwen Image |
-| Images: general generation (common) | image2 |
-| Images: Chinese text / covers / posters / storyboards | **image2.5** |
-| Video: characters | Seedance 2.5 |
-| Video: VFX / transformation | Kling O3 |
-| Video: prop close-ups | Vidu |
-| Video: fallback / trial | Wan 2.6 / Seedance 2.0 Fast |
+| Purpose | Model | When to use it |
+|---|---|---|
+| Character generation / consistency | Seedream 5.0 | First choice for P2 character boards; the most stable across shots |
+| Scene / environment master plates | Flux | P3 location plates, environment colour cards and empty sets |
+| Prop / product master plates | Nano Banana Pro (香蕉Pro) | When physical detail and material must be reproduced exactly |
+| Image editing (first choice) | Nano Banana Pro (香蕉Pro) | Strongest at local edits, state changes and detail fixes |
+| Rough AI texture repair | Seedream | When a generation comes out plastic or mushy |
+| Local micro-edits / location viewpoint changes | Qwen Image | Change one small area, or shift the location viewpoint without touching the style |
+| Images: general generation (common) | image2 | Everyday assets — fast and cheap |
+| Images: Chinese text / covers / posters / storyboards | **image2.5** | First choice whenever Chinese lettering appears in frame; stronger at Chinese than Nano Banana Pro |
+| Video: characters | Seedance 2.5 | Shots with performance and dialogue |
+| Video: VFX / transformation | Kling O3 | Transformations, explosions, morphing |
+| Video: prop close-ups | Vidu | Small-object inserts and product showcases |
+| Video: fallback / trial | Wan 2.6 / Seedance 2.0 Fast | Try a cheap version first, then decide which model to shoot the final on |
 
 > **Hard image-model constraint:** whenever Chinese text appears in frame (signage, packaging, posters, covers, books, screens / subtitle boards, street signs) or the deliverable is itself a cover, poster or storyboard (full shot-breakdown board), **always prefer image2.5** — its Chinese glyph shapes and layout are the strongest (stronger than Nano Banana Pro), and its character consistency and storyboard continuity are best too. Use image2 for general generation. **Do not treat Nano Banana Pro as the default choice for these tasks.**
 
