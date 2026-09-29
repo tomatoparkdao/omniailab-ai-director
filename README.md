@@ -1,10 +1,21 @@
-<div align="right">
+<h1 align="center">OmniAiLab AI 影视导演</h1>
 
-**简体中文** ｜ [English](README_EN.md)
+<p align="center">
+  <b>影视级全流程 AI 导演 Skill，也是一个会引导你做判断的创作系统</b><br>
+  写实与动画两类媒介并行支持　｜　30 秒短片 → 上百场次长片　｜　从剧本解析到成片交付
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.0.35-1f6feb?style=flat-square" alt="版本 2.0.35"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
+  <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
+  <img src="https://img.shields.io/badge/%E5%AA%92%E4%BB%8B-%E5%86%99%E5%AE%9E_%2B_%E5%8A%A8%E7%94%BB-db6d28?style=flat-square" alt="媒介 写实与动画">
+  <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy-0969da?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy">
+</p>
 
-# OmniAiLab AI 影视导演
+<p align="center">
+  <b>简体中文</b>　｜　<a href="README_EN.md">English</a>
+</p>
 
 > © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：[omniailabx.com](https://www.omniailabx.com/)
 

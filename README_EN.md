@@ -1,10 +1,21 @@
-<div align="right">
+<h1 align="center">OmniAiLab AI Film &amp; TV Director</h1>
 
-[简体中文](README.md) ｜ **English**
+<p align="center">
+  <b>A film-industry-grade, end-to-end AI director Skill — and a creative system that guides your decisions</b><br>
+  Live-action realism &amp; animation&nbsp;&nbsp;|&nbsp;&nbsp;30-second short → 100+ scene feature&nbsp;&nbsp;|&nbsp;&nbsp;Script breakdown to final delivery
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/Version-2.0.35-1f6feb?style=flat-square" alt="Version 2.0.35"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2ea043?style=flat-square" alt="License MIT"></a>
+  <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/Platform-OmniAiLab-8957e5?style=flat-square" alt="Platform OmniAiLab"></a>
+  <img src="https://img.shields.io/badge/Medium-Live_action_%2B_Animation-db6d28?style=flat-square" alt="Medium: Live action and Animation">
+  <img src="https://img.shields.io/badge/Works_with-Codex_%7C_Claude_%7C_WorkBuddy-0969da?style=flat-square" alt="Works with Codex / Claude / WorkBuddy">
+</p>
 
-# OmniAiLab AI Film & TV Director
+<p align="center">
+  <a href="README.md">简体中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;<b>English</b>
+</p>
 
 > © OmniAiLab ｜ Developer: Mochiball ｜ Platform: [omniailabx.com](https://www.omniailabx.com/)
 
