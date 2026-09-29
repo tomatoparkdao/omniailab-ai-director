@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-typography-packaging
 description: 「字体、Logo 与口播包装」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：把用户素材转成“主体、字体、图形、空间、镜头、光影和声音共同编排”的 H3 视频提示词。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

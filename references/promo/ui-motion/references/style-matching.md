@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-style-matching
 description: 「Style matching」—— UI 动效与产品演示 方向细则：Phase 4 of the skill. The 8 style files are inspiration anchors, not t
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

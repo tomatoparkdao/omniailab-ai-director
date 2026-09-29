@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-music-direction-library
 description: 「风格化音乐与声音方向库｜H3 15 秒执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：当最终视频需要保留原声音、使用用户上传音频，或用户希望有与包装风格匹配的音乐时读取。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

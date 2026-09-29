@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cases
 description: 宣传片线成品样例库索引——7 条真实 MiniMax H3 成片的原话输入/成品提示词与“记录→子技能→文件”一一对应表。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -12,7 +12,7 @@ agent_created: true
 ---
 name: omniailab-promo-cases
 description: 宣传片线成品样例库索引——7 条真实 MiniMax H3 成片的原话输入/成品提示词与“记录→子技能→文件”一一对应表。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

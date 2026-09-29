@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-cinematic-narrative
 description: 「电影叙事型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在连续真人/写实电影世界、人物行动和真实空间承担主要叙事时读取。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

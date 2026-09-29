@@ -1,7 +1,7 @@
 ---
 name: omniailab-scene-assets
 description: P3 场景资产与环境色卡规范。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

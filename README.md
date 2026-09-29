@@ -14,7 +14,7 @@
 |---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` |
 | 显示名 | OmniAiLab AI 影视导演 |
-| 版本 | v2.0.30 |
+| 版本 | v2.0.31 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball |
 | 许可 | MIT（见 [LICENSE](LICENSE)） |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) |
@@ -46,7 +46,7 @@
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
 | **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
-> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
+> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**、**机位与布光索引**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
 **克隆安装（推荐）**
 
@@ -288,6 +288,7 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 | **ASSET-SYSTEM** 资产体系层 | `references/ASSET-SYSTEM SKILL.md` | 文本＋图像成对资产、`@char_/@loc_/@prop_/@staging_` 命名、「新状态＝新资产」、声音锁定 |
 | **SCENE-ENGINE** 剧本引擎层 | `references/SCENE-ENGINE SKILL.md` | 五要素戏剧引擎（目标／障碍／战术／反转／价值转变）＋剧本压力测试；**只诊断、不改戏** |
 | **OPTICS** 光学层 | `references/OPTICS SKILL.md` | 七个视场角锚点（8/18/29/47/84/107°）、镜头决策树、多镜镜头一致性声明 |
+| **CAMERA-LIGHT** 机位与布光预设层 | `references/CAMERA-LIGHT SKILL.md` | 五维机位坐标（机身格式档 × 镜头性格档 × 焦段档 × 光圈档 × 运动档）＋布光三灯结构与色温变体；**意图 → 组合反查表**（`examples/camera-light/` 两份索引）与块 9／块 13 注入模板；**硬件档位只做选型台，正文只写可观察结果** |
 | **FEATURE-PRODUCTION** 长片工程层 | `references/FEATURE-PRODUCTION SKILL.md` | 镜头表四组卡片、每场开启仪式、资产压力测试、迭代纪律、法条式锁定 |
 | **MUSIC-SCENE** 音乐场景层 | `references/MUSIC-SCENE SKILL.md` | 先歌后演与唇形同步：切 12 秒块、黑画面视频文件、关掉生成音频、硬唇形锁 |
 | **ANIMATION** 动画与混合媒介层 | `references/ANIMATION SKILL.md` | 媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先 |
@@ -316,6 +317,7 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 | 想要现成能用的句子 / 想知道别人踩过什么坑 | 实战案例库（`examples/case-studies/`） |
 | 想看某条规范到底长什么样 / 说「不明白」「没概念」 | 案例配图层（`examples/images/`，反查表见 `images/INDEX.md`） |
 | 要照抄一条**真实跑过**的宣传片样例 / 想知道某方向实际怎么写 | 宣传片成品样例库（`examples/promo-cases/`，按子方向分目录） |
+| 只问机位怎么选、光怎么打（"这镜用什么镜头和光""想要那种干净的产品光"） | CAMERA-LIGHT 机位与布光预设层 |
 | 只问剧本结构（"这场戏行不行""哪里弱""有救吗"） | SCENE-ENGINE 剧本引擎层 |
 | 只问镜头选型 / 镜组漂移（"这种镜头该多广""广角感老漂"） | OPTICS 光学层 |
 | 只问长片怎么组织（"上百场戏怎么管""资产怎么验收"） | FEATURE-PRODUCTION 长片工程层 |
@@ -435,11 +437,12 @@ omniailab-ai-director/
     ├── aesthetics/              # A01–A07 七套美学的现成提示词
     ├── case-studies/            # 六个商业级 AI 影视案例复盘 + README 阶段索引
     ├── documentary/            # 纪实七套现成提示词模板
+    ├── camera-light/            # 机位与布光索引（五维坐标 + 33 套布光）
     ├── promo-cases/            # 七条真实宣传片样例 + 索引（按子方向分目录）
     └── images/                  # 49 张案例配图 + INDEX.md（关键词 → 图 反查表），约 2.4 MB
 ```
 
-> **规范在 `references/`，可照抄的成品在 `examples/case-studies/`，看得见的样子在 `examples/images/`。** 凡涉"这句话到底怎么写"，先取 `examples/case-studies/` 的成品块；凡涉"这到底长什么样"，先取 `examples/images/` 的图（索引里的关键词反查表）；凡涉"某个商业短片方向实际怎么写"，先取 `examples/promo-cases/` 对应方向的样例。
+> **规范在 `references/`，可照抄的成品在 `examples/case-studies/`，看得见的样子在 `examples/images/`。** 凡涉"这句话到底怎么写"，先取 `examples/case-studies/` 的成品块；凡涉"这到底长什么样"，先取 `examples/images/` 的图（索引里的关键词反查表）；凡涉"某个商业短片方向实际怎么写"，先取 `examples/promo-cases/` 对应方向的样例；凡涉"这镜用什么机位和光"，先取 `examples/camera-light/` 的两份索引。
 
 ---
 

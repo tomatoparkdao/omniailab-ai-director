@@ -1,7 +1,7 @@
 ---
 name: omniailab-prompt-doctrine
 description: 提示词教义层 —— 16 段固定块序、十一条铁律、把难的放进静帧、物理与连续性怎么写下来。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -28,6 +28,7 @@ agent_created: true
 | **P1 定基准** | 读「三、把难的东西放进静帧」，把光学、曝光、画面内文字三件事**提前到 plate 阶段**解决，并写进「全片风格锁定」；逐时间线各锁一套调色配方 |
 | **P4 出首帧** | plate 与首帧都必须先过「三」的三道关（光学性格、曝光与天空、画面内文字）；首帧验收加「六」的清单 |
 | **P5 写视频提示词** | 每一条提示词都按「一」的固定块序成文，并按「二」的十一条铁律逐条自检；所有约束一律写成**正向锁定**（块 16），不预先堆叠否定式 |
+| **要选机位与布光** | 到 `references/CAMERA-LIGHT SKILL.md` 按意图反查表选组合（`examples/camera-light/` 两份索引）；**块 9 写机位、块 13 写光线、块 8 写光学结果** |
 | **想要现成块** | 到 `examples/case-studies/` 取成品（风格前缀／光学块／颜色宪法句／正向锁定块／视线块／音频身份块／物理句），再按本层的规范调整 |
 
 ## 一、视频提示词的固定块序

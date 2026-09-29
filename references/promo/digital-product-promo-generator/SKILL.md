@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-digital-product-promo-generator
 description: 数字产品宣传片 —— 宣传片线方向之一：把真实产品网页、前端项目、截图或录屏转成电影感产品宣传片。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

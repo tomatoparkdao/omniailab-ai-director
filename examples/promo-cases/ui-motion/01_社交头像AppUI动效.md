@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-case-ui-motion-01
 description: ui-motion 成品样例：社交头像 App 界面动效的成品提示词与“动作顺序即信息结构”拆解。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

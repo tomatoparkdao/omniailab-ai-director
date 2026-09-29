@@ -14,7 +14,7 @@
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.30 |
+| Version | v2.0.31 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
@@ -46,7 +46,7 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 | **Claude / Claude Code** | Personal: `~/.claude/skills/omniailab-ai-director/`<br><br>Project: `<your project>/.claude/skills/omniailab-ai-director/` | Type **`/omniailab-ai-director`**, or describe the task (e.g. "run the full film pipeline for this script"). |
 | **WorkBuddy** | User level (global): `~/.workbuddy/skills/omniailab-ai-director/`<br><br>Project level: `<your project>/.workbuddy/skills/omniailab-ai-director/` | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
 
-> **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY / PROMO / ONBOARDING), the visual-language library, the 7 ready-made prompt sets, the documentary templates, **all 14 promo directions in full detail**, **7 real promo samples** and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
+> **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY / PROMO / ONBOARDING), the visual-language library, the 7 ready-made prompt sets, the documentary templates, **all 14 promo directions in full detail**, **7 real promo samples**, **camera & lighting indexes** and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
 
 **Install by cloning (recommended)**
 
@@ -288,6 +288,7 @@ You don't need all of them every time. **To do just one small thing, say "only d
 | **ASSET-SYSTEM** | `references/ASSET-SYSTEM SKILL.md` | Text + image paired assets, `@char_/@loc_/@prop_/@staging_` naming, "new state = new asset", voice lock |
 | **SCENE-ENGINE** | `references/SCENE-ENGINE SKILL.md` | Five-element dramatic engine (objective / obstacle / tactic / reversal / value shift) + script stress test; **diagnose only, never rewrite** |
 | **OPTICS** | `references/OPTICS SKILL.md` | Seven field-of-view anchors (8/18/29/47/84/107°), lens decision tree, multi-shot lens consistency statement |
+| **CAMERA-LIGHT** | `references/CAMERA-LIGHT SKILL.md` | Five-axis camera coordinates (body format × lens character × focal × aperture × movement) + three-light structure and colour-temperature variants; **intent → combination lookup** (`examples/camera-light/`) and a block 9 / block 13 injection template; **hardware tiers are selection-only, prompts carry observable results** |
 | **FEATURE-PRODUCTION** | `references/FEATURE-PRODUCTION SKILL.md` | Four shot-table card groups, per-scene opening ritual, asset stress tests, iteration discipline, statute-style locks |
 | **MUSIC-SCENE** | `references/MUSIC-SCENE SKILL.md` | Sing-first-then-perform with lip sync: cut 12-second blocks, black-frame video files, disable generated audio, hard lip lock |
 | **PROMO** | `references/PROMO SKILL.md` | Dispatch across 14 commercial-short directions (brand ad / TVC, brand short, stream MG, product film, UI motion, title sequence, motion design, game PV, music short, creator video, education, drawing timelapse, video deconstruction, voice clone) + six-step flow and commercial hard rules; **video generated with MiniMax H3 on the OmniAiLab canvas** |
@@ -316,6 +317,7 @@ You don't need all of them every time. **To do just one small thing, say "only d
 | Ready-made sentences / what others got wrong | Case-study library (`examples/case-studies/`) |
 | Want to see what a rule actually looks like / "I don't get it" | Case-study figures (`examples/images/`; lookup table in `images/INDEX.md`) |
 | Want to copy a **real, already-produced** promo sample / see how a direction is actually written | Promo sample library (`examples/promo-cases/`, organised by direction) |
+| Camera setup / lighting only ("what lens and light for this shot", "that clean product look") | CAMERA-LIGHT layer |
 | Script structure only ("does this scene work", "where is it weak") | SCENE-ENGINE layer |
 | Lens choice / lens drift only ("how wide should this lens be") | OPTICS layer |
 | How to organise a feature ("how to manage 100+ scenes") | FEATURE-PRODUCTION layer |
@@ -435,11 +437,12 @@ omniailab-ai-director/
     ├── aesthetics/              # Ready-made prompts for the seven A01–A07 aesthetics
     ├── case-studies/            # Six commercial-grade AI film case studies + README stage index
     ├── documentary/            # Seven ready-to-use documentary prompt templates
+    ├── camera-light/            # Camera & lighting indexes (five-axis coordinates + 33 lighting setups)
     ├── promo-cases/            # Seven real promo samples + index (organised by direction)
     └── images/                  # 49 case-study figures + INDEX.md (keyword → figure lookup), ~2.4 MB
 ```
 
-> **Specifications live in `references/`; copy-paste-ready finished work lives in `examples/case-studies/`; the visible look of it lives in `examples/images/`.** Whenever it's a question of "how exactly do I write this sentence", take a finished block from `examples/case-studies/` first. Whenever it's a question of "what does that actually look like", show the figure from `examples/images/` (see the keyword lookup table in its `INDEX.md`). Whenever it's a question of "how is a given commercial-short direction actually written", take a sample from `examples/promo-cases/` first.
+> **Specifications live in `references/`; copy-paste-ready finished work lives in `examples/case-studies/`; the visible look of it lives in `examples/images/`.** Whenever it's a question of "how exactly do I write this sentence", take a finished block from `examples/case-studies/` first. Whenever it's a question of "what does that actually look like", show the figure from `examples/images/` (see the keyword lookup table in its `INDEX.md`). Whenever it's a question of "how is a given commercial-short direction actually written", take a sample from `examples/promo-cases/` first. Whenever it's a question of "what camera setup and light for this shot", start from the two indexes in `examples/camera-light/`.
 
 ---
 

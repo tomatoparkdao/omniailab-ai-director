@@ -1,7 +1,7 @@
 ---
 name: omniailab-blocking-stage-schema
 description: 站位数据模型 —— OmniAiLab 导演台 SCENE_JSON 的字段与取值字典。
-version: 2.0.30
+version: 2.0.31
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
