@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-future-system-montage
 description: 「未来系统蒙太奇」—— 品牌广告与 TVC（官方） 方向细则：仅在 brand-ad 已选择“未来系统蒙太奇”路线后读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -42,3 +42,6 @@ agent_created: true
 1. 先整理锚图和必要材质关键帧。每条视频 Prompt 必须写明不可改变的主体结构、当前材质事件、起止状态、轻量 HUD 边界和同步声音。
 2. 所有片段使用同一主体锚图作为 reference；不得在跨片段时更换主体或核心几何，也不得用文字描述替代主体。
 3. 确认后生成并按事件顺序完整拼接；时间轴只作为节奏规划，不要求最终合成精确对齐名义时长，也不得为对齐目标裁切、补帧、循环或变速，最终时长以实际片段拼接结果为准。保留原生旁白、环境声和动作音效；独立 BGM 按主 Skill 的确认方案决定。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-h3-prompt-contract
 description: 「MiniMax H3 片头与 15 秒预告生成合同」—— 电影与剧集片头（标题序列） 方向细则：生成 final_h3_prompt 时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -241,3 +241,6 @@ TITLE_BIBLE:
 - 是否没有无信息增长的长镜头、前半全切完或后半只剩长标题；电影叙事中的较长连续镜头是否始终有动作、关系、构图或空间变化？
 - 所有准确文字是否逐字一致，没有同音异写、错误翻译或意外第三语言？
 - 字符数是否最多计数两次并落在 5000–7000；展示与实际执行是否为同一字符串？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

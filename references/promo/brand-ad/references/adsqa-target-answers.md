@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-adsqa-target-answers
 description: 「AdsQA 目标答案与证据卡」—— 品牌广告与 TVC（官方） 方向细则：当用户只给出模糊的情绪、受众或“高级感”要求，或成片需要更强的说服力时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -69,3 +69,6 @@ Visual Reasoning Card
 4. 是否出现未核验主张、随机身份、伪 Logo、无证据的风格词或跨段声音断裂？
 
 任一答案无法被证据支持时，先回写答案表 / 视觉推理卡，再重编译受影响的 sequence；不得靠后期叠字或补旁白掩盖缺口。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

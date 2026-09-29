@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-sensory-visual-prompting
 description: 「通感视觉与提示词架构参考」—— 品牌广告与 TVC（官方） 方向细则：仅在 brand-ad 需要把简短 brief 扩写为更具电影感、可执行的视觉概念和视频 Prompt 时按需读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -60,3 +60,6 @@ agent_created: true
 - 产品和包装在动作前后是否仍保持同一身份与比例？
 - 光线、材质、声音和动作是否共同服务情绪终点？
 - 是否误把参考图的品牌、人物、文字、剧情或具体构图迁移进了创意？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

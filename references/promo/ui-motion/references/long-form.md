@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-long-form
 description: 「Long-form (>15s) continuation chains」—— UI 动效与产品演示 方向细则：The base skill has two explicit duration modes. A request up to and in
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -76,3 +76,6 @@ Four rules keep the numbered continuation seamless:
 ## Structure extension
 
 The base `storyboard.json` already supports the long-form case via the optional `takes` array. The version stays at `4`. Keep the brand fields unchanged and retain enough lineage information to identify each segment, its predecessor, its input tail frame, its output clip, and its extracted tail frame.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

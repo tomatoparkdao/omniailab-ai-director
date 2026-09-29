@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-style-guide
 description: 「复古潮流拼贴风格参考」—— 酷感音乐短片（15 秒横屏） 方向细则：本文件是内部执行参考，不是用户要看到的额外风格卡片。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -43,3 +43,6 @@ agent_created: true
 6. 文字黑场：段落停顿时短暂只留一个英文 Hero word，字形先可读，再压缩或撕裂后硬切回人物。
 
 禁止把所有效果同时铺满全片；必须保留至少一个清晰读字瞬间和一个短暂呼吸点。动作越多，越要留一段版式主导的静点，不然画面会塌成“只是在表演”。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-subject-packaging-system
 description: 「Universal Subject Packaging System」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：This file is the shared source of truth for product, person, logo, sce
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -250,3 +250,6 @@ composition_states: [count and state progression]
 ```
 
 For scene prompts, explicitly write the spatial skeleton. For person prompts, explicitly write face/hair/body/gesture. For logo prompts, explicitly write legibility and geometry. For original footage, explicitly write what stays unchanged.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

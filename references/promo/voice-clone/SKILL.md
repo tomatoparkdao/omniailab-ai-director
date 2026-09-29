@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-voice-clone
 description: 音色克隆 —— 宣传片线方向之一：用已获授权的参考录音建立可复用克隆音色（授权确认、源音频检查、试听与验收）。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -115,3 +115,6 @@ agent_created: true
 ## 边界
 
 本 Skill 只创建已获授权的可复用音色和质量试听，不授予说话人身份使用权，不绕过授权，不支持欺骗性冒充，也不提供供应方调用说明。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

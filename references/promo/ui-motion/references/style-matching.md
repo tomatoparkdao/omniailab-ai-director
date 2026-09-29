@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-style-matching
 description: 「Style matching」—— UI 动效与产品演示 方向细则：Phase 4 of the skill. The 8 style files are inspiration anchors, not t
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -98,3 +98,6 @@ If the user says "I want the Lumen style" or names a style letter:
 4. Give a one-line "if you want the pure Lumen look" option
 
 "Style A" is a motion language, not a visual identity. The user might not have realized that — flag it.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

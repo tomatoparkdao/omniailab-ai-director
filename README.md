@@ -14,7 +14,7 @@
 |---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` |
 | 显示名 | OmniAiLab AI 影视导演 |
-| 版本 | v2.0.28 |
+| 版本 | v2.0.29 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball |
 | 许可 | MIT（见 [LICENSE](LICENSE)） |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) |
@@ -42,9 +42,9 @@
 
 | 工具 | 放哪里 | 怎么调起 |
 |---|---|---|
-| **WorkBuddy**（推荐主用） | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**，或说"跑默认项目"。 |
+| **Codex**（推荐主用） | 没有原生 skill 目录：把文件夹放进项目，例如 `<你的项目>/skills/omniailab-ai-director/`，再在项目根目录的 `AGENTS.md` 里加一行：<br>`影视制作任务：先读 skills/omniailab-ai-director/SKILL.md，并按其流程执行。` | 说"按 SKILL.md 开始做片子"。它读 `AGENTS.md` 后会加载这个 skill。 |
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
-| **Codex** | 没有原生 skill 目录：把文件夹放进项目，例如 `<你的项目>/skills/omniailab-ai-director/`，再在项目根目录的 `AGENTS.md` 里加一行：<br>`影视制作任务：先读 skills/omniailab-ai-director/SKILL.md，并按其流程执行。` | 说"按 SKILL.md 开始做片子"。它读 `AGENTS.md` 后会加载这个 skill。 |
+| **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
 > **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
@@ -60,12 +60,12 @@ git clone https://github.com/tomatoparkdao/omniailab-ai-director.git \
 ### 二、剧本从哪来（三选一）
 
 1. **你直接上传定稿剧本** —— 它读取后直接进入 P0。
-2. **什么都不给，直接说"开始"** —— 它自动载入内置默认剧本《17楼》（30 秒悬疑短片），并告诉你"正在使用默认剧本，可随时替换"。适合先跑通流程、熟悉节奏。
+2. **什么都不给，直接说"开始"** —— 它会先问一句"手上是已有剧本，还是只有一句创意？"，**不会自动载入内置剧本**；只有你明确说"跑默认项目"时，才用内置样例剧本《17楼》（30 秒悬疑短片）。
 3. **只给一句话创意或标题**（例如"做一个太空惊悚短片"）—— 它先自动写出一版定稿剧本给你确认，确认后才进 P0。剧本时长控制在 30 秒 – 5 分钟。
 
 ### 三、启动指令
 
-直接说"开始""跑默认项目""做《17楼》"等任意启动词即可，它**不会**反问"请问你的剧本是什么"。
+直接说"开始"即可，它**不会**反问"请问你的剧本是什么"，而是直接问"你手上有剧本，还是只有一句创意？"。**默认不会自动跑内置剧本**；明确说"跑默认项目""做《17楼》"时才使用样例剧本。
 
 ### 四、启动前必须想清楚的两件事
 
@@ -429,7 +429,7 @@ omniailab-ai-director/
 │   ├── generation-guardrails.md / seedance-production.md
 │   └── (共 38 个规范文档；另有 promo/ 下 78 个方向文件)
 └── examples/                    # 成品层：可整段照抄
-    ├── floor17_script.md        # 默认剧本《17楼》（30 秒悬疑短片）
+    ├── floor17_script.md        # 样例剧本《17楼》（30 秒悬疑短片，需明确要求才用）
     ├── aesthetics/              # A01–A07 七套美学的现成提示词
     ├── case-studies/            # 六个商业级 AI 影视案例复盘 + README 阶段索引
     ├── documentary/            # 纪实七套现成提示词模板
@@ -481,9 +481,9 @@ omniailab-ai-director/
 
 | 工具 | 适合拿来干什么 |
 |---|---|
-| **WorkBuddy**（推荐） | 完整跑 P0→P6：会话内可读写文件、跑脚本，每阶段产物直接落盘 |
+| **Codex**（推荐） | 完整跑 P0→P6：工程能力强，可直接操作项目文件、批量处理资产清单、脚本化整理各阶段产物 |
 | **Claude** | 剧本解析、提示词打磨、长篇文档产出（原生支持 skills，长文本改写稳定） |
-| **Codex** | 批量处理资产清单、脚本化整理产物（工程能力强，能直接操作项目文件） |
+| **WorkBuddy** | 完整跑 P0→P6：会话内可读写文件、跑脚本，每阶段产物直接落盘 |
 
 **模型建议**
 

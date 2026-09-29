@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video-script-and-shots
 description: 「口播、分镜与视频 Prompt」—— 达人原生社交视频（KOC ／ UGC） 方向细则：先确定整条内容如何推进，再完成一条连续表达，最后决定镜头如何承载它。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -134,3 +134,6 @@ Prompt 只写当前 clip 真正需要的信息，并按自然因果顺序组织�
 - 完整使用动作链没有因求稳而缺步骤；复杂身体或产品关系按可独立生成的 coverage 和稳定状态组织。
 - Prompt 语言与目标市场一致；人物指代、逐字台词和 refs 职责前后一致；每个角色资产、身份锚和 reference 映射前后一致。
 - 每段人声与 speech plan 的 `speaker`、`source` 和 `voice_identity` 一致；跨 clip 的同一声音逐字沿用同一份 Voice Lock。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

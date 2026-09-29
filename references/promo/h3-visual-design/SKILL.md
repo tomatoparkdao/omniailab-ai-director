@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design
 description: 动态视觉设计（字体包装／追踪视觉／手绘融合） —— 宣传片线方向之一：动态字体与空间包装、主体追踪框与拓扑图形、真人实拍与二维手绘互动三条路线的动态视觉短片。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -54,3 +54,6 @@ agent_created: true
 4. 保留用户明确指定的模型、时长、画幅、主体、文案和声音要求；只询问会阻塞所选路线的缺失信息。
 5. 路线生成最终 Prompt 后，展示内容、送入生成的内容与实际送入 H3 的内容必须一致；不得让下游摘要、翻译或二次改写。
 6. 具体路线的硬规则优先于本入口的通用规则；路线未通过自身完成检查时不得交付。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

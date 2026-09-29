@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-fresh-cute
 description: 「清新可爱风｜手绘综艺片头执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“清新可爱风”，或素材明确要求手绘综艺片头、粉笔/蜡笔动画、人物定格、涂鸦互动、旅行回忆录时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -173,3 +173,6 @@ READABILITY: complete text settles after each handmade transition and remains st
 - [芒果综艺手绘后期](https://www.xiaohongshu.com/discovery/item/6860ed7200000000230049d9)：内化人物专色描边、夸张表情插画、黄橙漫画色场、反应动物和人物抠像压住后景手写标题的层级。
 
 所有参考只校准媒介、运动、字体角色和颜色关系；生成时使用用户自己的主体、文案、物件与身份，不复制参考中的节目名、Logo、人物、水印或原文字。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

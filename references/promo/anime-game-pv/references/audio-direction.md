@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-audio-direction
 description: 「二次元游戏 PV 音频方向」—— 二次元漫画 ／ 游戏 PV 方向细则：仅在 anime-game-pv 已触发后读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -33,3 +33,6 @@ agent_created: true
 ## 原生声音编译
 
 每个 Logical Shot 写明与画面同步的对白、环境声、动作声或显式静音；全局再写环境声连续性和非剧情内配乐的发展。声音事件必须服务动作、转场和最终停留，不堆叠与画面无关的泛广告音乐。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-custom-style
 description: 「Custom style」—— UI 动效与产品演示 方向细则：When no template fits, derive the style entirely from the brand profil
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -91,3 +91,6 @@ With the custom style spec, build the single `motion_prompt` through `motion-pro
   }
 }
 ```
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

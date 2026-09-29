@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-promo-video-generator
 description: 品牌宣传短片 —— 宣传片线方向之一：新品发布、官网展示与社交推广用的品牌宣传短片。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -182,3 +182,6 @@ LOGO、字标、产品界面、包装、吉祥物、人物或品牌场景应作�
 - 快但混乱：建议减少同时动作、指定视觉主导，并保持跨镜头匹配运动；获得用户对相应修改的授权后执行。
 - 顺滑但太慢：建议缩短停留、重叠转场，只在关键信息处制动；获得用户对相应节奏修改的授权后执行。
 - 资产不可用：索要授权原件，绝不猜测。取得原件本身不自动授权重新生成或重剪；若用户提供原件时已明确要求替换或修复，则按该授权范围执行。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

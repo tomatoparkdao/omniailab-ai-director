@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-handdrawn-live-action
 description: 「真人实拍 × 手绘融合」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：把简短创意转化为一份可直接复制给视频模型的 prompt，遵循用户原始风格。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -38,3 +38,6 @@ agent_created: true
 3D 卡通、玩偶感、平滑矢量线、均匀霓虹、精致广告布光、稳定云台、跨场景硬切、字幕、标识、巨大眼睛、裂口、尖牙、恐怖威吓、扑袭、突然黑屏、跳吓、物体穿模。
 
 不要解释创作过程，不要重复用户原文；除非存在参数冲突，否则直接给出成稿。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

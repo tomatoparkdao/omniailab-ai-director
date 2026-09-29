@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio
 description: 教育内容工作室 —— 宣传片线方向之一：教育内容与视频一体化：教学设计、分镜、视频生成与成片（含评量与练习）。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -277,3 +277,6 @@ Brief、视频脚本、项目生成输入合同和执行说明是同一份规划
 ## 边界与安全
 
 学术引用、考试材料、实验安全数据及医疗/法律结论均使用真实可核验来源。儿童内容采用安全、尊重、保护隐私的表达。涉及敏感或高风险学科时，优先提供权威来源核验点，并将“教学演示”与“现实建议”分开。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

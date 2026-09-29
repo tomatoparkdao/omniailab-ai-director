@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-live-action-graphics
 description: 「实拍动态图形合成型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在真实人物、城市、建筑和动作仍清楚可辨，但多窗口、动态字体、空间字幕、遮罩、折射、粒子与 AE 级多层合成承担主要节奏时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -206,3 +206,6 @@ Music direction：原创 15 秒高级电影片头/预告配乐，按题材从 ma
 - [Adobe Motion Tracking](https://www.adobe.com/products/aftereffects/motion-tracking.html)：转译为位置、旋转、比例、深度和镜头匹配，不只写“无缝合成”。
 - [Art of the Title — Panic Room](https://www.artofthetitle.com/title/panic-room/)：转译为空间字与城市 plate 的透视、遮挡、阴影和反射关系。
 - [Art of the Title — Moon](https://www.artofthetitle.com/title/moon/)：转译为环境文字的消失线、backplate 高光/黑位、相机震动和颗粒匹配。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

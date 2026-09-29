@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-product-h3-compile
 description: 「产品广告 H3 动态编译」—— 品牌广告与 TVC（官方） 方向细则：仅在“产品主角广告”路线准备生成视频时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -264,3 +264,6 @@ Copy Lock
 8. 复杂度、参考数量和时长是否符合当前能力摘要？
 9. 每张 `Typography Treatment Card` 是否已展开到对应镜头，且通过逐字准确、跨帧稳定、品牌关联和完整读字停留四项检查？
 10. 开场抽样帧是否在 1.5 秒内展示足够比例的真实产品 / 已核验锚点，并且整个成片没有白名单之外的可读文字？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

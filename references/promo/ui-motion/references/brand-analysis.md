@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-brand-analysis
 description: 「Brand analysis」—— UI 动效与产品演示 方向细则：The brand profile is the structured output of Phase 2. It's the source
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -146,3 +146,6 @@ Before Phase 5, verify:
 - [ ] `density` is set
 
 If any are missing, the storyboard will silently fall back to the style anchor's defaults. Catch it now.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

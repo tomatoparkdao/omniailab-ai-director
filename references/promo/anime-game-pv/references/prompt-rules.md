@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-prompt-rules
 description: 「PV Prompt 编译规则」—— 二次元漫画 ／ 游戏 PV 方向细则：最终 Prompt 是一份 Markdown 文档，不是聊天摘要、分镜概述或单段自然语言。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -163,3 +163,6 @@ Prompt 开头只建立一次全局基准：人物身份、场景、唯一 `style
 写入 `final_video_prompt.md` 前检查：全部语义章节都已用 `working_language` 写出自然标题；时间线覆盖完整时长且无空档或重叠；每个 Logical Shot 都有开始状态、动作、摄影机、背景变化、声音、结束状态和承接；存在已批准九宫格时包含“分镜序列约束”，不存在时省略该章节；九宫格未进入参考素材绑定；所有真实引用均有绑定；精确文字保持原文；没有未解析占位符。任一项缺失时先补全，不得用一个长段落替代结构。
 
 Prompt 长度服从 Render Contract，不设凑字数目标。复杂度来自可观察的时间变化与明确素材贡献，而不是重复形容词、重复锁定或无叙事增量的镜头数量。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

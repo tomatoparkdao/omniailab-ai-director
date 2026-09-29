@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-cinematography-and-transitions
 description: 「电影运镜、预告剪辑与连续转场生成指令库」—— 电影与剧集片头（标题序列） 方向细则：生成最终 H3 Prompt 时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -324,3 +324,6 @@ from-to | visible_source | coverage_or_cut_point | inherited_shape_direction_col
 - [StudioBinder Camera Movements](https://www.studiobinder.com/camera-movements/)：将 static、push-in、tracking、trucking、tilt、boom、arc、whip pan 等按“叙事用途”转译为本文件的起点—路径—终点句式。
 - [Adobe 3D Camera Tracker](https://helpx.adobe.com/after-effects/desktop/work-with-3d-composition/3d-camera-tracker-effect/tracking-3d-camera-movement.html)：空间文字和图形继承真实相机、best-fit plane、透视与深度，不只写“高级 AE”。
 - [Art of the Title](https://www.artofthetitle.com/)：只提取标题与摄影、剪辑、材质和空间共同建立视觉系统的方法，不复制现有作品片名、角色、专属图形或完整镜头。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

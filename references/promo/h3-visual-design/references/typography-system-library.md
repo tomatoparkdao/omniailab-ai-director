@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-typography-system-library
 description: 「动态字体系统库｜H3 可执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：生成最终 Prompt 时读取本文件。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -283,3 +283,6 @@ Select typography system by content:
 - [口播精剪，解锁时尚大片质感](https://www.xiaohongshu.com/discovery/item/6a1c285e000000003601daed)：公开标题把目标定义为淘汰常规口播、形成杂志封面式精剪。转译：口播包装不能退化成底部字幕；必须让大字、人物、卡片、分栏、轻推近和触感音效形成多状态编辑版面，同时保持真实台词和人物表演。
 
 共同准则：`字体角色有对比且持续复用；每个状态是主体、字、图形、色彩和空间的完整组合；尺度和空间层级大胆；运动有触发、完成、继承和复位；复杂度不来自随机字体或伪小字。`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

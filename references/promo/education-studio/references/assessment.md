@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio-assessment
 description: 「教育评量与练习」—— 教育内容工作室 方向细则：先写目标，再写题目。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -19,3 +19,6 @@ agent_created: true
 - 主观题：给出分档评分标准、满分参考答案和失分原因解析。
 
 题目发布前复算答案、检查条件是否充分、单位是否一致，并确认题干覆盖已教内容。错题反馈同时指出“哪一步的概念/策略需要修正”“下一次怎么检查”和正确答案。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

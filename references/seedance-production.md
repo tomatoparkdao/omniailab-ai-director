@@ -1,7 +1,7 @@
 ---
 name: omniailab-seedance-production
 description: 视频生产组包 —— 15 秒规则、台词预算、镜头关系与连续性。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-digital-drawing-timelapse
 description: 数字绘画延时（15 秒） —— 宣传片线方向之一：一段提示词 ＋ 一张成品图，生成 15 秒数字绘画延时视频。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -114,3 +114,6 @@ The character must not appear instantly or through a single magical transformati
 保留已确认的时长、分辨率和画幅。对于本模板，默认使用15秒和16:9，但不设置默认分辨率，分辨率必须每次明确选择并确认。默认关闭音频；用户明确确认后，才可使用附带音频作为合成音轨。没有明确确认时绝不使用音频附件。音频选择不能修改固定默认提示词。
 
 如果生成失败，只针对错误原因进行有实质差异的修正，同时保留用户提示词和参考图。不得仅为了重试而添加新的创作约束。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

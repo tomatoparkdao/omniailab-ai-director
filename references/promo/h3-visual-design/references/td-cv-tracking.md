@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-td-cv-tracking
 description: 「实时视觉与追踪 追踪表现」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：把"AI 看见的世界"（计算机视觉检测/追踪的可视化结果）做成短视频。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -313,3 +313,6 @@ COLOR DISCIPLINE — STRICT: The underlying AI-generated footage is ENTIRELY MON
 ```
 
 并在所有 overlay 段（§1 / §2 / §3）的描述里加 "in pure RGB blue"。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

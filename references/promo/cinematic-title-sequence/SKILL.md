@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence
 description: 电影与剧集片头（标题序列） —— 宣传片线方向之一：15 秒电影或剧集片头、标题序列、卡司序列与概念预告。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -296,3 +296,6 @@ TRAILER_FLOW_STATE=ready_to_dispatch
 ## 12. 交付边界
 
 本 Skill 只生成当前单条 15 秒成片，不创建 阶段执行计划，不进入 downstream workers，不自动生成更多版本，不自动剪辑长片，不自动重启 Electron。15 秒以上任务返回主 Agent，同一 15 秒任务重做时复用已确认 Gate。用户明确“改单处文字并继续”时可以直接执行；剧情、主风格、参考图用途或整体文字版式变化时回到方案确认。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

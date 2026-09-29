@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-methods
 description: 「复古潮流拼贴表现形式」—— 酷感音乐短片（15 秒横屏） 方向细则：把方法写进镜头，而不是只在开头列一串风格名。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -41,3 +41,6 @@ agent_created: true
 ## 设计主导镜头
 
 如果项目加入了更强的人物动作，仍要至少保留 2 个设计主导镜头：人物进入静点，版式、套印、分栏、黑场或残影负责主视觉。这样能保住图层层级，不让画面只剩 performance。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

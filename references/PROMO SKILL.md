@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo
 description: 宣传片线总调度 —— 判定为宣传片／广告／TVC／品牌片／产品片／MG／片头／游戏PV／UI动效／KOC／教育等商业短片后，选择对应方向、按该方向规范编译提示词，并在 OmniAiLab 画布中用 MiniMax H3 生成。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -103,3 +103,6 @@ agent_created: true
 - [ ] 文字**逐字核对**通过；无文字 Logo 未被添加文字；
 - [ ] 六个步骤的确认点**真实停顿过**；
 - [ ] 15 秒类方向**未超时**；品牌广告类时长与创作者确认值一致。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video-production
 description: 「模型执行与交付」—— 达人原生社交视频（KOC ／ UGC） 方向细则：本文件只负责把已确认的创意编译到当前模型、维护跨 clip 一致性、处理声音并把结果交到画布。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -109,3 +109,6 @@ BGM 必须做一次内部判断，但不因时长自动添加：
 - 成片没有句子被切断或重复，片头和片尾完整。
 - BGM、字幕和准确文字按已确认策略执行。
 - 用户能在画布找到锚图、分镜、视频 clip 与最终成片。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

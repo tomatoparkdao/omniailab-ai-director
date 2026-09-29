@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-tech-particle
 description: 「科技粒子风｜H3 执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“科技粒子风”，或内容需要精密、数字化、扫描、能量聚合与轻量界面感时读取本文件。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -199,3 +199,6 @@ Glitch limit: on [single trigger], split the solid word into three horizontal sl
 - [卡点文字快闪案例](https://www.xiaohongshu.com/discovery/item/680f6bf70000000009014498)：蓝色色场中，中文实心字、英文超大透明字、圆环、球体和波点网格在多个状态中重组。转译为 H3：Display A 使用实心几何字，Display B 使用低对比轮廓/透明大字，Utility 保持稳定；球体、波点网格和圆环属于 GRAPHIC KIT，每一状态只让一个组件承担主运动。
 
 从案例提取的执行规则：`数字效果必须有来源和响应对象`；`Display A 实心、Display B 线框/模块、Utility 稳定`；`粒子最终回到来源或被文字吸收`；`扫描/翻牌/波浪是互斥的主揭示机制`；`没有来源的 HUD、编号和代码不属于科技感`。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

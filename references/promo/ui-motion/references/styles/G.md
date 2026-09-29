@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-g
 description: 「Style G — Vision Pro / Spatial UI」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -66,3 +66,6 @@ If the brand is more energetic, swap "sparse single notes" for "warm Rhodes keys
 ## Director's notes
 
 The accent color (single bold color per scene) signals which panel is "active"; never have two panels in different accent colors at the same time, it reads as a bug. Real-world depth (panel casts shadow on wall, person occludes panel slightly) is the most expensive thing to fake — when in doubt, simplify the scene instead of overloading it.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

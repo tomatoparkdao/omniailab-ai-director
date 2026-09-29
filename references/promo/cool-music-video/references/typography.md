@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-typography
 description: 「复古潮流拼贴字体参考」—— 酷感音乐短片（15 秒横屏） 方向细则：动态字体默认使用准确英文，并且要像海报、纸张、墙面或前景实体一样参与表演。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -52,3 +52,6 @@ agent_created: true
 - 高潮可用非规则分栏、双色套印、字块压屏或 0.2–0.5 秒纯文字黑场。
 - 结尾回收同一主字族和色盘；不要突然切换成无关的科技 UI 或品牌 Logo。
 - 文字始终先给短暂可读时刻，再变形；不要从头到尾生成乱码。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-h
 description: 「Style H — Dossier / Classified」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -64,3 +64,6 @@ If the brand is institutional but not thriller (e.g. a financial regulator), dro
 ## Director's notes
 
 The signature numeric stamp (the "08" in the reference) should appear at least 3 times across the video (different sizes, different opacities) so it reads as a recurring motif, not a one-shot. Red rules (horizontal lines) are the *grammar* of the piece — use them as section dividers. The fake text strings should look like real file IDs: "REC. 4782", "OP-0931-A", "SECTOR 4.21", never "Click here".
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

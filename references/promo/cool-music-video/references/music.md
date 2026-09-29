@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-music
 description: 「复古潮流拼贴音乐执行」—— 酷感音乐短片（15 秒横屏） 方向细则：音乐是镜头、人物动作和文字动效的上游，不是最后补一段“有氛围音乐”。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -92,3 +92,6 @@ Rap A1 与 A2 必须是同一段话的连续意思，并写出至少一组内押
 - [Sound On Sound — How To Make It In K-Pop](https://www.soundonsound.com/techniques/how-make-it-k-pop)：行业制作人强调更多段落、更多 Hook、段落重组、快速旋律节奏和非常规/半音旋律设计。
 - [Berklee — BTS and Beyond: What K-Pop Does Differently](https://www.berklee.edu/global-initiatives/news/bts-and-beyond-what-k-pop-does-differently)：K-pop 是多类型融合，包含 K-hip-hop、K-R&B 与高密度 Hook、表演和影像协同。
 - [Kyle Adams — On the Metrical Techniques of Flow in Rap Music](https://doi.org/10.30535/mto.15.5.1)：rap flow 的关键包括重读音节、押韵音节和句法在拍号中的位置，以及这些参数如何形成新的节奏层。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

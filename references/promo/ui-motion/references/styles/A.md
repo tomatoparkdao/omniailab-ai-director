@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-a
 description: 「Style A — Abstract Neon (Lumen / youmotion)」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, and 
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -65,3 +65,6 @@ Adjust the warm/cool descriptor and instrument based on the brand profile.
 ## Director's notes
 
 The camera should feel like a **held breath**, not a slideshow. Slow push-ins, gentle parallax, never whip-pans or hard zoom. Negative space is the canvas — crowding the frame kills the feeling. The first frame is a scroll-stop; the last frame is a wordmark; everything in between is a slow dream in the gap. When the brand is warm (cream backgrounds, coral accents), dial back the chromatic aberration — it's a cold-look effect, easy to overdo on a warm brand.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

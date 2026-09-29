@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-b
 description: 「Style B — Abstract Systems」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -63,3 +63,6 @@ Adjust tempo to brand pace. Faster brand → 110 BPM. Slower → 75.
 ## Director's notes
 
 The grid is the product; the cards are temporary. The brand's identity should be readable from the icons, not the cards — if the brand is warm and humanist, the sidebar icons should hint at that (a softer pen glyph, not a sharp vector one). The background grid is a Style B signature; even on a brand's cream background, the grid should be visible at very low opacity (4% of the brand's neutral color).
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

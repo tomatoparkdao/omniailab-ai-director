@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad
 description: 品牌广告与 TVC（官方） —— 宣传片线方向之一：用户自定义时长的官方品牌广告或 TVC：产品片、剧情 TVC、品牌大片与系列 Campaign。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -205,3 +205,6 @@ agent_created: true
 用户选择生成 BGM 后，直接使用默认的官方器乐路线，不再额外询问音乐模型，也不强行指定名义时长。生成后只把音乐裁切到最终视频的实际时长并为尾部制作自然渐出，再与 H3 视频原声混合合成；不循环、变速或改编音乐，不重新剪辑或改动视频画面，也不替换原生旁白、环境声和动作声。视频 Prompt 必须排除 BGM，避免重复配乐。只有用户明确指定其它音乐模型，或当前能力摘要确认默认路线不可用时才调整，并向用户说明，不得静默切换。
 
 交付前确认身份资产可追溯、事实未扩写、Logo 未拉伸/重绘、产品与 UI 清晰、节奏和转场符合所选路线、文字可读、声音不重复叠加、最终视频与资产已落到画布。回复成片路径/画布产物、时长画幅、路线摘要、素材来源和必要权利提示。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

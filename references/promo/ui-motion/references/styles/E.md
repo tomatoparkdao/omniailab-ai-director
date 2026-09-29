@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-e
 description: 「Style E — Warm Smart Home / Lifestyle」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -63,3 +63,6 @@ If the brand is more clinical than warm, drop the "acoustic morning" and substit
 ## Director's notes
 
 Warmth is the entire point. If the frame ever looks "cool" or "clinical", the design has failed — go back and add the warm color or soften the shadow. Real photography in the corner cards is essential; illustrated or stocky photos kill the lived-in feel. Avoid corporate-looking icons; round everything by 4px more than feels necessary.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

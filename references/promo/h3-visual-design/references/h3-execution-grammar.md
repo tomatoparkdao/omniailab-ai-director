@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-h3-execution-grammar
 description: 「H3 字体包装生成指令执行语法」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：本文件只规定 MiniMax H3 能直接执行的可见、可听、可计时语言。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -296,3 +296,6 @@ Talking-head only: `SFX MAP` = [准确时间] → [Keyword Hero / Evidence Card 
 - 口播基础字幕是否一次只显示一个完整意群/一句话，避免多句同时上屏和固定底部圆角框；是否有两次以上 Keyword Hero、一次来源明确素材弹窗/crop/PiP 证据卡、一次说话人左上/右上角 mini-head 小窗、两次合成层微运动，以及逐事件的 `SFX MAP`。
 - 所有可读文字是否逐字来自白名单。
 - 是否逐项通过 `subject-packaging-system.md` 的本次主体检查与当前风格 Reference 的专属检查。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

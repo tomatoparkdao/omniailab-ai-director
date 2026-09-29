@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-style-research
 description: 「品牌广告与 TVC 风格 Research」—— 品牌广告与 TVC（官方） 方向细则：在 brand-ad 需要补充风格、产品氛围、叙事世界或 Campaign 差异参考时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -70,3 +70,6 @@ agent_created: true
 - 只有在第一轮后仍存在一个已命名、会改变脚本或视觉系统的缺口时追加研究，例如受众文化语境、品类视觉符号、角色世界、竞品差异或系列 Campaign 统一性。
 - 每轮只回答一个问题，保留来源与结论，并说明它改变 `Brand Direction Lock`、脚本、分镜或连续性圣经中的哪一项；不能用更多图片替代决策。
 - 新结论与已确认事实冲突时暂停并请求用户选择；没有冲突时并入既有的生成前或里程碑确认，不额外堆叠审核环节。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

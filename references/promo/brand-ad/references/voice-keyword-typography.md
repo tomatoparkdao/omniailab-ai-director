@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-voice-keyword-typography
 description: 「广告文案与艺术字体包装参考」—— 品牌广告与 TVC（官方） 方向细则：当广告需要 LLM 编译屏幕文案、CTA、旁白关键词或艺术字体包装时按需读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -86,3 +86,6 @@ Typography Treatment Card
 2. 以实际旁白波形 / 语音转写和画面事件校准文案出现与退出，不为凑目标秒数裁切、补帧、循环或变速。
 3. 检查旁白清晰、文案与重音 / 卖点证据对应、逐字内容正确、字形跨帧稳定、艺术字体与品牌方向一致、品牌色与产品不冲突、文字与产品动作存在可见因果、完整读字停留成立、没有未被选择的横向扫光 / 扫描线 / 光晕擦屏模板、文字没有事实扩写、声音没有重复叠加。H3 艺术字体不合格时标记当前生成失败，提出修正或调整方案并重新请求生成授权，不能以后期文字覆盖掩盖失败。
 4. 独立 BGM 是否生成由用户确认的声音方案决定；旁白、环境声、动作声和艺术字体包装均可保留。最终交付报告实际成片时长和文字 / 声音来源。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

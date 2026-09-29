@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-d
 description: 「Style D — Music / Audio App」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -63,3 +63,6 @@ If the brand is more electronic than lo-fi, swap "lo-fi hip-hop, vinyl crackle" 
 ## Director's notes
 
 When the theme color shifts (album art color change, accent fade), every UI element should shift in lockstep, including the text shadow; partial shifts read as a bug. The serif on the song title is doing 80% of the work — don't dilute it with bright color.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv
 description: 二次元漫画 ／ 游戏 PV —— 宣传片线方向之一：15 秒以内的动漫、漫画或游戏 PV：角色宣传、觉醒、战斗、世界观与抽卡活动。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -268,3 +268,6 @@ Prompt 编译后、生成指令前，如果用户主动要求修改，先判断�
 核对时长、画幅、最终文件数量、人物连续性、唯一画风权威、视觉产物形式、配色权威与饱和度策略、内部默认视觉路径的颜色预算、文字准确度、动作完成度、Logical Shot 承接、声音来源和最终停留。除非用户明确要求，否则不制作字幕。
 
 只导出一个最终视频。九宫格分镜预览、视觉权威图、标题卡或最终 Prompt 仅在用户请求时作为辅助资产交付。最终回复提供成片路径或画布产物、时长/画幅、参考素材贡献摘要、声音来源和一项可执行的下一轮优化建议。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

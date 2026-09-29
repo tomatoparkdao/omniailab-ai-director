@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-a
 description: 实战案例 A —— 写实犯罪短片，夜戏与光学，含 16 段成品提示词与 11 条问题解法。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

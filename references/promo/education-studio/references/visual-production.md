@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio-visual-production
 description: 「教育视频视觉制作」—— 教育内容工作室 方向细则：按内容选择视觉语言，让风格服务于概念清晰度：
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -21,3 +21,6 @@ agent_created: true
 每个镜头写清：时间码、教学目的、主体动作、镜头/转场、旁白、屏幕文字、资产来源。屏幕文字只保留关键词；关键公式或术语必须与旁白同步出现。
 
 视频节奏以认知负荷为准：新概念出现后留出解释与停顿；复杂图解分层出现；每个时间窗口聚焦术语、图表或动作中的一项主要变化。结尾加入一个可回答的问题或微练习。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

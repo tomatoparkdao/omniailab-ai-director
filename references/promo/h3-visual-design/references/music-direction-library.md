@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-music-direction-library
 description: 「风格化音乐与声音方向库｜H3 15 秒执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：当最终视频需要保留原声音、使用用户上传音频，或用户希望有与包装风格匹配的音乐时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -178,3 +178,6 @@ Sync: bind each major type/camera event to one cue_source and exact time. Keep d
 口播在 `Mode=preserve_original_audio` 下追加：`Editorial SFX MAP: [exact time] → [Keyword Hero / Evidence Card / editorial punch-in / layout swap] → [soft tick / paper flick / muted thump / air swipe / restrained UI click] → [dialogue ducking and recovery]`. 全片 3–5 个可听见的低电平短音效，其中两个必须对应不同 Keyword Hero，一个对应 Evidence Card；对白至少高出每个 cue 一个清晰混音层，不做逐字音效。
 
 如果没有音乐或用户明确不需要，写：`MUSIC_MODE=no_music. Non-diegetic music: N/A. Do not add background music.`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

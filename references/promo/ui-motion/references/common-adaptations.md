@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-common-adaptations
 description: 「Common adaptation requests」—— UI 动效与产品演示 方向细则：The primary knob in this skill is the brand profile (in brand_profile.
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -93,3 +93,6 @@ This is the most common complaint and the most important to address. Walk throug
 4. Did the model invent a "creative interpretation" that drifted from the brand?
 
 If any of these failed, regenerate the affected content with explicit brand language in the prompts. Don't ship a video that doesn't look like the brand.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

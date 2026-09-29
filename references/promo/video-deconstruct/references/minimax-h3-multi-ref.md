@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-video-deconstruct-minimax-h3-multi-ref
 description: 「MiniMax H3 Multi-Ref — 条件性多参考绑定」—— 视频拆解与逐镜复刻 方向细则：只有运行时能力筛选或用户指定已经选择 MiniMax H3，且当前 video work item 确实需要多个 image / video
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -46,3 +46,6 @@ agent_created: true
 ## Boundary
 
 Semantic Judgment 管贡献取舍，运行计划管 refs / work items / 执行策略，MiniMax H3 能力说明管工程事实。本文件不维护固定设置表、固定质量档、批次协议、旧 agent 分工或硬门。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

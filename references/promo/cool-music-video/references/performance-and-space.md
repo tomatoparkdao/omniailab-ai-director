@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-performance-and-space
 description: 「Fashion 人物动作与空间调度」—— 酷感音乐短片（15 秒横屏） 方向细则：每次生成提示词前完整读取本文件。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -126,3 +126,6 @@ AI 原创环境时，根据服装材质、音乐 groove 和 2–4 色色盘，�
 6. 相邻镜头是否避免重复动作族、身体轴线和运动方向？
 7. 人物脸、嘴型、肢体结构、服装身份是否在大动作中保持一致？
 8. 是否仍保留至少 2 个设计主导镜头，避免动作重新压掉字体与拼贴层级？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

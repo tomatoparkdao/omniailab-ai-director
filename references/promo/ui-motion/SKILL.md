@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion
 description: UI 动效与产品演示 —— 宣传片线方向之一：UI 动效、应用界面动画、SaaS 首屏动画与产品界面演示。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -189,3 +189,6 @@ Windows 下使用随 Skill 提供的合成流程并遵循平台路径分隔符�
 **Input**: "我想要 30s 的"
 
 → Continuation chain: segment 1 uses the all-purpose reference; segment 2 uses segment 1's extracted tail frame as its first frame. Only after both segments succeed, generate one 30s BGM and run the ordered concat + mux. See `long-form.md`.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

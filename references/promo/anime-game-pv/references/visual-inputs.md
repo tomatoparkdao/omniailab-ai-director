@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-anime-game-pv-visual-inputs
 description: 「视频模式、视觉权威与分镜预览」—— 二次元漫画 ／ 游戏 PV 方向细则：所有图片、视频和用户文字先形成视觉候选，不直接形成最终画风。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -142,3 +142,6 @@ Storyboard Preview 不是视频参考资产：内部标记为 `roles=none / rend
 | 游戏 UI / 抽卡 KV | 标题、卡片和前景 UI 分层视差进入，最终收束为活动定版。 |
 
 用户没有提供精确文字时，只迁移字体形状、色块、留白和版式运动，不虚构价格、活动规则、产品事实或官方宣称。版式层服务角色和叙事，不让 HUD、信息卡或字幕墙覆盖主体。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-product-visual-techniques
 description: 「产品广告视觉技法」—— 品牌广告与 TVC（官方） 方向细则：仅在“产品主角广告”路线需要生成场景锚点、关键帧或故事板时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -81,3 +81,6 @@ agent_created: true
 ## 故事板落位
 
 把选定技法分配到 5–9 个视觉事件：开场钩子 → 产品局部 → 完整出现 → 材质/成分/功能证明 → 中段记忆点 → 高潮 → Hero 定版。相邻事件预留可执行的遮挡物、形状、光线或材质变化，供视频阶段编译转场。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

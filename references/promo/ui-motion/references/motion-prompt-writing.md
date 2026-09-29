@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-motion-prompt-writing
 description: 「Motion prompt writing」—— UI 动效与产品演示 方向细则：Read this file before writing any motion_prompt for video generation. 
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -133,3 +133,6 @@ Before calling video generation, confirm:
 - Aspect ratio, resolution, frame rate, and technical duration are absent from the prose prompt and present in storyboard/storyboard metadata.
 - For segment N>1, the prompt begins from the supplied previous tail frame and never restages the opening.
 - Removing repeated adjectives would not make the prompt shorter; if it would, remove them.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

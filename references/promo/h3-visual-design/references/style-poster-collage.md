@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-poster-collage
 description: 「海报大字拼贴风｜H3 执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“海报大字拼贴风”，或需要纸张、油墨、撕纸、套印、网点和版面分栏时读取本文件。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -223,3 +223,6 @@ Localized effect: a torn edge or halftone pattern begins at [visible printed edg
 - [怪趣中文字体图集](https://www.xiaohongshu.com/discovery/item/69861f05000000001a01e9d4)：粗黑、笔刷手写、现代细字和小色块共同组成标题。转译为 H3：使用 `Display A 粗黑/粗宋 + Display B 手写/衬线 + Utility 稳定小字`，小色块和手写符号承担 Marks，不伪造刊物信息。
 
 从案例提取的执行规则：`先锁 TYPE CAST、纸面网格和颜色角色，再做 3–5 个完整状态`；`slide / rotate / snap / panel-expand 是纸块的可观察动作`；`粗黑、衬线/手写和稳定小字共同组成版式`；`纹理、阴影和网点必须服务版面`。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

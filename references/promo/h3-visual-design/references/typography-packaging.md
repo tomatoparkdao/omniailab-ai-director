@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-typography-packaging
 description: 「字体、Logo 与口播包装」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：把用户素材转成“主体、字体、图形、空间、镜头、光影和声音共同编排”的 H3 视频提示词。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -121,3 +121,6 @@ PACKAGING_SETUP = {
 ## 5. 唯一生成指令
 
 最终只输出一个使用 `working_language`、目标 5600–6200、绝不超过 7000 字符的 `final_h3_prompt`。长度按实际字符串逐字符计数，包含空格、标点、换行和素材标记；超过 7000 或无法可靠计数时禁止展示和执行。自动压缩顺序：先删重复形容词 → 合并重复身份/负面边界 → 合并相邻状态的同义句；保留准确文字、时间点、字体角色、素材来源、空间关系、动作链和必要检查。展示给用户的 Prompt 与实际视频生成使用的字符串必须逐字一致；分辨率默认使用 2K 并检查结果；所有设置未确认、Reference 未即时读取或任一全局/主体/风格检查未通过时，不得执行。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-editorial-collage
 description: 「编辑拼贴包装型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在纸张、照片、剪纸、杂志、日记、地图、胶片、动画贴片和印刷版面承担主要画面时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -222,3 +222,6 @@ SFX：从翻页、纸片、快门、铅笔、胶带、复印扫描、投影、�
 - 是否没有伪报纸、伪档案、完整小字卡司、重复人物、证据墙和素材雨？
 - 最后 5 秒是否仍有内容/版面升级；最终海报是否只稳定合理时长并保留真实媒介微运动？
 - 音乐是否有动机、推进、高潮和终止，不是翻页音效堆叠或没结尾的氛围床？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

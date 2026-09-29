@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-typography-and-credits
 description: 「电影片头与预告字体系统」—— 电影与剧集片头（标题序列） 方向细则：生成最终 Prompt 时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -221,3 +221,6 @@ Hero 可占 45%–80%，使用空/实心、宽/窄或衬线/工程字对比。�
 - AE 是否存在三种动态过程，而非静态牌子和淡入？
 - 拼贴是否保留混排、印刷材质和准确主标题？
 - 所有姓名、角色身份、片名、翻译、大小写和换行是否在白名单与逐镜中完全一致？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

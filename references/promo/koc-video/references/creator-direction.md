@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video-creator-direction
 description: 「创作者方向与角色资产」—— 达人原生社交视频（KOC ／ UGC） 方向细则：人物不是产品旁边的模特。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -86,3 +86,6 @@ agent_created: true
 - UGC 可信但不故意粗糙；KOC 有选择但不成为品牌 campaign。
 - 人物面部没有明显磨皮或蜡像感。
 - 穿戴类只有一个真人锚，产品关系建立在已有尺度证据上。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

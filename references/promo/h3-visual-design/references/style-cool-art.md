@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-cool-art
 description: 「炫酷艺术风｜H3 融合执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“炫酷艺术风”，或参考明确要求折射塑料、像素故障、主体驱动变形字体、高密度赛事海报、暗黑扫描裂变时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -198,3 +198,6 @@ BOUNDARY: exact readable text before/after every deformation; no random data, co
 - [高兴品牌｜英雄联盟 LPL 赛事包装](https://www.xiaohongshu.com/discovery/item/68932eb10000000005005822)：内化模块化中文主标题、2D 标题转 3D 字块、金属主体、透明环绕带与高密度真实信息层级。
 
 从用户上传的暗黑 H3 参考中内化径向红线聚字、横向扫描条、中心人物与后景大字、一次黑白反相、局部微距、裂隙光与单侧粒子剥离。所有参考只提供机制和审美校准，不复制其中品牌、人物、Logo、广告卖点、水印或原文案。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

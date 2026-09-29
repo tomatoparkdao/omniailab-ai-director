@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-f
 description: 「Style F — Spatial Audio Visualization」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -65,3 +65,6 @@ If the brand is warmer, swap "granular synth" for "warm pad swells" and bump to 
 ## Director's notes
 
 The orbs are *instruments*, not buttons. Treat them like they're being listened to, not clicked. Cursor is a *gaze*, not a pointer — it moves slowly and pauses before selecting. Avoid ever showing the orbs perfectly equal-spaced or perfectly aligned — asymmetry reads as "live", symmetry reads as "demo".
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

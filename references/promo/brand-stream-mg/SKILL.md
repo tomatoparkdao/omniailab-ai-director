@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-stream-mg
 description: 品牌流线 MG 动效（15 秒） —— 宣传片线方向之一：一张品牌 Logo ＋ 品牌名或主题词，做成 15 秒品牌流线 MG 动效（IP／3D 图标／能量节点领航元素）。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -87,3 +87,6 @@ agent_created: true
 [10-13s 阶段四：领航主角归位与无缝衔接] 严格一镜到底，镜头穿过旋转光圈，[品牌专属领航主角]引导所有视效元素向心旋转归位，其几何轮廓与动能轨迹精准对齐、平滑落入并无缝缝合到参考图Image 1 Logo的图形与文字轮廓线条中。
 [13-15s 强力重构与双保真] 所有特效元素严丝合缝地凝固重构为参考图中的Logo形态，场景背景色平滑无缝地过渡为与参考图一致的背景氛围。
 【强制定格指令】最终定格帧必须100%完整复原参考图Image 1的视觉状态，完全锁定参考图的原始背景颜色，完全锁定Logo本身原始色彩，完全保留所有文字信息、标志细节与原始比例。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

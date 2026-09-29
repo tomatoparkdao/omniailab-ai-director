@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-video-deconstruct
 description: 视频拆解与逐镜复刻 —— 宣传片线方向之一：拆解用户提供的视频或关键帧，提取镜头顺序、运镜、光影与节奏证据，编译为逐镜复刻提示词。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -61,3 +61,6 @@ agent_created: true
 - 不把固定“每 15 秒一条时间戳 Prompt”作为通用规则，也不向非 Seedance 模型输出其专用模板。
 - 不因拆解任务自动生成字幕、可读 Logo 或水印；但用户明确要求的精确文字/UI 要保留并采用确定性叠加路径。
 - 只做普通剪辑、字幕、压缩、转码或影评时不触发本 Skill。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

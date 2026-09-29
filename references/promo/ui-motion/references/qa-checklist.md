@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-qa-checklist
 description: 「Pre-delivery QA Checklist」—— UI 动效与产品演示 方向细则：Run through this before sending final.mp4 to the user. Brand consisten
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -86,3 +86,6 @@ Run through this before sending `final.mp4` to the user. **Brand consistency is 
 ## If any check fails
 
 **Brand consistency failure** is the most common and most visible. Don't ship a video that doesn't look like the brand. If the model drifted, regenerate the affected segment with a more explicit prompt that names the brand colors and the real brand mark.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

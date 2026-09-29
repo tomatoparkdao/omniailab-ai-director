@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-storyboard-schema
 description: 「Storyboard structure」—— UI 动效与产品演示 方向细则：This reference describes the planning structure for storyboard.json. K
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -51,3 +51,6 @@ Generate all segments before creating one instrumental BGM. Concatenate clips in
 - If a continuation tail frame is missing, stop the chain, identify the missing segment, and regenerate only that segment after its predecessor is stable.
 - If a join drifts, preserve the approved brand profile and local motion treatment, then regenerate the affected continuation rather than relabeling a new opening.
 - If assembly is unavailable, deliver the ordered clips, planning artifacts, and a clear note that final concatenation and mixing remain.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

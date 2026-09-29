@@ -14,7 +14,7 @@
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.28 |
+| Version | v2.0.29 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
@@ -42,9 +42,9 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 
 | Tool | Where to put it | How to invoke |
 |---|---|---|
-| **WorkBuddy** (recommended) | User level (global): `~/.workbuddy/skills/omniailab-ai-director/`<br><br>Project level: `<your project>/.workbuddy/skills/omniailab-ai-director/` | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**, or "run the default project". |
+| **Codex** (recommended) | No native skill directory: drop the folder into your project, e.g. `<your project>/skills/omniailab-ai-director/`, then add one line to `AGENTS.md` in the project root:<br>`For film production tasks: first read skills/omniailab-ai-director/SKILL.md and follow its workflow.` | Say "start making the film per SKILL.md". |
 | **Claude / Claude Code** | Personal: `~/.claude/skills/omniailab-ai-director/`<br><br>Project: `<your project>/.claude/skills/omniailab-ai-director/` | Type **`/omniailab-ai-director`**, or describe the task (e.g. "run the full film pipeline for this script"). |
-| **Codex** | No native skill directory: drop the folder into your project, e.g. `<your project>/skills/omniailab-ai-director/`, then add one line to `AGENTS.md` in the project root:<br>`For film production tasks: first read skills/omniailab-ai-director/SKILL.md and follow its workflow.` | Say "start making the film per SKILL.md". |
+| **WorkBuddy** | User level (global): `~/.workbuddy/skills/omniailab-ai-director/`<br><br>Project level: `<your project>/.workbuddy/skills/omniailab-ai-director/` | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
 
 > **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY / PROMO / ONBOARDING), the visual-language library, the 7 ready-made prompt sets, the documentary templates, **all 14 promo directions in full detail** and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
 
@@ -60,12 +60,12 @@ The repository is **public** and always tracks the latest skill version; update 
 ### 2. Where the script comes from (pick one)
 
 1. **You upload a locked script** — it reads it and enters P0 directly.
-2. **You give nothing and just say "start"** — it loads the built-in default script *Floor 17* (a 30-second suspense short) and tells you it is using the default, replaceable at any time. Good for a first run to learn the rhythm.
+2. **You give nothing and just say "start"** — it first asks one question: "do you have a script, or just a one-line idea?" It will **not** auto-load the built-in script. Say "run the default project" only if you want to see the sample *Floor 17* (a 30-second suspense short).
 3. **You give a one-line idea or title** (e.g. "make a space thriller short") — it first writes a locked script for you to confirm, then enters P0. Script length is kept to 30 seconds – 5 minutes.
 
 ### 3. Start command
 
-Say "start", "run the default project", "do Floor 17" — any start word works. It will **not** ask "what is your script?".
+Just say "start" — instead of asking "what is your script?", it asks "do you have a script, or just a one-line idea?". It will **not** run the built-in script by default; say "run the default project" or "do Floor 17" to use the sample.
 
 ### 4. Two things to settle before you start
 
@@ -429,7 +429,7 @@ omniailab-ai-director/
 │   ├── generation-guardrails.md / seedance-production.md
 │   └── (38 specification documents in total; plus 78 direction files under promo/)
 └── examples/                    # Finished-work layer: copy-paste ready
-    ├── floor17_script.md        # Default script “Floor 17” (30-second suspense short)
+    ├── floor17_script.md        # Sample script "Floor 17" (30-second suspense short; only on request)
     ├── aesthetics/              # Ready-made prompts for the seven A01–A07 aesthetics
     ├── case-studies/            # Six commercial-grade AI film case studies + README stage index
     ├── documentary/            # Seven ready-to-use documentary prompt templates
@@ -481,9 +481,9 @@ This Skill is a pure-text specification and is not bound to any one model — it
 
 | Tool | Best used for |
 |---|---|
-| **WorkBuddy** (recommended) | Running the full P0→P6: read/write files and run scripts in-session, with each stage's output landing on disk |
+| **Codex** (recommended) | Running the full P0→P6: strong engineering, direct project-file access, batch asset-list processing and scripted output organisation |
 | **Claude** | Script breakdown, prompt refinement, long-form documents (native Skill support, stable long-text rewriting) |
-| **Codex** | Batch asset-list processing, scripted output organisation (strong engineering, direct project-file access) |
+| **WorkBuddy** | Running the full P0→P6: read/write files and run scripts in-session, with each stage's output landing on disk |
 
 **Model guidance**
 

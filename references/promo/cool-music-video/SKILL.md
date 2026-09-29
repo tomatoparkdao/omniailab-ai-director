@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video
 description: 酷感音乐短片（15 秒横屏） —— 宣传片线方向之一：15 秒横屏音乐短片：复古拼贴、说唱与时尚表演。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -138,3 +138,6 @@ options:
 先把 `final_h3_prompt` 完整展示给用户；展示的字符串就是 H3 的最终提示词。随后在一次视频生成中使用同一字符串，保持字符级一致，不要总结、缩短、翻译、重写、重排、润色或追加任何文字。
 
 生成指令前核对：两道前置门通过；真实 refs 与提示词槽位一致；歌词/声线与人物一致；至少 8 个 Shot、4 个连贯空间区段、5 个动作族、2 个设计主导镜头；多数文字镜头有逐镜 Layer A/B/C；音乐有变化和明确结尾；实际字符数合法；展示字符串与执行字符串字符级一致。未通过时只修当前字符串，不派摘要版。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

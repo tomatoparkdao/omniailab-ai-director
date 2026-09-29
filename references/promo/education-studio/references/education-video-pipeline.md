@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio-education-video-pipeline
 description: 「教育视频生产管道」—— 教育内容工作室 方向细则：全部阶段产物必须物化到 OmniAiLab 画布 画布。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -391,3 +391,6 @@ brief
 3. shot plan：画面能表达关键关系；
 4. editing_project：旁白、字幕和画面时间相互对齐；
 5. review：列出事实、教学、音画、排版四类问题及处理状态。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

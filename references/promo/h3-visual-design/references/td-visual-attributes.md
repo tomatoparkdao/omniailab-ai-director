@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-td-visual-attributes
 description: 「视觉风格参考库 / Visual Style Attributes Reference」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：[Visual style]
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -215,3 +215,6 @@ Apply the visual style reference: desaturated palette, teal/orange split tone, s
 - **属性提取方式**：目视观察 + 风格摄影/调色行业通用描述
 - **不包含**：内容/题材/情绪分析——那是另一类问题
 - **维护**：v1，可根据用户反馈持续补充/调整
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

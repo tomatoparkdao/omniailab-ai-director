@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-case-calibration-matrix
 description: 「已验证案例校准矩阵」—— 电影与剧集片头（标题序列） 方向细则：每次生成只选择一个 primary_calibration。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -149,3 +149,6 @@ exclude=[案例专有实体、现有 IP、第二套完整视觉系统]
 - 字体是否继承案例关系但仍有 2–4 个不同角色；默认语言是否为中英双语？
 - 转场种子是否保留，并补齐起点、路径、切点、继承项和新落点？
 - 音乐是否保留案例气质但成为有起承转合和明确结束的原创 15 秒短曲？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

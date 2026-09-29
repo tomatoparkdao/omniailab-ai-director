@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-c
 description: 「Style C — Futuristic 3D Product」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -66,3 +66,6 @@ If the brand is warm, drop "metallic hits" for "warm pad swells" — keep the pr
 ## Director's notes
 
 The product is the star. Don't let the UI chrome compete with it. When the brand is warm, dial back the chrome and lean more on the wireframe glow — chrome reads cold. HUD annotations should *under*-explain: a coordinate readout, one label, a dotted line. Anything more breaks the credibility.
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

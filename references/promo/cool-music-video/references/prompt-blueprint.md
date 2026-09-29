@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-prompt-blueprint
 description: 「规整生成蓝图」—— 酷感音乐短片（15 秒横屏） 方向细则：最终提示词按“项目 → 参考 → 创意 → 音乐/歌词/表演 → 视觉/字体 → 镜头 → 全局负面”排序。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -72,3 +72,6 @@ Rhythm / Cut：声音触发与硬切方式。
 - 屏幕文字先完整可读，再变形、遮挡、撕裂或退场，不生成随机伪英文。
 - 聊天中展示的完整提示词就是实际生成输入；边界标签、说明文字和摘要都不得一同发送。
 - 完整 prompt 必须至少包含 8 个 `Shot`，并在每个 Shot 中分别写 `Layer A`、`Layer B`、`Layer C` 和 `Rhythm / Cut`；不能只在全局段落说一次“有三层字体”。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

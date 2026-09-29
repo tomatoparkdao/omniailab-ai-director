@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-constructed-world-vfx
 description: 「架空世界特效型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在不可能世界、巨型异象、真实微缩模型、太空/抽象舞台、粒子物理或空间变形本身是主要视觉事件时读取。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -202,3 +202,6 @@ Diegetic layer：从水压、风、石材共鸣、翻页、模型机械、投影
 - 巨型标题是否与世界共享前中后景；角色卡是否使用不同字体角色，不是全片同一个巨字？
 - 最后 5 秒是否仍有法则升级、人物选择和空间变化；最终片名是否只稳定合理时长？
 - 音乐是否有动机、推进、高潮和明确结束，而非长音、低频和环境声拼接？
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

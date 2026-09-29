@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-digital-product-promo-generator
 description: 数字产品宣传片 —— 宣传片线方向之一：把真实产品网页、前端项目、截图或录屏转成电影感产品宣传片。
-version: 2.0.28
+version: 2.0.29
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -89,3 +89,6 @@ agent_created: true
 ## 边界
 
 本 Skill 适用于产品发布片、功能演示、网站或桌面产品叙事，以及聚焦产品的动效镜头。不适用于通用视频剪辑、口播清理、无关动效艺术、不受支持的产品声明或未经授权的声音模仿。如果用户要求包含脚本、可复用角色或场景锚点、依赖素材和可审阅时间线的多场景制作，应保留其工作流，不要压缩成一次即兴单镜头生成。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI导演完整版（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
