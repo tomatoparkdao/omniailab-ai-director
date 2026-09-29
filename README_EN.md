@@ -264,9 +264,9 @@ Extracts scenes from the script's spatial chain and outputs a production list (s
 
 | Pitfall | Correct approach |
 |---|---|
-| People appearing in empty-scene plates | Must contain **no people** — that is the basis for overlaying blocking and first frames later |
-| Only one image for a space | Different lighting states (day / night / rain) **need separate images**; don't expect one image to cover everything |
-| Palettes without HEX | Must be **labelled with HEX**, otherwise they cannot be referenced later and the work is wasted |
+| People appearing in empty-scene plates | Must contain **no people** — that is the basis for overlaying blocking and first frames later; a plate with people has to be redone, or blocking cannot be overlaid at all |
+| Only one image for a space | **Different lighting states** in the same space (day / night / rain / different sources) **need separate images**; don't expect one image to cover everything |
+| Palettes without HEX | Must be **labelled with HEX** (dominant / shadow / midtone / light-source colour / accent — all five), otherwise they cannot be referenced later and the work is wasted |
 
 ### P4 | Shot design and first-frame generation
 
