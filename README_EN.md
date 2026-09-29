@@ -28,7 +28,7 @@
 | Version | v2.0.35 | Kept identical across the repository, the manual and this README; every update is pushed together |
 | Publisher / Developer | OmniAiLab / Mochiball | — |
 | License | MIT (see [LICENSE](LICENSE)) | Free to use, modify and redistribute |
-| Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) | How to invoke, 3-step start, stage-by-stage detail, dispatch lookup, model reference, pitfall table, FAQ, deliverables |
+| Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) / [Notion](https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d) | How to invoke, 3-step start, stage-by-stage detail, dispatch lookup, model reference, pitfall table, FAQ, deliverables |
 | Open-source repo (public) | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) | Clone it to install the latest version (`git clone` into your skills folder); update with `git pull`; issues welcome |
 
 The invocation name is **all-lowercase with hyphens** (`omniailab-ai-director`) — it is not the display name. Tools with native Skill support work best with the invocation name; tools without it will still trigger on a natural-language description (implicit invocation is allowed).
@@ -638,9 +638,10 @@ This Skill is a **workflow specification and prompt system**. It deploys no loca
 
 ## Companion manual
 
-This README is a complete mirror of the manual. The manual itself (with per-stage confirmation wording, the pitfall table and the quick-reference tables) lives in a Feishu doc, version-synced with the Skill:
+This README covers every point of the manual; **the full manual is published in both a Feishu doc and Notion, with identical content**, version-synced with the Skill:
 
-- **Manual (Chinese):** <https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA>
+- **Manual — Feishu (primary):** <https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA>
+- **Manual — Notion (same content):** <https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d>
 
 > **Mandatory sync:** every Skill update (version number, trunk workflow, model reference, or sub-skill wiring) must be reflected in that manual **and** in both READMEs, keeping version numbers aligned.
 

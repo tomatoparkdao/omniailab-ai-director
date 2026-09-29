@@ -28,7 +28,7 @@
 | 版本 | v2.0.35 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball | — |
 | 许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改与二次分发 |
-| 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) | 如何调用、三步启动、逐阶段操作细则、子技能调度速查、模型口径、避坑总表、常见问题、交付物清单 |
+| 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) ／ [Notion](https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d) | 如何调用、三步启动、逐阶段操作细则、子技能调度速查、模型口径、避坑总表、常见问题、交付物清单 |
 | 开源仓库（公开） | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) | 克隆即装最新版（`git clone` 到 skill 目录）；更新只需 `git pull`；发现问题欢迎在仓库提 issue |
 
 调用名是**全小写连字符**写法（`omniailab-ai-director`），不是「OmniAiLab AI 影视导演」这个显示名。支持 skill 的工具直接用调用名最稳；不支持原生 skill 的工具，用自然语言描述任务也能触发（本 skill 允许隐式调用）。
@@ -638,9 +638,10 @@ omniailab-ai-director/
 
 ## 配套操作手册
 
-本 README 是操作手册的完整镜像。手册本身（含逐阶段确认话术、避坑总表、速查表）在飞书文档，版本与 skill 版本严格同步：
+本 README 覆盖操作手册的全部要点；**完整手册同时发布在飞书与 Notion 两处，内容一致**，版本与 skill 版本严格同步：
 
-- **操作手册**：<https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA>
+- **操作手册（飞书，主文档）**：<https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA>
+- **操作手册（Notion，同内容）**：<https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d>
 
 > **【强制】文档同步**：本 skill 每次更新（版本号、主干流程、模型口径、子技能接线任一变化）都必须**同步更新**上述操作手册与两份 README，版本号保持一致。
 
