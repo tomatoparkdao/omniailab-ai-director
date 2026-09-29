@@ -92,7 +92,18 @@ The repository is **public** and always tracks the latest skill version; update 
 
 ### 3. Start command
 
-Just say "start" — instead of asking "what is your script?", it asks "do you have a script, or just a one-line idea?". It will **not** run the built-in script by default; say "run the default project" or "do Floor 17" to use the sample.
+```text
+$omniailab-ai-director start
+```
+
+Just say "start" — instead of asking "what is your script?", it asks "do you have a script, or just a one-line idea?".
+
+It will **not** run the built-in script by default. Only wording like this uses the built-in sample script (a 30-second suspense short, *Floor 17*):
+
+```text
+run the default project
+do Floor 17
+```
 
 ### 4. Two things to settle before you start
 
@@ -101,23 +112,33 @@ Just say "start" — instead of asking "what is your script?", it asks "do you h
 
 ### 5. You only ever reply two ways
 
-1. **"confirm / pass / locked / continue"** — releases the next stage. Anything else does not open the gate.
-2. **"change item X to …"** — it stays in the current stage and redoes it in place.
+1. **Release the next stage** — it must be one of these four; anything else does not open the gate:
+
+```text
+confirm / pass / locked / continue
+```
+
+2. **Ask for a change by location** — it stays in the current stage and redoes it in place:
+
+```text
+change the lighting in item 3 to side-backlight
+change shot 07 from a wide to a medium close-up
+```
 
 **Want only one capability?** Name it directly; the full pipeline is optional:
 
-| What you want | Just say | What you get back |
+| What you want | Copy this and just say it | What you get back |
 |---|---|---|
-| Image prompts | "image only — give me the prompt for this shot" | A ready-to-feed image prompt with look tier, composition and light positions |
-| Video prompts | "video prompt only — how do I shoot this shot" | A complete video prompt in the 16-block fixed order, checked against the eleven iron rules |
-| Performance design | "performance only — how should this character play this scene" | A performance task block: objective / obstacle / tactic, beat by beat |
-| Emotion control | "emotion only — how do I play this crying scene" | A whole-film emotion curve or a single-shot emotion engine output |
-| Look selection | "give me the look menu" / "use D01 + C04 + R01 + S2" | Visual-language tiers with ready-to-use phrasing |
-| Aesthetic recommendation | "which film aesthetic fits this scene" | 2–3 film-level recipe candidates, each with a one-line reason |
-| Fight choreography | "how should this fight go — give me a high-energy fight prompt" | Fight frame-chain, named actions with vectors, money-shot timeline |
-| Blocking / staging | "how should these people stand" / "the positions shifted again in the next shot" | A blocking baseline plus cross-shot lock — required whenever several people share the frame |
-| Camera and lighting | "what lens and light for this shot" / "how do I light the whole film" | A camera and lighting plan resolved from genre / scene / character / plot lookups |
-| Director style | "who should direct this" / "can I mix Wong Kar-wai with Fincher" | 2–3 director candidates with reasons, or a blend plan with the do-not-mix list |
+| Image prompts | `image only — give me the prompt for this shot` | A ready-to-feed image prompt with look tier, composition and light positions |
+| Video prompts | `video prompt only — how do I shoot this shot` | A complete video prompt in the 16-block fixed order, checked against the eleven iron rules |
+| Performance design | `performance only — how should this character play this scene` | A performance task block: objective / obstacle / tactic, beat by beat |
+| Emotion control | `emotion only — how do I play this crying scene` | A whole-film emotion curve or a single-shot emotion engine output |
+| Look selection | `give me the look menu` / `use D01 + C04 + R01 + S2` | Visual-language tiers with ready-to-use phrasing |
+| Aesthetic recommendation | `which film aesthetic fits this scene` | 2–3 film-level recipe candidates, each with a one-line reason |
+| Fight choreography | `how should this fight go — give me a high-energy fight prompt` | Fight frame-chain, named actions with vectors, money-shot timeline |
+| Blocking / staging | `how should these people stand` / `the positions shifted again in the next shot` | A blocking baseline plus cross-shot lock — required whenever several people share the frame |
+| Camera and lighting | `what lens and light for this shot` / `how do I light the whole film` | A camera and lighting plan resolved from genre / scene / character / plot lookups |
+| Director style | `who should direct this` / `can I mix Wong Kar-wai with Fincher` | 2–3 director candidates with reasons, or a blend plan with the do-not-mix list |
 
 > **The more specific the request, the less rework.** Three things matter most: ① the full locked script; ② delivery specs (aspect ratio, resolution, frame rate, duration); ③ hard constraints (what must not appear, what must appear). Give these up front and you save far more than patching later.
 
@@ -152,16 +173,20 @@ Reads the whole script, outputs the P0 intake summary, and in the **same reply**
 
 **Deliverables:** intake summary + ten-item breakdown + whole-film emotion curve.
 
-**Its confirmation wording:**
+**Its confirmation wording** (copy the whole block):
 
-> [Please confirm] Do you confirm the above P0A script breakdown and creative baseline (including the whole-film emotion curve)? Point out any specific items to change.
-> [Next step after confirmation] Establish the P1 whole-film cinematography, environment colour strategy and sound bible.
+```text
+[Please confirm] Do you confirm the above P0A script breakdown and creative baseline (including the whole-film emotion curve)? Point out any specific items to change.
+[Next step after confirmation] Establish the P1 whole-film cinematography, environment colour strategy and sound bible.
+```
 
 **Pitfalls**
 
-- Don't wait for P0 to be confirmed separately — **it won't be**; it continues straight into P0A.
-- The emotion curve should have **8–14 nodes (max 16)** and at least **one genuine breathing zone**. If you see "high energy throughout with no low point" or "a release point appearing out of nowhere", send it back.
-- The emotion curve is not decoration — P6's BGM in/out points and P4's rhythm checks depend on it. Get it wrong and everything downstream skews.
+| Pitfall | Correct approach |
+|---|---|
+| Waiting for P0 to be confirmed separately | **It won't be** — P0 and P0A run in the same reply, confirmed once after the emotion curve is shown |
+| A curve with high energy throughout, or a release point out of nowhere | **8–14 nodes (max 16)**, with at least **one genuine breathing zone**; otherwise send it back |
+| Treating the emotion curve as decoration | It drives P6's BGM in/out points and P4's rhythm checks — **get it wrong and everything downstream skews** |
 
 ### P1 | Creative baseline (the single most important confirmation)
 
@@ -171,19 +196,23 @@ After judging the script's genre, it **proactively proposes 2–3 aesthetic reci
 
 **Deliverables:** the "whole-film style lock" text — **every downstream image and video prompt must carry it verbatim at the start.**
 
-**Its confirmation wording:**
+**Its confirmation wording** (copy the whole block):
 
-> [Please confirm] Do you confirm the above P1 cinematography, environment colour strategy and sound bible? Point out changes directly.
-> [Next step after confirmation] First list the 9:16 character/state master-plate production list; confirm scope and dependency batches before generating.
+```text
+[Please confirm] Do you confirm the above P1 cinematography, environment colour strategy and sound bible? Point out changes directly.
+[Next step after confirmation] First list the 9:16 character/state master-plate production list; confirm scope and dependency batches before generating.
+```
 
 **Pitfalls**
 
-- **No images and no audio are generated at this stage** — no palette chart, no audio files, no BGM. If you expect images here, you are at the wrong stage.
-- The style lock, once confirmed, is a **frozen** fixed prefix and **cannot be changed afterwards**. Changing it means going back to P1, which reworks every downstream asset. Treat it as the one confirmation to read carefully.
-- "No need" is a legitimate option. If the script has no recipe-grade need, it says so explicitly — don't force an aesthetic.
-- **Settle "the hard things" at plate time.** Lens character (anamorphic-type optics), night-scene darkness, and in-frame printed text must all be solved at the **scene plate / first frame** stage and frozen into the style lock. Chasing them later in video prompts only makes the model drift shot to shot.
-- **Colour is tuned in the prompt, not in post.** The whole-film style prefix is **pasted shot by shot**; it carries the palette, exposure and contrast, grain, and camera-movement character. The criterion for choosing a film/print stock is "**which colour the shadows lean toward**" — pick the one leaning toward the film's dominant colour, not the "more expensive" one. Models warm up cool footage, and the root cause is usually a warm source in the reference image (which gets amplified); **writing "no yellow" does not work at all** — use a positive "colour constitution sentence." For a light source you cannot crop out of the reference, write "**it is switched off in this film**."
-- **Animation / hybrid projects must do a "medium determination" first.** P1 must determine the medium (photoreal / stylised 3D / 2D / hybrid) and write it into the style lock; that declaration becomes the only medium reference. Also lock the **whole-film lighting formula** (animation line = golden-hour side-backlight + long shadows) and the **style split** (moving objects get clean solid volume; heavy brushwork is reserved for the environment). Generate without a medium determination and every downstream asset gets reworked.
+| Pitfall | Correct approach |
+|---|---|
+| Expecting images or audio at P1 | **No images and no audio are generated at this stage** (no palette chart, no audio files, no BGM); expecting images here means you are at the wrong stage |
+| Wanting to change the style after locking | The style lock is **frozen once confirmed** — changing it means going back to P1, which reworks every downstream asset; **this is the one confirmation to read carefully** |
+| Forcing an aesthetic recipe | "No need" is legitimate; if the script has no recipe-grade need it says so explicitly |
+| Leaving lens character, night darkness or in-frame text to the video stage | **Settle "the hard things" at plate time** — all three are solved at the **scene plate / first frame** stage and frozen into the style lock; chasing them later only makes the model drift |
+| Relying on post grading, or writing "no yellow", to set the look | **Colour is tuned in the prompt**: paste the whole-film style prefix shot by shot (palette, exposure and contrast, grain, movement character); use a positive **"colour constitution sentence"**; choose film/print stock by "**which colour the shadows lean toward**", not by price; for an uncroppable bright object write "**it is switched off in this film**" |
+| Generating animation/hybrid without a medium determination | P1 must do the **medium determination** (photoreal / stylised 3D / 2D / hybrid), write it into the style lock, and lock the **whole-film lighting formula** and the **style split** (moving objects get clean solid volume; heavy brushwork stays with the environment) |
 
 ### P2 character assets
 
@@ -193,16 +222,20 @@ First a 9:16 character/state master-plate production list (asset type, upstream 
 
 **Deliverables:** 9:16 character master plates, 16:9 character sheets, performance master files.
 
-**Its confirmation wording:**
+**Its confirmation wording** (copy the whole block):
 
-> [Please confirm] Are the above character assets all locked? Point out specific characters and locations to change.
-> [Next step after confirmation] Extract the key-prop list and generate key-prop master plates.
+```text
+[Please confirm] Are the above character assets all locked? Point out specific characters and locations to change.
+[Next step after confirmation] Extract the key-prop list and generate key-prop master plates.
+```
 
 **Pitfalls**
 
-- Character sheets are **not a separate item and do not get a second list** — they are generated in one pass only after all 9:16 characters are confirmed. Don't push for a standalone sheet.
-- **Don't skip batches.** If an upstream (e.g. a parent character) is unconfirmed and you write downstream "blood relative" prompts, changing upstream wastes all of it.
-- Character consistency is inherited downstream from **genuinely confirmed images**, so every batch must be reviewed carefully — approve one wrong image and everything after is wrong.
+| Pitfall | Correct approach |
+|---|---|
+| Pushing for a standalone character sheet | Sheets are **not a separate item and get no second list** — generated in one pass only after all 9:16 characters are confirmed |
+| Skipping batches (writing downstream before upstream is confirmed) | Unlock by dependency batch: blood relatives / variants / costume changes / injuries / age states only after base characters are locked; **change upstream and everything downstream is wasted** |
+| Reviewing character images carelessly | Consistency is inherited downstream from **genuinely confirmed images** — **approve one wrong image and everything after is wrong** |
 
 ### P2 key props
 
@@ -214,8 +247,10 @@ First a **non-batched** table of final prop candidates (plot function, identity/
 
 **Pitfalls**
 
-- Props **have no batch concept** (unlike characters), but the list must be confirmed before generating — don't let it start drawing.
-- A prop image should read as a "product archive shot" — clean, single item, identifiable detail. Images containing people or hands cannot serve as prop master plates.
+| Pitfall | Correct approach |
+|---|---|
+| Assuming props are batched too | Props **have no batch concept** (unlike characters), but the **list must be confirmed before generating** — don't let it start drawing |
+| Using an image with hands or people as a prop plate | A prop image must read as a "**product archive shot**" — clean, single item, identifiable detail; **images containing people or hands cannot serve as prop master plates** |
 
 ### P3 scene assets
 
@@ -227,9 +262,11 @@ Extracts scenes from the script's spatial chain and outputs a production list (s
 
 **Pitfalls**
 
-- Empty-scene master plates **must contain no people** — that is the basis for overlaying blocking and first frames later.
-- Different lighting states in the same space **need separate images** (day / night / rain). Don't expect one image to cover everything.
-- Palettes must be **labelled with HEX**, otherwise they cannot be referenced later and the work is wasted.
+| Pitfall | Correct approach |
+|---|---|
+| People appearing in empty-scene plates | Must contain **no people** — that is the basis for overlaying blocking and first frames later |
+| Only one image for a space | Different lighting states (day / night / rain) **need separate images**; don't expect one image to cover everything |
+| Palettes without HEX | Must be **labelled with HEX**, otherwise they cannot be referenced later and the work is wasted |
 
 ### P4 | Shot design and first-frame generation
 
@@ -239,18 +276,22 @@ Breaks shots by dramatic beat (6–10 shots for a 30-second short; 15–30 shots
 
 **Deliverables:** shot list, blocking data, all first frames, per-shot performance passages, emotion beats.
 
-**Its confirmation wording:**
+**Its confirmation wording** (copy the whole block):
 
-> [Please confirm] Are the above shot list and all first frames locked? Point out specific shot numbers to change.
-> [Next step after confirmation] Enter P5 and generate video prompts and OmniAiLab parameters for each shot.
+```text
+[Please confirm] Are the above shot list and all first frames locked? Point out specific shot numbers to change.
+[Next step after confirmation] Enter P5 and generate video prompts and OmniAiLab parameters for each shot.
+```
 
 **Pitfalls (this stage has the most)**
 
-- **Blocking is the biggest failure area.** One scene must first have a "blocking baseline"; every later shot reads from it and **only changes the fields that genuinely changed**, with unchanged characters inherited and frozen. **Without evidence of a coordinate change, no character's position, facing or pose may be altered.** This is the cure for "last shot on the left, next shot runs right" — if you see drift again, just say "check blocking, run the cross-shot continuity protocol."
-- **Fight shots must fill in a "shot contract" first** (narrative purpose → shot size → camera position / observation axis → A/B frame positions → primary camera move → trigger point → end point → hand-off state), then fix A/B sides and three spatial anchors, and only then choreograph the action. Don't just write "the two start fighting."
-- First-frame prompts **must carry the P1 style prefix**; upload references by priority: **confirmed character plates > scene master plates > prop master plates** (max 6 images per node).
-- If the frame contains **Chinese text** (signage, street signs, packaging, on-screen text) or the output is a full storyboard board, switch image generation to **image2.5** — otherwise Chinese glyphs and layout break.
-- **The first frame is the final exposure and optics.** Its exposure determines every later shot's exposure, so don't plan to darken in the video stage. Keep **sky out of the composition** (any sky reliably drifts toward blue hour); frame windows so the opposite wall fills them. In-frame text is also finalised here. Also: **every asset used in this shot must already be named and locked** — any "tweak the wording on the fly" breaks consistency.
+| Pitfall | Correct approach |
+|---|---|
+| Cross-shot blocking drift (left in one shot, right in the next) | Build a **blocking baseline** per scene; every shot reads from it and **only changes the fields that genuinely changed**, with unchanged characters inherited and frozen; **without evidence of a coordinate change, no position / facing / pose may be altered**. On drift, say `check blocking, run the cross-shot continuity protocol` |
+| Writing "the two start fighting" for a fight shot | Fill in the **shot contract** first (narrative purpose → shot size → camera position / axis → A/B frame positions → primary move → trigger → end point → hand-off), then fix A/B sides and three spatial anchors, then choreograph |
+| First-frame prompt missing the style prefix, or wrong reference order | Must carry the **P1 style prefix**; upload references by priority: **confirmed character plates > scene master plates > prop master plates** (max 6 per node) |
+| Chinese text in frame while using the default image model | For **Chinese text** (signage, street signs, packaging, on-screen text) or a full storyboard board, switch to **image2.5** — otherwise glyphs and layout break |
+| Planning to fix exposure, optics or in-frame text at the video stage | **The first frame is the final exposure and optics**: don't plan to darken later; keep **sky out of the composition** (it reliably drifts toward blue hour) and frame windows filled by the opposite wall; text is finalised here. Also: **every asset used must already be named and locked** — on-the-fly rewording breaks consistency |
 
 ### P5 | Video prompts and OmniAiLab parameters
 
@@ -260,21 +301,64 @@ Every shot has **two mandatory upfront layers** — ① use ACTING to rewrite th
 
 **Deliverables:** per-shot video prompts + parameter table (shot number, model, duration, ratio, input method, reference list).
 
-**Its confirmation wording:**
+**Its confirmation wording** (copy the whole block):
 
-> [Please confirm] Do you confirm all the above video prompts and OmniAiLab parameters? Point out specific shot numbers to change.
-> [Next step after confirmation] Enter P6 to batch-generate video in the OmniAiLab canvas, produce audio, and edit and export the film.
+```text
+[Please confirm] Do you confirm all the above video prompts and OmniAiLab parameters? Point out specific shot numbers to change.
+[Next step after confirmation] Enter P6 to batch-generate video in the OmniAiLab canvas, produce audio, and edit and export the film.
+```
 
 **Pitfalls**
 
-- **Never skip ACTING and EMOTION and write video prompts directly**, and never bolt emotion on afterwards as a "supplement". This is the hard prerequisite this Skill stresses repeatedly — skipping it means giving up performance and emotion control.
-- **Image-to-video is mandatory**; direct text-to-video is forbidden (except pure black or text-only shots). Generate a first frame per shot first, then the video.
-- Model selection: character shots → **Seedance 2.5**; VFX / transformation → **Kling O3**; prop close-ups → **Vidu**; fallback / trial → **Wan 2.6 / Seedance 2.0 Fast**.
-- Aspect ratio, resolution, duration and model name all belong in the platform UI — **never in the prompt text**.
-- Fight shots need a complete **action chain** (attack intent → body and weapon motion → opponent response → contact feedback → displacement result → environmental aftermath): paired attack/defence, closed physical loop, no crossing the axis, one primary camera move per phase, and **no ending on a posed freeze**.
-- **Write prompts in the fixed block order and self-check against the eleven iron rules.** Block order (16 blocks): scene context → enabled references → whole-film locks → location map (GEO spatial map) → **eye-line and gaze** → first-frame state and spatial occupancy → format mode → lens (optics) → camera → action timing → performance task → physics → lighting → **sound and dialogue** → style and image quality → **positive lock**. **Dialogue goes only in the "sound and dialogue" block; the action block must contain not a single word of dialogue.** Iron rules in brief: say what is there, not what isn't; bind geometry to the frame, not to objects; one reaction per beat; imply scale through cues (prop scale as "value + relationship"); countable events need evidence; write action as a physical beat chain; adjacent shots must differ in size and angle; check countable body parts; for unwanted things in references, "switch them off"; **never write ages**; maintain a **banned-word dictionary**. **All constraints go into the final "positive lock" block — never in negative form.**
-- **Physics and continuity must be written down.** Door / window / opening geometry must be **repeated in full every shot**; prop scale gets "**value + relationship**"; walking gets a **gait lock**, side-by-side gets "shoulder to shoulder on the same depth line", and a single walk across shots gets **consistent camera speed**; fights use a **frame chain + single-take, per-second timeline**.
-- **Animation projects add the "animation-principle five-set" per shot.** Squash & stretch, anticipation, follow-through & overlap, arcs, moderate exaggeration — **write them explicitly; the model defaults to averages.** Modelling can keep photoreal texture, but motion follows animation principles, and **physical accuracy yields to expressive motion**; reuse the same lighting wording verbatim shot by shot.
+| Pitfall | Correct approach |
+|---|---|
+| Skipping ACTING and EMOTION and writing video prompts directly; or bolting emotion on afterwards | **Hard prerequisite**: produce the per-shot performance passage (ACTING) and the emotion layer (EMOTION) first; only **when both are ready** does CINEDANCE compose. Skipping it means giving up performance and emotion control |
+| Direct text-to-video | **Image-to-video is mandatory** (except pure black or text-only shots) — first frame per shot first, then the video |
+| Wrong video model | Character shots → **Seedance 2.5**; VFX / transformation → **Kling O3**; prop close-ups → **Vidu**; fallback / trial → **Wan 2.6 / Seedance 2.0 Fast** |
+| Putting aspect ratio, resolution, duration or model name into the prompt text | All belong in the platform UI — **never in the prompt text** |
+| Incomplete action chain in fight shots | Full chain: attack intent → body and weapon motion → opponent response → contact feedback → displacement result → environmental aftermath; paired attack/defence, closed physical loop, no crossing the axis, one primary move per phase, **no ending on a posed freeze** |
+| Not writing in the fixed block order, or not self-checking the iron rules | See **16-block order** and **eleven iron rules** below — dialogue goes only in the "sound and dialogue" block; the action block must contain not a single word of dialogue |
+| Physics and continuity not written down | Door / window / opening geometry **repeated in full every shot**; prop scale as "**value + relationship**"; walking gets a **gait lock**, side-by-side "shoulder to shoulder on the same depth line", cross-shot **consistent camera speed**; fights use a **frame chain + single-take per-second timeline** |
+| Missing the animation principles on an animation project | Add the **animation-principle five-set** per shot — **write them explicitly; the model defaults to averages**; reuse the same lighting wording verbatim shot by shot |
+
+**16-block fixed order** (write video prompts in this sequence; copy the whole block):
+
+```text
+1  Scene context
+2  Enabled references
+3  Whole-film locks
+4  Location map (GEO spatial map)
+5  Eye-line and gaze
+6  First-frame state and spatial occupancy
+7  Format mode
+8  Lens (optics)
+9  Camera
+10 Action timing
+11 Performance task
+12 Physics
+13 Lighting
+14 Sound and dialogue
+15 Style and image quality
+16 Positive lock
+```
+
+> **Dialogue goes only in the "sound and dialogue" block; the action block must contain not a single word of dialogue. All constraints go into the final "positive lock" block — never in negative form.**
+
+**The eleven iron rules** (self-check every shot; copy the whole block):
+
+```text
+1  Say what is there, not what isn't (writing "no flags" summons flags)
+2  Bind geometry to the frame, not to objects ("left of the gun" reads as left of frame)
+3  One reaction per beat
+4  Imply scale through cues, never metres (prop scale as "value + relationship")
+5  Countable events need visual evidence (one flash = one rocket)
+6  Write action as a physical beat chain
+7  Adjacent shots must differ in size and angle
+8  Check countable body parts ("only two hands, both in the same sleeve")
+9  Switch off unwanted things in references
+10 Never write ages (content filters tighten sharply on minors)
+11 Maintain a banned-word dictionary ("dark" → "low-key", "bumpy" → "fast motion")
+```
 
 ### P6 | Generation, editing and export
 
@@ -286,9 +370,11 @@ Guides you through creating a project on OmniAiLab (omniailabx.com) and uploadin
 
 **Pitfalls**
 
-- **Always confirm every first frame before batch generation.** One wrong first frame wastes an entire generated video — the most expensive rework there is.
-- BGM in/out points must **follow the P0A emotion curve**, not a feeling — mark only the nodes needing push / reversal / build-up / release.
-- **Editing and sound follow five phases.** Rough arrangement → rough cut → generation supervision → fine cut → **final cut**; after final cut, no new generation except emergency fixes. Transitions are designed: match by **movement direction + sound**, leave 8 frames of headroom and tailroom per segment, and cut on the frame where the covering element **fills ≥90% of frame**. Colour is **unified**, not graded shot by shot.
+| Pitfall | Correct approach |
+|---|---|
+| Batch-generating before all first frames are confirmed | **Always confirm every first frame before batch generation** — one wrong frame wastes an entire generated video, **the most expensive rework there is** |
+| Laying BGM by feel | In/out points must **follow the P0A emotion curve** — mark only the nodes needing push / reversal / build-up / release |
+| Editing and sound not following the phases | Rough arrangement → rough cut → generation supervision → fine cut → **final cut**; no new generation after final cut except emergency fixes. Match transitions by **movement direction + sound**, leave **8 frames** of headroom and tailroom per segment, cut on the frame where the covering element **fills ≥90% of frame**; colour is **unified**, not graded shot by shot |
 
 ---
 
