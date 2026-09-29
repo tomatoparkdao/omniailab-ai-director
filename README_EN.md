@@ -72,7 +72,7 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 | **Codex** (recommended) | No native skill directory: drop the folder into your project, e.g. `<your project>/skills/omniailab-ai-director/`, then add one line to `AGENTS.md` in the project root:<br>`For film production tasks: first read skills/omniailab-ai-director/SKILL.md and follow its workflow.` | Say "start making the film per SKILL.md". |
 | **Claude / Claude Code** | Personal: `~/.claude/skills/omniailab-ai-director/`<br><br>Project: `<your project>/.claude/skills/omniailab-ai-director/` | Type **`/omniailab-ai-director`**, or describe the task (e.g. "run the full film pipeline for this script"). |
 | **WorkBuddy** | User level (global): `~/.workbuddy/skills/omniailab-ai-director/`<br><br>Project level: `<your project>/.workbuddy/skills/omniailab-ai-director/` | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
-| **OmniAiLab** (omniailabx) | First [download and install](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); then put the whole folder into its **skill directory** (the client shows where that is) | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
+| **OmniAiLab** (omniailabx) | [Download from the official site](https://www.omniailabx.com/plugin) (Windows local build v0.8.16), or use the [mirror link](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); then put the whole folder into its **skill directory** (the client shows where that is) | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
 
 > **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY / PROMO / ONBOARDING), the visual-language library, the 7 ready-made prompt sets, the documentary templates, **all 14 promo directions in full detail**, **7 real promo samples**, **camera & lighting indexes** and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
 
@@ -609,7 +609,7 @@ This Skill is a pure-text specification and is not bound to any one model — it
 | **Codex** (recommended) | Running the full P0→P6: strong engineering, direct project-file access, batch asset-list processing and scripted output organisation |
 | **Claude** | Script breakdown, prompt refinement, long-form documents (native Skill support, stable long-text rewriting) |
 | **WorkBuddy** | Running the full P0→P6: read/write files and run scripts in-session, with each stage's output landing on disk |
-| **OmniAiLab** (omniailabx) | Running the full P0→P6: a chat client in the same class as WorkBuddy, [download and install](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); read/write files and run scripts in-session, generation unified in the OmniAiLab canvas |
+| **OmniAiLab** (omniailabx) | Running the full P0→P6: a chat client in the same class as WorkBuddy, [download from the official site](https://www.omniailabx.com/plugin) (Windows local build v0.8.16; [mirror link](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) access code `2gff`); read/write files and run scripts in-session, generation unified in the OmniAiLab canvas |
 
 **Model guidance**
 

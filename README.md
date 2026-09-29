@@ -72,7 +72,7 @@
 | **Codex**（推荐主用） | 没有原生 skill 目录：把文件夹放进项目，例如 `<你的项目>/skills/omniailab-ai-director/`，再在项目根目录的 `AGENTS.md` 里加一行：<br>`影视制作任务：先读 skills/omniailab-ai-director/SKILL.md，并按其流程执行。` | 说"按 SKILL.md 开始做片子"。它读 `AGENTS.md` 后会加载这个 skill。 |
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
 | **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
-| **OmniAiLab**（omniailabx） | 先[下载安装](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；安装后把整个文件夹放进它的 **技能目录**（客户端内可查看技能目录位置） | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
+| **OmniAiLab**（omniailabx） | [官网下载](https://www.omniailabx.com/plugin)（Windows 本地版 v0.8.16），或[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；安装后把整个文件夹放进它的 **技能目录**（客户端内可查看技能目录位置） | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
 > **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**、**机位与布光索引**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
@@ -609,7 +609,7 @@ omniailab-ai-director/
 | **Codex**（推荐） | 完整跑 P0→P6：工程能力强，可直接操作项目文件、批量处理资产清单、脚本化整理各阶段产物 |
 | **Claude** | 剧本解析、提示词打磨、长篇文档产出（原生支持 skills，长文本改写稳定） |
 | **WorkBuddy** | 完整跑 P0→P6：会话内可读写文件、跑脚本，每阶段产物直接落盘 |
-| **OmniAiLab**（omniailabx） | 完整跑 P0→P6：与 WorkBuddy 同类的对话客户端，[下载安装](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；会话内可读写文件、跑脚本，生成统一在 OmniAiLab 画布完成 |
+| **OmniAiLab**（omniailabx） | 完整跑 P0→P6：与 WorkBuddy 同类的对话客户端，[官网下载](https://www.omniailabx.com/plugin)（Windows 本地版 v0.8.16；[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) 提取码 `2gff`）；会话内可读写文件、跑脚本，生成统一在 OmniAiLab 画布完成 |
 
 **模型建议**
 
