@@ -8,13 +8,13 @@
 
 > © OmniAiLab ｜ Developer: Mochiball ｜ Platform: [omniailabx.com](https://www.omniailabx.com/)
 
-**A film-industry-grade, end-to-end AI director Skill.** Hand it a locked script and it walks you from script breakdown all the way to a finished film, following real production standards. **Works for both live-action realism and animation**, from a 30-second short to a feature with a hundred-plus scenes.
+**A film-industry-grade, end-to-end AI director Skill — and a creative system that guides your decisions.** It doesn't just run a pipeline: **the first thing it does is ask what kind of piece you're making** (narrative film / short drama / animation / documentary / commercial / title sequence / music video / game PV / UI motion — each takes a different track), then lets you pin down the director, camera, lighting and aesthetics yourself or leave it to the Skill; after that it walks you from script breakdown to finished film following real production standards. **Works for both live-action realism and animation**, from a 30-second short to a feature with a hundred-plus scenes.
 
 | Item | Value |
 |---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` |
 | Display name | OmniAiLab AI Film & TV Director |
-| Version | v2.0.34 |
+| Version | v2.0.35 |
 | Publisher / Developer | OmniAiLab / Mochiball |
 | License | MIT (see [LICENSE](LICENSE)) |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) |
@@ -31,6 +31,22 @@ Hand it a locked script and it takes you from script breakdown to finished film 
 - **Scope · any medium** — live-action photoreal pipelines, plus pure animation / 2D cartoon / 3D game-engine render style / 3D + hand-painted hybrid.
 - **Scope · any length** — 30-second shorts, single-episode short dramas, brand films, narrative music-video segments, all the way up to features with dozens or hundreds of scenes, tens of minutes to two hours-plus (**features no longer need to be split into episodes**).
 - **Default medium** — live-action photoreal (used when unspecified). For animation / hybrid projects, P1 first performs a **medium determination** and writes it into the "whole-film style lock"; from then on that declaration is the single source of truth for medium — modeling, brushwork, motion and lighting follow the **Animation & Hybrid Medium layer**, and motion obeys **animation principles** (squash & stretch / anticipation / follow-through & overlap / arcs / exaggeration), with physical accuracy yielding to expressive motion.
+
+---
+
+## What's inside
+
+**It is not "a template that runs a pipeline" — it is a creative system that asks questions, proposes options, and translates adjectives into parameters.**
+
+| Layer | What it gives you |
+|---|---|
+| **① A guided entry — you need no jargon** | It first determines the **form of work**: narrative film / short drama / animation / documentary / commercial / title sequence / music video / game PV / UI motion / creator video / education — each runs on its own track. If you can't say, it asks **only three questions** to narrow down (where it plays / are the people real or performed / what must it deliver). If three questions don't settle it, it **won't guess** — it proposes the shortest viable deliverable for you to decide. |
+| **② Creative decisions on a menu — or delegated** | **20 director presets** (single or blended: one lead director sets the whole-film baseline, plus 1–2 others lending specific dimensions) · **five-dimensional camera coordinates** (6 body formats × 11 lens characters × 6 focal lengths × 3 depth-of-field tiers × 20 movements) · **33 lighting setups × 5 colour-temperature variants** · **7 film-level aesthetic recipes** (A01–A07) · **D/P/C/R/S visual-language vocabulary**. All of it is yours to pick, or you can leave it to the Skill — if you can't say, it proposes 2–3 candidates with reasons, by genre. |
+| **③ Expertise lives in mechanisms, not adjectives** | **Directorial reasoning**: choosing a director loads his underlying mechanisms for space, camera, light, time and subtext; every preset states its **"counter-example"** — the *mechanism difference* from the nearest-lookalike director (e.g. Kubrick compresses people into architecture with wide lenses, Fincher cuts them out as specimens with long lenses — **the background requirements are opposite**). A **dispatch lookup** maps **16 genres / 22 scene types / 16 character functions / 18 plot beats** straight to camera and lighting choices. **A 16-block fixed prompt order + eleven iron rules** ("negation summons", "anchor geometry to the frame, not the object", "solve the hard parts in a still plate"). Plus an **asset system**: paired assets, unified naming, state management, voice lock. |
+| **④ Backed by real projects** | **6 commercial-grade case studies** (live-action shorts / features / animation, with production-ready prompt blocks and "problem → fix" lists) · **49 method figures** (keyword lookup index — the hardest things are shown, not described) · **7 real finished-film samples** (verbatim source text plus breakdown) · **14 commercial-video tracks** (brand ad / title sequence / motion design / game PV / UI motion / music video / creator video / education / video deconstruction / voice cloning). When unsure how to write something, copy a finished block. |
+| **⑤ Full pipeline to delivery** | P0 project intake → P0A ten-point script breakdown with a whole-film emotion curve → P1 photography, colour and sound baseline → P2 character and key-prop boards → P3 scene assets and environment colour cards → P4 shot design and first frames → P5 video prompts and canvas parameters → P6 generation, editing and export in the **OmniAiLab infinite canvas**. **One confirmation gate at the end of each stage** — you only reply "confirm" or "change item X". |
+
+> **Adjectives get translated into parameters.** Say "make it classy" or "cinematic" and it first converts that into executable tiers (soft curve, 3:1 ratio, medium-telephoto compression, 6-second average shot) for you to confirm — **adjectives can't be executed; tiers can.**
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-images-index
 description: 案例配图索引 —— 49 张方法示意图与「关键词 → 图」反查表。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

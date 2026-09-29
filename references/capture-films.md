@@ -1,7 +1,7 @@
 ---
 name: omniailab-capture-films
 description: 拍摄胶片预设 —— C01–C14 电影负片与反转片的模拟口径词汇。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

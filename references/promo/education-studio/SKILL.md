@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-education-studio
 description: 教育内容工作室 —— 宣传片线方向之一：教育内容与视频一体化：教学设计、分镜、视频生成与成片（含评量与练习）。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

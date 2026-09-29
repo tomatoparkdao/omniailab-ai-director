@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-tech-particle
 description: 「科技粒子风｜H3 执行规则」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“科技粒子风”，或内容需要精密、数字化、扫描、能量聚合与轻量界面感时读取本文件。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-editorial-collage
 description: 「编辑拼贴包装型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在纸张、照片、剪纸、杂志、日记、地图、胶片、动画贴片和印刷版面承担主要画面时读取。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

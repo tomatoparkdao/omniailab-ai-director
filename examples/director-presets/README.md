@@ -1,7 +1,7 @@
 ---
 name: omniailab-director-presets-index
 description: 导演预设库索引——20 位导演的选择表、按类型推荐、混合速查、档位映射与扩容说明。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

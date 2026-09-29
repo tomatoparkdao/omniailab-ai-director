@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cool-music-video-prompt-blueprint
 description: 「规整生成蓝图」—— 酷感音乐短片（15 秒横屏） 方向细则：最终提示词按“项目 → 参考 → 创意 → 音乐/歌词/表演 → 视觉/字体 → 镜头 → 全局负面”排序。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

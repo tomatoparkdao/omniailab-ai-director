@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-product-visual-techniques
 description: 「产品广告视觉技法」—— 品牌广告与 TVC（官方） 方向细则：仅在“产品主角广告”路线需要生成场景锚点、关键帧或故事板时读取。
-version: 2.0.34
+version: 2.0.35
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
