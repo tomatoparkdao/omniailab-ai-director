@@ -619,6 +619,23 @@ This Skill is a pure-text specification and is not bound to any one model — it
 
 ---
 
+## System requirements
+
+This Skill is a **workflow specification and prompt system**. It deploys no local service and consumes no local compute — **all image and video generation happens inside the OmniAiLab canvas**. What matters is the client that runs the conversation and where you keep your assets.
+
+| Item | Minimum | Recommended | Purpose |
+|---|---|---|---|
+| Chat client | An AI coding assistant that can read local files (any of Codex / Claude / WorkBuddy) | As above; **Codex** is the most stable on long pipelines | Loading the Skill and producing prompts and project files stage by stage |
+| Local disk | 1 GB free | 5 GB or more | The Skill itself is about 3 MB; final cuts, first frames and asset images are stored per project |
+| Network | Access to OmniAiLab and to your chat service | Stable broadband | Generation, asset download, repository sync |
+| Browser | Chrome or Edge from the last two years | Latest version | Running generation in the OmniAiLab canvas |
+| Generation compute | **No local GPU required** | — | All generation runs in the OmniAiLab cloud |
+| Optional local software | — | 3D previs, compositing and motion, raster retouching, procedural and real-time visual tools | Only when a project needs them; the Skill produces specifications and prompts only |
+
+**What you do not need**: a local model, a vector database, any API key, or a professional GPU. Generation parameters are chosen in the OmniAiLab canvas, subject to the models the platform currently offers.
+
+---
+
 ## Companion manual
 
 This README is a complete mirror of the manual. The manual itself (with per-stage confirmation wording, the pitfall table and the quick-reference tables) lives in a Feishu doc, version-synced with the Skill:
@@ -629,11 +646,57 @@ This README is a complete mirror of the manual. The manual itself (with per-stag
 
 ---
 
-## License
+## Contributing
+
+This repository is open source under the **MIT License** — contributions are welcome. One rule applies to everything: **submit methods, specifications and prompts only, and introduce no third-party platform dependency** — all generation happens in OmniAiLab and must match the existing conventions.
+
+### Ways to contribute
+
+| Area | What to submit | Where |
+|---|---|---|
+| New director preset | Write a new director following the six-part structure; it **must include a "counter-example: the nearest director it is confused with" section** and state the mechanical difference rather than an adjective difference | `examples/director-presets/`, plus one row in each of the index tables |
+| New camera and lighting combinations | New lens-character tiers, lighting setups, intent tags and use-case tags | The two index files under `examples/camera-light/` |
+| New case study | A post-mortem of a real finished project: ready-to-use prompt blocks plus a "problem → solution" list | `examples/case-studies/` |
+| New commercial-short direction | Follow the structure of the existing directions and keep that direction's own `references/` | `references/promo/` |
+| New aesthetic recipe | A film-level recipe plus ready-to-use prompts | `references/aesthetic-recipes.md`, `examples/aesthetics/` |
+| Fixes and completion | Typos, outdated wording, broken links, inconsistent counts, tables that do not span full width on GitHub | Open a PR or an issue |
+
+### How to submit
+
+```bash
+git clone https://github.com/tomatoparkdao/omniailab-ai-director.git
+cd omniailab-ai-director
+
+# Self-check after your change (all three are hard requirements)
+# 1) every .md opens with the eight-item frontmatter and closes with the attribution footer
+# 2) any new or edited table must span full width on GitHub
+# 3) the version number stays aligned across SKILL.md / VERSION / openai.yaml / both READMEs
+
+git add -A
+git commit -m "docs: what changed"
+git push
+```
+
+### Code of conduct
+
+Professional, evidence-based, reproducible. The test for any discussion is "does this make a better film": a new method must land on executable parameters — no piles of adjectives, and no verbatim reuse without attribution.
+
+---
+
+## License & Legal
 
 This repository is released under the **MIT License** — see [LICENSE](LICENSE). You may freely use, modify and distribute it, including commercially, provided the copyright and permission notice is retained.
 
-> Note: each file in this Skill retains the header/footer notice `© OmniAiLab ｜ Developer: Mochiball`. That notice identifies the source and preserves brand attribution; **it does not impose any restriction beyond the MIT License.**
+> Attribution note: every file in this Skill keeps `© OmniAiLab ｜ Developer: Mochiball` in its frontmatter and footer. That notice identifies the source and preserves brand attribution; **it does not impose any restriction beyond the MIT License.**
+
+**By using this Skill you acknowledge and accept the following:**
+
+- **No warranty** — no guarantee of output quality, platform availability, or fitness for any particular purpose.
+- **Costs are yours** — any fees charged by OmniAiLab or any third-party tool are the user's sole responsibility.
+- **Human review is mandatory** — every generated image, video, audio track and piece of copy **must be reviewed by a person before publication**; responsibility for content compliance rests with the user.
+- **Third-party rights** — no license is granted for any third-party trademark, brand, likeness, music or footage; clear your own rights for real people, brand marks and copyrighted music or video material.
+- **Source of materials** — the methods in the case-study library are **distilled and rewritten in Chinese** from public post-mortems; method extraction only, no verbatim reuse. Rights holders who believe something is used improperly can reach us via an issue.
+- **Liability** — the author and maintainer accept no liability for any loss caused directly or indirectly by use of this Skill.
 
 ---
 
