@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-cinematic-title-sequence-live-action-graphics
 description: 「实拍动态图形合成型片头与单条预告」—— 电影与剧集片头（标题序列） 方向细则：只在真实人物、城市、建筑和动作仍清楚可辨，但多窗口、动态字体、空间字幕、遮罩、折射、粒子与 AE 级多层合成承担主要节奏时读取。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

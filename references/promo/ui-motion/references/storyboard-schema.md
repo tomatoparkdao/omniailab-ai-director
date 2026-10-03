@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-storyboard-schema
 description: 「Storyboard structure」—— UI 动效与产品演示 方向细则：This reference describes the planning structure for storyboard.json. K
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

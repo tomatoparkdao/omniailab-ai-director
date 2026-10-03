@@ -1,7 +1,7 @@
 ---
 name: omniailab-print-films
 description: 电影印片风格预设（R01–R02）。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

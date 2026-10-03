@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-common-adaptations
 description: 「Common adaptation requests」—— UI 动效与产品演示 方向细则：The primary knob in this skill is the brand profile (in brand_profile.
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

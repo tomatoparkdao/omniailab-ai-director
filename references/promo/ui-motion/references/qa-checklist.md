@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-qa-checklist
 description: 「Pre-delivery QA Checklist」—— UI 动效与产品演示 方向细则：Run through this before sending final.mp4 to the user. Brand consisten
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

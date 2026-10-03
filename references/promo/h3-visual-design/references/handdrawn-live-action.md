@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-handdrawn-live-action
 description: 「真人实拍 × 手绘融合」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：把简短创意转化为一份可直接复制给视频模型的 prompt，遵循用户原始风格。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

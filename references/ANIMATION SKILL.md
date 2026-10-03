@@ -1,7 +1,7 @@
 ---
 name: omniailab-animation
 description: 动画与混合媒介制作层 —— 媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

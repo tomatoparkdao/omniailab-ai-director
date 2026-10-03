@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.0.35-1f6feb?style=flat-square" alt="版本 2.0.35"></a>
+  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.2.1-1f6feb?style=flat-square" alt="版本 2.2.1"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
   <img src="https://img.shields.io/badge/%E5%AA%92%E4%BB%8B-%E5%86%99%E5%AE%9E_%2B_%E5%8A%A8%E7%94%BB-db6d28?style=flat-square" alt="媒介 写实与动画">
@@ -25,7 +25,7 @@
 |---|---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` | 全小写连字符写法；支持 skill 的工具直接用它调起，不支持的工具用自然语言描述也能触发（本 skill 允许隐式调用） |
 | 显示名 | OmniAiLab AI 影视导演 | 仓库页面与文档里显示的名字，不是调用名 |
-| 版本 | v2.0.35 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
+| 版本 | v2.2.1 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball | — |
 | 许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改与二次分发 |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) ／ [Notion](https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d) | 如何调用、三步启动、逐阶段操作细则、子技能调度速查、模型口径、避坑总表、常见问题、交付物清单 |
@@ -56,6 +56,7 @@
 | **③ 专业在机制，不在形容词** | **导演式推理**：选一位导演＝加载他处理空间／机位／光影／时间／潜文本的底层机制；每位都写明**「反例」**——与最容易混的相邻导演的**机制差异**（例如库布里克用广角把人压进建筑、芬奇用长焦把人切成样本，**两者的背景要求正好相反**）。**调度反查表**：按**作品类型 16 类／场景 22 类／人物 16 类／剧情节点 18 个**直接给机位与布光方案。**提示词 16 段固定块序 ＋ 十一条铁律**（"否定即召唤""几何绑画框不绑物件""把难的东西放进静帧"）。**资产体系**：成对资产、统一命名、状态管理、声音锁定。 |
 | **④ 有真实项目背书** | **6 个商业级实战案例**（写实短片／长片／动画，含成品提示词块与「问题 → 解法」清单）· **49 张方法配图**（关键词反查索引，最难讲清的部分直接给图）· **7 条真实成片样例**（逐字原文 ＋ 拆解）· **14 个宣传片方向细则**（品牌广告／片头／动态视觉／游戏 PV／UI 动效／MV／达人视频／教育／视频拆解／音色克隆等）。拿不准怎么写，直接照抄成品块。 |
 | **⑤ 全链路到成片** | P0 项目接收 → P0A 十项剧本解析与全片情绪曲线 → P1 摄影色彩与声音创作基准 → P2 角色与关键道具母板 → P3 场景资产与环境色卡 → P4 分镜设计与首帧 → P5 视频提示词与画布参数 → P6 在 **OmniAiLab 无限画布**中生成、剪辑、导出成片。**每阶段末尾一次确认门**，你只需回答"确认"或"第 X 处要改"。 |
+| **⑥ 宣传片类会先帮你选通道** | 同一支宣传片／产品片／发布视频／功能演示，有两条路：**生成通道**（画面由模型生成，在 OmniAiLab 画布选 **MiniMax H3**）与**代码渲染通道**（真实页面截图 ＋ 代码逐帧渲染，画面 100% 可控，还能回交可编辑工程）。两条**并列且可接力**。它**先给判断、再给选项**：按**五个判据**（画面主角是真人实景还是界面数据／要不要分毫不差／有没有可截图的真实界面／要不要逐帧可控／时长与投放）报出倾向，并**说清代价**；**定形态时只报倾向、不展开**，**素材核完后、进分镜前正式确认并锁定**。场景覆盖**按画面主角分四类**（人为主体／物为主体／屏为主体／混合），含企业形象／TVC／公益／城市／招聘／产品广告／软件发布／功能演示／数据可视化／电视包装／大屏循环，并给出**混合接力分工**（会动的真人实物走生成、屏幕上的一切走代码渲染）。代码渲染侧自带 **157 张动效镜头配方卡**、七份规则文档、可跑工程模板与 **154 份音效素材**；**不适用的片子会明确说不，并给你替代路线**。 |
 
 > **形容词会被翻译成参数。** 你说"高级一点""电影感"，它会先翻成可执行的档位（曲线柔、光比 3:1、中长焦压缩、平均镜头 6 秒）报给你确认——**形容词不可执行，档位才可执行**。
 
@@ -74,7 +75,7 @@
 | **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 | **OmniAiLab**（omniailabx） | [官网下载](https://www.omniailabx.com/plugin)（Windows 本地版 v0.8.16），或[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；安装后把整个文件夹放进它的 **技能目录**（客户端内可查看技能目录位置） | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
-> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**、**机位与布光索引**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
+> **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导 / MOTION-STUDIO 动效工作室）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**、**机位与布光索引**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
 **克隆安装（推荐）**
 
@@ -159,6 +160,8 @@ $omniailab-ai-director 开始
 | **P4** | 拆镜头 → 完整分镜表 → 站位基线 → 为每镜生成 16:9 首帧图 | 分镜表、站位数据、全部首帧图、逐镜表演段落 |
 | **P5** | 表演段落 ＋ 情绪层 ＋ 空间数据 → 合成最终视频提示词与参数表 | 逐镜视频提示词、OmniAiLab 参数表 |
 | **P6** | 在 OmniAiLab 画布批量生成、配音、BGM、剪辑、导出 | 成片 MP4、全部素材、质检报告 |
+
+> **宣传片类项目在进入这条链之前，先过一道「通道选择」**：同一支宣传片有**生成通道**（画面由模型生成，OmniAiLab 画布选 MiniMax H3）与**代码渲染通道**（真实界面截图 ＋ 代码逐帧渲染）两条路，选错要整支重做。它会在**定形态时先给一句倾向**、在**素材核完后、进分镜前正式确认并锁定**。判据、时机、场景全表与混合分工见 `references/CHANNEL-SELECT SKILL.md`。
 
 > **门禁是硬规则。** P0 与 P0A 必须在同一回合连做，P0 不单独确认；从 P0A 起，每阶段末尾它都会给出固定话术，你回复"确认"才解锁下一步。想改就停在原地改，改完再确认——**不要试图一句话让它把后面几阶段一起做完。**
 
@@ -408,7 +411,9 @@ $omniailab-ai-director 开始
 | **CAMERA-LIGHT** 机位与布光预设层 | `references/CAMERA-LIGHT SKILL.md` | 五维机位坐标（机身格式档 × 镜头性格档 × 焦段档 × 光圈档 × 运动档）＋布光三灯结构与色温变体；**意图 → 组合反查表** 与 **类型／场景／人物／剧情四路调度反查表**（`examples/camera-light/` 三份索引）；**按作品类型 16 类给全片基线、按场景 22 类／人物 16 类／剧情节点 18 个逐镜收窄**，并含 10 条快速响应卡；块 9／块 13 注入模板；**硬件档位只做选型台，正文只写可观察结果** |
 | **FEATURE-PRODUCTION** 长片工程层 | `references/FEATURE-PRODUCTION SKILL.md` | 镜头表四组卡片、每场开启仪式、资产压力测试、迭代纪律、法条式锁定 |
 | **MUSIC-SCENE** 音乐场景层 | `references/MUSIC-SCENE SKILL.md` | 先歌后演与唇形同步：切 12 秒块、黑画面视频文件、关掉生成音频、硬唇形锁 |
+| **MOTION-STUDIO** 动效工作室层 | `references/MOTION-STUDIO SKILL.md` ＋ `references/motion/`（规则）＋ `examples/motion/`（资产） | **代码渲染通道**（与宣传片生成通道并列，可接力）：真实页面截图 ＋ 2.5D 运镜 ＋ 节奏卡点 ＋ 电影级音效，逐帧渲染出片；自带 **157 张动效镜头配方卡**（十类，每卡含意图／参数表／已知坑／参考实现）、七份规则文档、可跑工程模板与 **154 份音效素材**。**先判适不适合**——真人实拍剧情／只有概念没有产品／写实自然场景／超长片会明确说不；**用途决定形态**（官网／应用商店／发布会／社媒／销售） |
 | **ANIMATION** 动画与混合媒介层 | `references/ANIMATION SKILL.md` | 媒介判定、三维预演与生成的分工、混合美学分权、光决定风格、360° 转身视频、动画原理优先 |
+| **CHANNEL-SELECT** 通道选择层 | `references/CHANNEL-SELECT SKILL.md` | **同一支宣传片走生成还是走代码渲染**的判定与引导：两条通道对照、**五个判据**（画面主角／要不要分毫不差／有没有可截图的真实界面／要不要逐帧可控／时长与投放）、**三个提醒节点**（定形态只报倾向／素材核完后进分镜前正式确认并锁定／用户改口立即重判）、三段可直接照抄的话术、**按画面主角分四类的场景全表**（含**电视宣传片**按片型分流：台标 ID／栏目包装／大屏走代码渲染，节目预告／TVC／公益走生成）、**混合接力分工**（会动的真人实物走生成、屏幕上的一切走代码渲染）与**效率与人性化八条硬规则** |
 | **PROMO** 宣传片线 | `references/PROMO SKILL.md` | 14 个商业短片方向的子调度（品牌广告／TVC、品牌短片、流线 MG、产品片、UI 动效、片头、动态视觉、游戏 PV、音乐短片、达人视频、教育、绘画延时、视频拆解、音色克隆）＋六步流程与商业硬约束；**视频统一用 MiniMax H3 在 OmniAiLab 画布生成** |
 | **ONBOARDING** 入门引导层 | `references/ONBOARDING SKILL.md` | **先定作品形态**：电影／短剧／动画片／纪录片／宣传片／片头／MV／游戏 PV／UI 动效／达人视频／教育 分流表 ＋ 三问收敛法 |
 | **DOCUMENTARY** 纪实／纪录片层 | `references/DOCUMENTARY SKILL.md` | 观察式纪实影像：纪实规格八项、去戏剧化叙事、6–12 秒镜头与三级运镜、自然光逻辑与空气感、人物跨镜一致性、色卡提取；**对话判定为纪录片时启用**，生成方法仍沿用既有影视级层级 |
@@ -442,6 +447,7 @@ $omniailab-ai-director 开始
 | 只问唱 / 说唱段落（"口型对不上""怎么让模型唱我们的歌"） | MUSIC-SCENE 音乐场景层 |
 | 只问动画／混合媒介怎么做（"这个能不能做成动画""运动物件一动就像贴图"） | ANIMATION 动画与混合媒介层 |
 | 只问纪实／纪录片怎么做（"我想做一部纪录片""怎么拍真实的人""自然光怎么用""色卡怎么提"） | DOCUMENTARY 纪实／纪录片层 |
+| 只问"这条片子该走生成还是走代码渲染"（"用 MiniMax H3 还是代码渲染""界面能不能还原""这几个字改不了""电视宣传片怎么做""大屏循环片""功能演示怎么做"） | CHANNEL-SELECT 通道选择层（**先给倾向与理由，进分镜前锁定**） |
 | 只做宣传片／广告／商业短片（"我要做宣传片""做条品牌广告""Logo 动效""UI 动效""片头""游戏 PV""达人视频""教学视频"） | PROMO 宣传片线（先选方向） |
 | 说不清要做什么（"我想做个片子""不知道该做哪种""从哪开始"） | ONBOARDING 入门引导层（先定形态） |
 
@@ -540,8 +546,12 @@ omniailab-ai-director/
 │   ├── MUSIC-SCENE SKILL.md
 │   ├── ANIMATION SKILL.md
 │   ├── DOCUMENTARY SKILL.md
+│   ├── CHANNEL-SELECT SKILL.md  # 通道选择层：生成通道 vs 代码渲染通道的判定与引导
 │   ├── PROMO SKILL.md
 │   ├── ONBOARDING SKILL.md
+│   ├── MOTION-STUDIO SKILL.md   # 动效工作室层：代码渲染通道（真实界面截图 + 2.5D 运镜 + 卡点 + 音效）
+│   ├── motion/                  # 动效工作室·规则层：七份规则（工作流／协作引导／审美准则／声音设计
+│   │                            # ／音乐卡点／终检清单／剪映导出）
 │   ├── promo/                   # 宣传片线 14 个方向（78 个文件，原细则目录完整保留）
 │   ├── story_bible.md / emotion_curve.md / creative_baseline.md
 │   ├── character_assets.md / prop_assets.md / scene_assets.md
@@ -549,7 +559,7 @@ omniailab-ai-director/
 │   ├── director-styles.md / photo-styles.md / capture-films.md / print-films.md
 │   ├── shot-emotion-engine.md / performance-palette.md
 │   ├── generation-guardrails.md / seedance-production.md
-│   └── (共 38 个规范文档；另有 promo/ 下 78 个方向文件)
+│   └── (共 42 个规范文档；另有 promo/ 下 78 个方向文件、motion/ 下 7 份规则)
 └── examples/                    # 成品层：可整段照抄
     ├── floor17_script.md        # 样例剧本《17楼》（30 秒悬疑短片，需明确要求才用）
     ├── aesthetics/              # A01–A07 七套美学的现成提示词
@@ -557,6 +567,9 @@ omniailab-ai-director/
     ├── documentary/            # 纪实七套现成提示词模板
     ├── director-presets/        # 20 位导演预设（选择表 + 按类型推荐 + 混合速查 + 档位映射）
     ├── camera-light/            # 机位与布光索引（五维坐标 + 33 套布光 + 类型/场景/人物/剧情调度反查表）
+    ├── motion/                  # 动效工作室·资产层（与 Remotion 绑定，可照抄）：157 张镜头卡（十类）
+    │                            # ＋ 桥段模板 ＋ 可跑工程模板 ＋ 逐卡参考实现 ＋ 工程组件
+    │                            # ＋ 154 份音效素材 ＋ 剪映工程导出脚本（共 638 个文件）
     ├── promo-cases/            # 七条真实宣传片样例 + 索引（按子方向分目录）
     └── images/                  # 49 张案例配图 + INDEX.md（关键词 → 图 反查表），约 2.4 MB
 ```

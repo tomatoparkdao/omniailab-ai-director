@@ -1,7 +1,7 @@
 ---
 name: omniailab-director-vision
 description: 导演视界层——把"某位导演的风格"从形容词堆砌变成可推理的机制，含六维推理、加载与混合规则、导演声明与扩容办法。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-style-dark-pop-glitch
 description: 「暗黑胶片故障风｜Dark Pop Glitch」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：只在用户选择“暗黑胶片故障风”，或明确要求 dark-pop、cyber-grunge、rap MV、黑红高反差、地下音乐杂志、zine 拼
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

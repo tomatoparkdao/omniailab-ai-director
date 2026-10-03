@@ -1,7 +1,7 @@
 ---
 name: omniailab-generation-guardrails
 description: 生成防故障规则 —— 镜头锁、角色权限隔离、动作接触边界与视觉词汇净化。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo
 description: 宣传片线总调度 —— 判定为宣传片／广告／TVC／品牌片／产品片／MG／片头／游戏PV／UI动效／KOC／教育等商业短片后，选择对应方向、按该方向规范编译提示词，并在 OmniAiLab 画布中用 MiniMax H3 生成。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -27,6 +27,8 @@ agent_created: true
 
 **不进本线**：剧情片／短片／长片 → 由主干 P0→P6 执行；纪实／纪录片 → 由 `references/DOCUMENTARY SKILL.md` 执行；纯字幕转写、转码压缩、通用剪辑 → 不在本 skill 范围。
 
+> **进线前先做通道预检**：本线是**生成通道**——画面由模型生成。若这支片子真正要展示的是**真实产品界面／数据／文字版式**，或创作者提出"文字要逐字精准""界面要分毫不差"，那它不属于本线，应转 `references/MOTION-STUDIO SKILL.md`（**代码渲染通道**）。**判据、时机与话术见 `references/CHANNEL-SELECT SKILL.md`**：定形态时只报倾向，**素材与文字核验完成后、进入提示词编译与分镜之前正式确认并锁定通道**；混合片按"会动的真人实物走生成、屏幕上的一切走代码渲染"分工，并在分镜里写清哪一镜走哪条。
+
 ## 二、子方向选择表（先选方向，再读细则）
 
 | # | 方向 | 什么时候选它 | 调度文件 |
@@ -34,8 +36,8 @@ agent_created: true
 | 1 | **官方品牌广告／TVC** | 品牌或产品是主角，要官方口径的广告片、剧情 TVC、品牌大片、系列 Campaign | `references/promo/brand-ad/SKILL.md` |
 | 2 | **品牌宣传短片** | 新品发布、官网展示、社交推广用的偏轻量品牌短片 | `references/promo/brand-promo-video-generator/SKILL.md` |
 | 3 | **品牌流线 MG（15 秒）** | 只有一张 Logo ＋ 品牌名或主题词，要一条 15 秒品牌流线动效 | `references/promo/brand-stream-mg/SKILL.md` |
-| 4 | **数字产品宣传片** | 素材是真实网页、前端项目、截图或录屏，要电影感的产品宣传片 | `references/promo/digital-product-promo-generator/SKILL.md` |
-| 5 | **UI 动效与产品演示** | 客户界面的动效、界面转场、数据面板动画、功能演示 | `references/promo/ui-motion/SKILL.md` |
+| 4 | **数字产品宣传片** | 素材是真实网页、前端项目、截图或录屏，要电影感的产品宣传片（⚠️ **先过通道预检**：要精确还原界面 → 代码渲染通道） | `references/promo/digital-product-promo-generator/SKILL.md` |
+| 5 | **UI 动效与产品演示** | 客户界面的动效、界面转场、数据面板动画、功能演示（⚠️ **先过通道预检**：有真实界面且要精确 → 代码渲染通道） | `references/promo/ui-motion/SKILL.md` |
 | 6 | **电影／剧集片头** | 片头、标题序列、卡司序列、概念预告（15 秒） | `references/promo/cinematic-title-sequence/SKILL.md` |
 | 7 | **动态视觉设计** | 动态字体与空间包装、主体追踪框与拓扑图形、真人实拍与手绘融合 | `references/promo/h3-visual-design/SKILL.md` |
 | 8 | **二次元漫画／游戏 PV** | 角色宣传、觉醒、战斗、世界观、抽卡活动（15 秒以内） | `references/promo/anime-game-pv/SKILL.md` |
@@ -58,6 +60,7 @@ agent_created: true
 4. **参数落位**：画幅、分辨率、时长、模型名等参数**放进 OmniAiLab 画布**，**不写入提示词正文**。
 5. **一次一方向**：一个任务默认只读取**一条**方向线的细则；用户明确要求组合时，先定主方向，再只补读相关的一条细则，**不得把多套规则拼进同一条提示词**。
 6. **内容一致性**：展示给创作者的提示词内容、录入画布的内容与实际送入生成的内容**必须一致**，不得被下游摘要或二次改写。
+7. **通道前置**：本线只走**生成通道**。判定、时机与锁定见 `references/CHANNEL-SELECT SKILL.md`；确认走混合片时，按"会动的真人实物走生成、屏幕上的一切走代码渲染"在分镜里写清分工。
 
 ## 四、标准流程（六步，逐步确认）
 
@@ -95,6 +98,7 @@ agent_created: true
 
 ## 七、交付前质检
 
+- [ ] **通道预检已做**：本片确认走生成通道（或混合），没有把"要精确还原真实界面"的片子硬留在本线；
 - [ ] 方向判定有依据，且**没有串用其它方向的风格配方**；
 - [ ] 素材、文字、品牌事实**全部已核验**，没有虚构项；
 - [ ] 提示词是**可直接送入生成**的完整稿，含文字内容与声音要求；

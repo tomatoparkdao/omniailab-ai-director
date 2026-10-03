@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-digital-drawing-timelapse
 description: 数字绘画延时（15 秒） —— 宣传片线方向之一：一段提示词 ＋ 一张成品图，生成 15 秒数字绘画延时视频。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-brand-ad-future-system-montage
 description: 「未来系统蒙太奇」—— 品牌广告与 TVC（官方） 方向细则：仅在 brand-ad 已选择“未来系统蒙太奇”路线后读取。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

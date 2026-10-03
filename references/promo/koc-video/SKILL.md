@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-koc-video
 description: 达人原生社交视频（KOC ／ UGC） —— 宣传片线方向之一：种草、测评、专家分享、用户证言、无脸视角、手部实测与数字人栏目。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

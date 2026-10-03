@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-video-deconstruct-minimax-h3-multi-ref
 description: 「MiniMax H3 Multi-Ref — 条件性多参考绑定」—— 视频拆解与逐镜复刻 方向细则：只有运行时能力筛选或用户指定已经选择 MiniMax H3，且当前 video work item 确实需要多个 image / video
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-h3-visual-design-td-cv-tracking
 description: 「实时视觉与追踪 追踪表现」—— 动态视觉设计（字体包装／追踪视觉／手绘融合） 方向细则：把"AI 看见的世界"（计算机视觉检测/追踪的可视化结果）做成短视频。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-emotion
 description: 情绪子技能 —— 情绪命题、内外双线、情绪节拍、眼神落点与声音包络，并做角色权限隔离与故障修复。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

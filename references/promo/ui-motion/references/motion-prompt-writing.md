@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-motion-prompt-writing
 description: 「Motion prompt writing」—— UI 动效与产品演示 方向细则：Read this file before writing any motion_prompt for video generation. 
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

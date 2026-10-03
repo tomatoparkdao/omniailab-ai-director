@@ -1,7 +1,7 @@
 ---
 name: omniailab-aesthetic-recipes-dict
 description: 美学配方字典 —— A01–A07 七套配方的完整拆解与核心参数，配合 AESTHETICS SKILL.md 使用。
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

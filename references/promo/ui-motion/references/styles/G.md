@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-g
 description: 「Style G — Vision Pro / Spatial UI」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, phot
-version: 2.0.35
+version: 2.2.1
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
