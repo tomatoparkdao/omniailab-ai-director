@@ -1,7 +1,7 @@
 ---
 name: omniailab-story-bible
 description: 剧本解析、世界规则与人物小传规范 —— 把隐含前提变成已确认事实。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

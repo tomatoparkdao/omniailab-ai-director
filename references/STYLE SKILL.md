@@ -1,7 +1,7 @@
 ---
 name: omniailab-visual-style-library
 description: 视觉语言库 —— 导演／摄影／胶片／印片四类词汇与风格强度（D／P／C／R／S 代码体系）。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

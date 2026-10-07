@@ -1,7 +1,7 @@
 ---
 name: omniailab-acting
 description: 表演子技能 —— 把抽象情绪转成可被摄影机拍到的行为（目标／障碍／策略／节拍／倾听／身体任务），产出角色表演主档案与单镜表演段落，含表演任务法附录。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -10,6 +10,8 @@ agent_created: true
 ---
 
 # 表演系统
+
+> **与电影艺术知识层的关系**：本层管**怎么写表演段落**（提示词侧：目标／障碍／策略／节拍／倾听／潜台词／身体与声音）。**怎么跟演员说戏**——给动词加副词而不给情绪、规定情境加动作、潜台词的两层、选角看演员本人是否已具备那个特质——来自 `FILM-ART SKILL.md`，逐条见 `film-art/03-acting-direction.md` 与 `film-art/02-characters-and-casting.md`。**提示词写法以本层为准，说戏口径与选角判断以电影艺术层为准**——先按电影艺术层把戏说清楚，再用本层把它写成表演段落。
 
 ## AI 视频生成的角色表演（Seedance 2.5）
 

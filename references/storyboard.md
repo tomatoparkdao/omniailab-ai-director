@@ -1,7 +1,7 @@
 ---
 name: omniailab-storyboard
 description: P4 分镜设计与首帧生成规范。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

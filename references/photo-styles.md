@@ -1,7 +1,7 @@
 ---
 name: omniailab-photo-styles
 description: 通用摄影风格预设（P01–P10）。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

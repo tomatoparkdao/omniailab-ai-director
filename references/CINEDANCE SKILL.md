@@ -1,7 +1,7 @@
 ---
 name: omniailab-cinedance
 description: 视频提示词子技能（CINEDANCE V4）—— 把场景输入转成可直接生产的电影级视频提示词。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

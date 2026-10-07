@@ -1,7 +1,7 @@
 ---
 name: omniailab-blocking
 description: 站位与场面调度层 —— 跨镜站位基线锁定，含附录 C 站位示意图法与附录 D 首帧占用与格式模式。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -14,6 +14,8 @@ agent_created: true
 把「人物站在哪、朝哪、怎么动」从散文描述升级为**可复用、可核查的坐标数据**，让同一场景的站位在全部镜头之间保持一致，消除「上一镜还在原位、下一镜就漂了」的问题。
 
 ---
+
+> **与电影艺术知识层的关系**：本层管**坐标与跨镜一致**（人在哪、朝哪、怎么动，可核查、可继承）。**为什么这么走**——走位必须有动机、纵深与层次、群戏以组为单位、距离与无用空间——来自 `FILM-ART SKILL.md`，见 `film-art/05-staging-and-camera.md`；**关系线与越轴判断**见 `film-art/04-visual-language.md`。**坐标与协议以本层为准，调度设计与越轴判断以电影艺术层为准**——先有调度设计，再用本层把它锁成坐标；反过来做（用机位补走位）戏不会变好。
 
 ## 一、在本流水线中的定位与边界
 

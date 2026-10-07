@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.2.1-1f6feb?style=flat-square" alt="版本 2.2.1"></a>
+  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.3.0-1f6feb?style=flat-square" alt="版本 2.3.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
   <img src="https://img.shields.io/badge/%E5%AA%92%E4%BB%8B-%E5%86%99%E5%AE%9E_%2B_%E5%8A%A8%E7%94%BB-db6d28?style=flat-square" alt="媒介 写实与动画">
@@ -25,7 +25,7 @@
 |---|---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` | 全小写连字符写法；支持 skill 的工具直接用它调起，不支持的工具用自然语言描述也能触发（本 skill 允许隐式调用） |
 | 显示名 | OmniAiLab AI 影视导演 | 仓库页面与文档里显示的名字，不是调用名 |
-| 版本 | v2.2.1 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
+| 版本 | v2.3.0 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball | — |
 | 许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改与二次分发 |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) ／ [Notion](https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d) | 如何调用、三步启动、逐阶段操作细则、子技能调度速查、模型口径、避坑总表、常见问题、交付物清单 |
@@ -57,6 +57,7 @@
 | **④ 有真实项目背书** | **6 个商业级实战案例**（写实短片／长片／动画，含成品提示词块与「问题 → 解法」清单）· **49 张方法配图**（关键词反查索引，最难讲清的部分直接给图）· **7 条真实成片样例**（逐字原文 ＋ 拆解）· **14 个宣传片方向细则**（品牌广告／片头／动态视觉／游戏 PV／UI 动效／MV／达人视频／教育／视频拆解／音色克隆等）。拿不准怎么写，直接照抄成品块。 |
 | **⑤ 全链路到成片** | P0 项目接收 → P0A 十项剧本解析与全片情绪曲线 → P1 摄影色彩与声音创作基准 → P2 角色与关键道具母板 → P3 场景资产与环境色卡 → P4 分镜设计与首帧 → P5 视频提示词与画布参数 → P6 在 **OmniAiLab 无限画布**中生成、剪辑、导出成片。**每阶段末尾一次确认门**，你只需回答"确认"或"第 X 处要改"。 |
 | **⑥ 宣传片类会先帮你选通道** | 同一支宣传片／产品片／发布视频／功能演示，有两条路：**生成通道**（画面由模型生成，在 OmniAiLab 画布选 **MiniMax H3**）与**代码渲染通道**（真实页面截图 ＋ 代码逐帧渲染，画面 100% 可控，还能回交可编辑工程）。两条**并列且可接力**。它**先给判断、再给选项**：按**五个判据**（画面主角是真人实景还是界面数据／要不要分毫不差／有没有可截图的真实界面／要不要逐帧可控／时长与投放）报出倾向，并**说清代价**；**定形态时只报倾向、不展开**，**素材核完后、进分镜前正式确认并锁定**。场景覆盖**按画面主角分四类**（人为主体／物为主体／屏为主体／混合），含企业形象／TVC／公益／城市／招聘／产品广告／软件发布／功能演示／数据可视化／电视包装／大屏循环，并给出**混合接力分工**（会动的真人实物走生成、屏幕上的一切走代码渲染）。代码渲染侧自带 **157 张动效镜头配方卡**、七份规则文档、可跑工程模板与 **154 份音效素材**；**不适用的片子会明确说不，并给你替代路线**。 |
+| **⑦ 判断有出处，不靠形容词** | **电影艺术知识层**：由电影艺术领域著作系统梳理成的**判断与来源层**——**15 个能力域**（读本到讲戏／剧本与叙事／选角与讲戏／视听语言／场面调度／分镜／剪辑／声音／光线／美术造型／类型／制片／方法与心法／类型实操／国别流派）＋ **39 张能力卡**（框架／原则／案例／反例，逐条可溯源）＋ **118 本著作的书库索引**。它管的是**"该想什么、为什么、判准在哪"**：spine 与支点、戏剧块与叙述拍、**关系线与三角形原理**（越轴与"看不懂"的根）、走位动机、切点判准与判停、**声音设计六框架**（听觉层级／声画三位置／听音视角／静默／音桥）、类型契约与分镜级参照片单、资源反推与导演权限边界、**分镜级拉片法**。它**只产出判断、依据与清单**，提示词写法仍归各专项层；**在 P0A／P1／P4 三个节点主动给出判断**、P5 用发布级清单收口——并附**「拥抱经典、欢迎创新」的三档借法**（同域借惯例／跨域借手段／跨媒介与跨国别借流派）与融合纪律。 |
 
 > **形容词会被翻译成参数。** 你说"高级一点""电影感"，它会先翻成可执行的档位（曲线柔、光比 3:1、中长焦压缩、平均镜头 6 秒）报给你确认——**形容词不可执行，档位才可执行**。
 
@@ -406,6 +407,7 @@ $omniailab-ai-director 开始
 | **PROMPT-DOCTRINE** 提示词教义层 | `references/PROMPT-DOCTRINE SKILL.md` | 固定块序（16 段）＋十一条铁律＋把难的东西放进静帧＋物理与连续性怎么写 |
 | **ASSET-SYSTEM** 资产体系层 | `references/ASSET-SYSTEM SKILL.md` | 文本＋图像成对资产、`@char_/@loc_/@prop_/@staging_` 命名、「新状态＝新资产」、声音锁定 |
 | **SCENE-ENGINE** 剧本引擎层 | `references/SCENE-ENGINE SKILL.md` | 五要素戏剧引擎（目标／障碍／战术／反转／价值转变）＋剧本压力测试；**只诊断、不改戏** |
+| **FILM-ART** 电影艺术知识层 | `references/FILM-ART SKILL.md` ＋ `references/film-art/`（30 份知识文件） | **只读的判断与来源层**：15 个能力域 ＋ 39 张能力卡 ＋ 118 本著作书库索引，管"该想什么、为什么、判准在哪"（spine 与支点／关系线与三角形原理／走位动机／切点判准／声音设计六框架／类型契约／资源反推／分镜级拉片法）；**只产出判断、依据与清单，不写提示词**，执行口径以既有层为准；P0A／P1／P4 主动给判断 |
 | **OPTICS** 光学层 | `references/OPTICS SKILL.md` | 七个视场角锚点（8/18/29/47/84/107°）、镜头决策树、多镜镜头一致性声明 |
 | **DIRECTOR-VISION** 导演视界层 | `references/DIRECTOR-VISION SKILL.md` ＋ `examples/director-presets/`（20 位预设） | 把"某位导演的风格"从形容词变成**可推理的机制**：六维推理、**「反例」纪律**（写明与相邻导演的机制差异）、**混合规则**（主导演＋借用维度）、**「导演风格声明」**（冻结／可变／禁用）；预设库含 20 位导演，**按作品类型推荐、可多选混搭** |
 | **CAMERA-LIGHT** 机位与布光预设层 | `references/CAMERA-LIGHT SKILL.md` | 五维机位坐标（机身格式档 × 镜头性格档 × 焦段档 × 光圈档 × 运动档）＋布光三灯结构与色温变体；**意图 → 组合反查表** 与 **类型／场景／人物／剧情四路调度反查表**（`examples/camera-light/` 三份索引）；**按作品类型 16 类给全片基线、按场景 22 类／人物 16 类／剧情节点 18 个逐镜收窄**，并含 10 条快速响应卡；块 9／块 13 注入模板；**硬件档位只做选型台，正文只写可观察结果** |
@@ -541,6 +543,7 @@ omniailab-ai-director/
 │   ├── PROMPT-DOCTRINE SKILL.md
 │   ├── ASSET-SYSTEM SKILL.md
 │   ├── SCENE-ENGINE SKILL.md
+│   ├── FILM-ART SKILL.md       # 电影艺术知识层：15 域判断与来源层（只产出判断与依据，不写提示词）
 │   ├── OPTICS SKILL.md
 │   ├── FEATURE-PRODUCTION SKILL.md
 │   ├── MUSIC-SCENE SKILL.md
@@ -553,13 +556,14 @@ omniailab-ai-director/
 │   ├── motion/                  # 动效工作室·规则层：七份规则（工作流／协作引导／审美准则／声音设计
 │   │                            # ／音乐卡点／终检清单／剪映导出）
 │   ├── promo/                   # 宣传片线 14 个方向（78 个文件，原细则目录完整保留）
+│   ├── film-art/                # 电影艺术知识层·知识文件（30 份：总纲／能力卡总索引／术语表／精华长文／15 份能力手册／书目与溯源审计）
 │   ├── story_bible.md / emotion_curve.md / creative_baseline.md
 │   ├── character_assets.md / prop_assets.md / scene_assets.md
 │   ├── storyboard.md / video_prompts.md / omniailab_production.md
 │   ├── director-styles.md / photo-styles.md / capture-films.md / print-films.md
 │   ├── shot-emotion-engine.md / performance-palette.md
 │   ├── generation-guardrails.md / seedance-production.md
-│   └── (共 42 个规范文档；另有 promo/ 下 78 个方向文件、motion/ 下 7 份规则)
+│   └── (共 43 个规范文档；另有 promo/ 下 78 个方向文件、motion/ 下 7 份规则、film-art/ 下 30 份知识文件)
 └── examples/                    # 成品层：可整段照抄
     ├── floor17_script.md        # 样例剧本《17楼》（30 秒悬疑短片，需明确要求才用）
     ├── aesthetics/              # A01–A07 七套美学的现成提示词

@@ -1,7 +1,7 @@
 ---
 name: omniailab-performance-palette
 description: 表演信号与修复表 —— 各表演通道的自然写法与高风险写法对照。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

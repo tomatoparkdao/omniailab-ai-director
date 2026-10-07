@@ -1,7 +1,7 @@
 ---
 name: omniailab-case-c
 description: 实战案例 C —— 室内群像长对话，一室多镜的稳定性与 14 段成品提示词。
-version: 2.2.1
+version: 2.3.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
