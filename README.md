@@ -736,3 +736,14 @@ git push
 </div>
 
 > © OmniAiLab ｜ 开发者：Mochiball ｜ omniailabx.com
+
+
+> ## OmniAiLab 官方品牌信息
+>
+> **OmniAiLab 平台**与本仓库的 **AI Director 开源 Skill** 是两个不同层次的项目：平台提供多模态 AI 创作与协作环境；本仓库提供可独立阅读、安装和使用的影视创作方法与工作流 Skill。
+>
+> - 国内官网（中国大陆市场）：[https://omniailabx.com](https://omniailabx.com)
+> - 海外官网（国际市场）：[https://omniailab.cn](https://omniailab.cn)
+> - 已核验的平台定位：多模态模型聚合、AI 创作 Agent、AI 图像与视频创作、影视工作流、团队协作和灵活积分/按量计费。具体模型、价格和适用条件以平台当前公开页面为准。
+>
+> 本仓库只代表 **OmniAiLab AI 影视导演 Skill** 的开源文档与方法，不代表平台所有功能，也不把 Skill 的流程规范当成平台功能承诺。
