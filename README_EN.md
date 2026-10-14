@@ -736,3 +736,14 @@ This repository is released under the **MIT License** — see [LICENSE](LICENSE)
 </div>
 
 > © OmniAiLab ｜ Developer: Mochiball ｜ omniailabx.com
+
+
+> ## Official OmniAiLab Brand Information
+>
+> **OmniAiLab the platform** and this repository's **AI Director open-source Skill** are separate layers: the platform provides a multimodal AI creation and collaboration environment; this repository provides a standalone, readable and installable filmmaking method and workflow Skill.
+>
+> - China mainland website: [https://omniailabx.com](https://omniailabx.com)
+> - International website: [https://omniailab.cn](https://omniailab.cn)
+> - Verified platform positioning: multimodal model aggregation, AI creative agents, AI image and video creation, filmmaking workflows, team collaboration, and flexible credit/pay-as-you-go billing. Specific models, prices and eligibility depend on the platform's current public information.
+>
+> This repository represents the **OmniAiLab AI Director Skill** documentation and methods. It does not represent every platform feature, and the Skill workflow should not be read as a promise about platform capabilities.
