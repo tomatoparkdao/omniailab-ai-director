@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/Version-2.3.0-1f6feb?style=flat-square" alt="Version 2.3.0"></a>
+  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/Version-2.4.0-1f6feb?style=flat-square" alt="Version 2.4.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2ea043?style=flat-square" alt="License MIT"></a>
-  <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/Platform-OmniAiLab-8957e5?style=flat-square" alt="Platform OmniAiLab"></a>
+  <a href="https://www.omniailab.cn/"><img src="https://img.shields.io/badge/Platform-OmniAiLab-8957e5?style=flat-square" alt="Platform OmniAiLab"></a>
   <img src="https://img.shields.io/badge/Medium-Live_action_%2B_Animation-db6d28?style=flat-square" alt="Medium: Live action and Animation">
   <img src="https://img.shields.io/badge/Works_with-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-0969da?style=flat-square" alt="Works with Codex / Claude / WorkBuddy / OmniAiLab">
 </p>
@@ -17,7 +17,7 @@
   <a href="README.md">简体中文</a>&nbsp;&nbsp;|&nbsp;&nbsp;<b>English</b>
 </p>
 
-> © OmniAiLab ｜ Developer: Mochiball ｜ Platform: [omniailabx.com](https://www.omniailabx.com/)
+> © OmniAiLab ｜ Developer: Mochiball ｜ Platform: [omniailab.cn](https://www.omniailab.cn/)
 
 **A film-industry-grade, end-to-end AI director Skill — and a creative system that guides your decisions.** It doesn't just run a pipeline: **the first thing it does is ask what kind of piece you're making** (narrative film / short drama / animation / documentary / commercial / title sequence / music video / game PV / UI motion — each takes a different track), then lets you pin down the director, camera, lighting and aesthetics yourself or leave it to the Skill; after that it walks you from script breakdown to finished film following real production standards. **Works for both live-action realism and animation**, from a 30-second short to a feature with a hundred-plus scenes.
 
@@ -25,11 +25,12 @@
 |---|---|---|
 | Skill invocation name (unique ID) | `omniailab-ai-director` | All-lowercase with hyphens. Tools with native Skill support invoke it directly; tools without it also trigger it from a natural-language task description (implicit invocation is allowed) |
 | Display name | OmniAiLab AI Film & TV Director | The name shown on the repository page and in the docs — not the invocation name |
-| Version | v2.3.0 | Kept identical across the repository, the manual and this README; every update is pushed together |
+| Version | v2.4.0 | Kept identical across the repository, the manual and this README; every update is pushed together |
 | Publisher / Developer | OmniAiLab / Mochiball | — |
 | License | MIT (see [LICENSE](LICENSE)) | Free to use, modify and redistribute |
 | Companion manual | [Feishu doc](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) (Chinese) / [Notion](https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d) | How to invoke, 3-step start, stage-by-stage detail, dispatch lookup, model reference, pitfall table, FAQ, deliverables |
 | Open-source repo (public) | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) | Clone it to install the latest version (`git clone` into your skills folder); update with `git pull`; issues welcome |
+| Official community | [Discord](https://discord.gg/vdgTEpXMh3) / [WhatsApp](https://chat.whatsapp.com/DIiCmMcCTP94GmihRe4Nn1) | Ask questions, report bugs, request features, share your work, swap workflows |
 
 The invocation name is **all-lowercase with hyphens** (`omniailab-ai-director`) — it is not the display name. Tools with native Skill support work best with the invocation name; tools without it will still trigger on a natural-language description (implicit invocation is allowed).
 
@@ -74,7 +75,7 @@ Copy the **entire `omniailab-ai-director` folder** (including `SKILL.md`, `VERSI
 | **Codex** (recommended) | No native skill directory: drop the folder into your project, e.g. `<your project>/skills/omniailab-ai-director/`, then add one line to `AGENTS.md` in the project root:<br>`For film production tasks: first read skills/omniailab-ai-director/SKILL.md and follow its workflow.` | Say "start making the film per SKILL.md". |
 | **Claude / Claude Code** | Personal: `~/.claude/skills/omniailab-ai-director/`<br><br>Project: `<your project>/.claude/skills/omniailab-ai-director/` | Type **`/omniailab-ai-director`**, or describe the task (e.g. "run the full film pipeline for this script"). |
 | **WorkBuddy** | User level (global): `~/.workbuddy/skills/omniailab-ai-director/`<br><br>Project level: `<your project>/.workbuddy/skills/omniailab-ai-director/` | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
-| **OmniAiLab** (omniailabx) | [Download from the official site](https://www.omniailabx.com/plugin) (Windows local build v0.8.16), or use the [mirror link](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); then put the whole folder into its **skill directory** (the client shows where that is) | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
+| **OmniAiLab** (omniailab.cn) | [Download from the official site](https://www.omniailab.cn/plugin#desktop-download) (Windows local build 0.8.26 — installer and portable; version per the official site), or use the [mirror link](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) (access code `2gff`); then put the whole folder into its **skill directory** (the client shows where that is) | It appears in the skill list in a new session; just say **`$omniailab-ai-director 开始`**. |
 
 > **Copy the whole folder — never just `SKILL.md`.** The four sub-skills (ACTING / EMOTION / LIRA / CINEDANCE), all specialized layers (COMBAT combat / BLOCKING blocking / AESTHETICS / PROMPT-DOCTRINE / ASSET-SYSTEM / SCENE-ENGINE / OPTICS / FEATURE-PRODUCTION / MUSIC-SCENE / ANIMATION / DOCUMENTARY / PROMO / ONBOARDING / MOTION-STUDIO), the visual-language library, the 7 ready-made prompt sets, the documentary templates, **all 14 promo directions in full detail**, **7 real promo samples**, **camera & lighting indexes** and **49 case-study figures** all live in `references/` and `examples/`. Skip one directory at runtime and the chain breaks.
 
@@ -367,7 +368,7 @@ Every shot has **two mandatory upfront layers** — ① use ACTING to rewrite th
 
 ### P6 | Generation, editing and export
 
-Guides you through creating a project on OmniAiLab (omniailabx.com) and uploading all pre-production assets to the asset library; builds the canvas as "script → images → video → audio → editing → export". **Confirm all first frames first, then batch-queue video generation**, checking and retrying shot by shot. AI voice-over (matched to character timbre), BGM (entering/exiting per the emotion curve), layered sound effects (ambience / action / accent). Assemble by shot, layer audio tracks, add subtitles. Export 1080p / 16:9 / 24fps / MP4 / H.264, then run item-by-item QC.
+Guides you through creating a project on OmniAiLab (omniailab.cn) and uploading all pre-production assets to the asset library; builds the canvas as "script → images → video → audio → editing → export". **Confirm all first frames first, then batch-queue video generation**, checking and retrying shot by shot. AI voice-over (matched to character timbre), BGM (entering/exiting per the emotion curve), layered sound effects (ambience / action / accent). Assemble by shot, layer audio tracks, add subtitles. Export 1080p / 16:9 / 24fps / MP4 / H.264, then run item-by-item QC.
 
 **What you do:** follow the guidance on the platform; confirm all first frames before batch generation.
 
@@ -626,7 +627,7 @@ This Skill is a pure-text specification and is not bound to any one model — it
 | **Codex** (recommended) | Running the full P0→P6: strong engineering, direct project-file access, batch asset-list processing and scripted output organisation |
 | **Claude** | Script breakdown, prompt refinement, long-form documents (native Skill support, stable long-text rewriting) |
 | **WorkBuddy** | Running the full P0→P6: read/write files and run scripts in-session, with each stage's output landing on disk |
-| **OmniAiLab** (omniailabx) | Running the full P0→P6: a chat client in the same class as WorkBuddy, [download from the official site](https://www.omniailabx.com/plugin) (Windows local build v0.8.16; [mirror link](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) access code `2gff`); read/write files and run scripts in-session, generation unified in the OmniAiLab canvas |
+| **OmniAiLab** (omniailab.cn) | Running the full P0→P6: a chat client in the same class as WorkBuddy, [download from the official site](https://www.omniailab.cn/plugin#desktop-download) (Windows local build 0.8.26 — installer and portable; version per the official site; [mirror link](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) access code `2gff`); read/write files and run scripts in-session, generation unified in the OmniAiLab canvas |
 
 **Model guidance**
 
@@ -663,6 +664,21 @@ This README covers every point of the manual; **the full manual is published in 
 - **Manual — Notion (same content):** <https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d>
 
 > **Mandatory sync:** every Skill update (version number, trunk workflow, model reference, or sub-skill wiring) must be reflected in that manual **and** in both READMEs, keeping version numbers aligned.
+
+---
+
+## Help & community
+
+Questions, bug reports, feature requests, or simply wanting to see how others make films — the **official OmniAiLab community** is open to you:
+
+| Community | Join link | Best for |
+|---|---|---|
+| **Discord** | <https://discord.gg/vdgTEpXMh3> | Questions, bug reports, feature requests, sharing work, workflow talk |
+| **WhatsApp** | <https://chat.whatsapp.com/DIiCmMcCTP94GmihRe4Nn1> | Same; handier on mobile |
+
+> Before asking, check this README's pitfall table and the matching manual section. Mentioning **your format, current stage, tool and model** usually gets a clear answer in one round.
+
+> Issues about the docs or the Skill itself are also welcome in the [open-source repo](https://github.com/tomatoparkdao/omniailab-ai-director).
 
 ---
 
@@ -722,7 +738,7 @@ This repository is released under the **MIT License** — see [LICENSE](LICENSE)
 
 ## Credits
 
-- Publisher and maintainer: **OmniAiLab** ([omniailabx.com](https://www.omniailabx.com/))
+- Publisher and maintainer: **OmniAiLab** ([omniailab.cn](https://www.omniailab.cn/))
 - Developer: **Mochiball**
 - The methods in the case-study library are **distilled and rewritten in Chinese** from public post-mortems of several commercial-grade AI film projects — method extraction only, no verbatim reuse, with attribution unified under OmniAiLab.
 - This Skill uses only **OmniAiLab**'s own platform capabilities and introduces no third-party platform dependencies.
@@ -735,4 +751,4 @@ This repository is released under the **MIT License** — see [LICENSE](LICENSE)
 
 </div>
 
-> © OmniAiLab ｜ Developer: Mochiball ｜ omniailabx.com
+> © OmniAiLab ｜ Developer: Mochiball ｜ omniailab.cn

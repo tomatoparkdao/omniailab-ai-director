@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-10-design
 description: 电影艺术层 · 美术服装造型——场景选择本身是导演手段、服装是人物的一部分、色彩是关系与情绪的声明、化妆造型两种极端、陈设即信息。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

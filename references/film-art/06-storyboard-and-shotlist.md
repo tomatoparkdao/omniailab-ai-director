@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-06-storyboard
 description: 电影艺术层 · 分镜与镜头表——文字分镜（逐镜一句话）到绘图故事板到镜头表的三次收敛、故事板是沟通工具、遮盖是剪辑的退路。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

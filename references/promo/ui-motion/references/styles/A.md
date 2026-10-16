@@ -1,7 +1,7 @@
 ---
 name: omniailab-promo-ui-motion-a
 description: 「Style A — Abstract Neon (Lumen / youmotion)」—— UI 动效与产品演示 方向细则：This is a motion language anchor. The brand's colors, typography, and 
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

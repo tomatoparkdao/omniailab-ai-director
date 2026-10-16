@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-02-characters
 description: 电影艺术层 · 人物与选角——角色目的、对话四条硬规则、语言状态外化关系、外表与性格的反差、群像标本、贯串动作与反贯串动作。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

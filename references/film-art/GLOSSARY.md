@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-glossary
 description: 电影艺术层 · 术语表——spine／戏剧块／叙述拍／支点／关系线／三角形原理／视觉分句法／封闭与开放形式等术语在本包中的操作含义。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

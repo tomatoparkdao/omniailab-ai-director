@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-audit-rejected
 description: 电影艺术层 · 溯源 · 淘汰项与理由——未通过验证的条目及被淘汰的具体原因，用于避免重复引入。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

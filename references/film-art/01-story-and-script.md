@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-01-story
 description: 电影艺术层 · 剧本与叙事——线（结构）与点（主题）、目标—障碍—转折驱动、戏剧块、表演拍与叙述拍之别、三幕功能、铺垫与回收、对抗的双向预判。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

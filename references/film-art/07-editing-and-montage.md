@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-07-editing
 description: 电影艺术层 · 剪辑与蒙太奇——剪辑是增益不是抢救、切点由观众的心理时间决定、按叙述拍粗剪再调节奏、节奏统一律、并置生第三意义、别在剪辑台上无限消耗。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

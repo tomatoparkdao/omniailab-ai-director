@@ -1,7 +1,7 @@
 ---
 name: omniailab-video-prompts
 description: P5 视频提示词生成与 OmniAiLab 参数规范。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

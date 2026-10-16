@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-audit-overview
 description: 电影艺术层 · 溯源 · 书库整体解读——这批著作覆盖什么、其中多少直接讲导演手艺、整体主旨是什么。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

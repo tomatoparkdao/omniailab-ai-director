@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-05-staging
 description: 电影艺术层 · 场面调度与机位——先排人后上机、三种编排与两种组织原则、走位必须有动机、纵深与层次、群戏以组为单位、距离与无用空间。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

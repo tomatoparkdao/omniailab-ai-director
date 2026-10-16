@@ -1,7 +1,7 @@
 ---
 name: omniailab-motion-demos
 description: 镜头卡的参考实现源码 —— 每张卡一份可跑的 TSX demo，copy 进工程即可改；按卡名取用，参数以卡上的参数表为准。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

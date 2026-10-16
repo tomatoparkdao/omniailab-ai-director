@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-11-genre
 description: 电影艺术层 · 类型与参照——类型是契约不是标签、先定发行场景再定商业元素、参照片单要分镜级不要感觉级、类型决定视觉基准。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

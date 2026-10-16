@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-playbook
 description: 电影艺术层 · 读本到讲戏的作业流程——拿到剧本先做什么、把判断翻译成演员能执行的东西、再把判断分派到各域。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

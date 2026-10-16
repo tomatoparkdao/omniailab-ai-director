@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-digest
 description: 电影艺术层 · 导演手艺精华长文——按导演的实际工作顺序组织的提炼稿，从拿到剧本到交出成片，每一节都是「解决什么问题、怎么判断、判准在哪」。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-04-visual
 description: 电影艺术层 · 视听语言——关系线与三角形原理、关系线随头部转动、景别即创作者与观众的距离、角度定权力、视点定认同、景深焦点即注意中心、构图几何的情绪。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

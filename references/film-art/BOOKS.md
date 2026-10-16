@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-books
 description: 电影艺术层 · 书库书目——已收录与已知未收录书目清单、查单本书的方法、新增书之后的维护步骤。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

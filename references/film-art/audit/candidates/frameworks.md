@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-cand-frameworks
 description: 电影艺术层 · 溯源 · 框架卡候选清单——FR 编号框架卡的原句、出处与验证状态。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

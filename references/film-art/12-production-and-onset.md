@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-12-production
 description: 电影艺术层 · 制片与现场——资源反推而不是愿望正推、低成本是约束下的取舍、导演权限是有边界的、分工要匹配工种、通告单是现场的宪法。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

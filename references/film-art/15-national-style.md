@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-15-national
 description: 电影艺术层 · 国别与流派——把个性落成可执行的统一约束、约束转风格、机位伦理、时间压力与一个镜头主义、风格为叙述者服务、民族审美作为参数。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

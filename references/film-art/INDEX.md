@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-index
 description: 电影艺术层 · 能力卡总索引——39 条通过三重验证的能力卡按域归口，含关键词速查、推荐学习顺序、跨域铁律与能力域互链（依赖／对比／组合）。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

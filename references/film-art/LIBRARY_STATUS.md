@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-library-status
 description: 电影艺术层 · 书库取文可靠度——逐本标注文字层质量与可取用状态，规定只有取文与页面图状态的书才可被引用。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-13-master
 description: 电影艺术层 · 方法与心法——四位大师的具体方法、四条判断原则、分镜级拉片法（把名作变成自己的手段库）、对理论的正确用法。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

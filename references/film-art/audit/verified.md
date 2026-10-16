@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-audit-verified
 description: 电影艺术层 · 溯源 · 三重验证结果——逐条能力卡的跨域性、预测力与可执行性判定，供引用锚点回溯。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

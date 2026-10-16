@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-cand-glossary
 description: 电影艺术层 · 溯源 · 术语卡候选清单——术语条目的原句、出处与验证状态。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

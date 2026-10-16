@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-03-acting
 description: 电影艺术层 · 表演指导——给动词加副词不给情绪、情绪不是演员的职责、规定情境加动作、潜台词两层、选角看本人是否已具备、群戏收进可处理范围。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

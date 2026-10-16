@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-08-sound
 description: 电影艺术层 · 声音——听觉层级、同步／对位／分离三个位置、听音视角、静默是相对量、先声夺人与音桥、音乐的进入与退出做叠句不做旁白。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

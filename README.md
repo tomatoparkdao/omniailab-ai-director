@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.3.0-1f6feb?style=flat-square" alt="版本 2.3.0"></a>
+  <a href="https://github.com/tomatoparkdao/omniailab-ai-director"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-2.4.0-1f6feb?style=flat-square" alt="版本 2.4.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
   <img src="https://img.shields.io/badge/%E5%AA%92%E4%BB%8B-%E5%86%99%E5%AE%9E_%2B_%E5%8A%A8%E7%94%BB-db6d28?style=flat-square" alt="媒介 写实与动画">
@@ -25,11 +25,12 @@
 |---|---|---|
 | Skill 调用名（唯一标识） | `omniailab-ai-director` | 全小写连字符写法；支持 skill 的工具直接用它调起，不支持的工具用自然语言描述也能触发（本 skill 允许隐式调用） |
 | 显示名 | OmniAiLab AI 影视导演 | 仓库页面与文档里显示的名字，不是调用名 |
-| 版本 | v2.3.0 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
+| 版本 | v2.4.0 | 与开源仓库、操作手册三处始终一致，每次更新同步推送 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball | — |
 | 许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改与二次分发 |
 | 配套操作手册 | [飞书文档](https://zcn03zgas1zl.feishu.cn/wiki/P2fhwADXvil24UkNkDCcw1x2nbA) ／ [Notion](https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d) | 如何调用、三步启动、逐阶段操作细则、子技能调度速查、模型口径、避坑总表、常见问题、交付物清单 |
 | 开源仓库（公开） | [github.com/tomatoparkdao/omniailab-ai-director](https://github.com/tomatoparkdao/omniailab-ai-director) | 克隆即装最新版（`git clone` 到 skill 目录）；更新只需 `git pull`；发现问题欢迎在仓库提 issue |
+| 官方社区 | [Discord](https://discord.gg/vdgTEpXMh3) ／ [WhatsApp](https://chat.whatsapp.com/DIiCmMcCTP94GmihRe4Nn1) | 提问求助、反馈 bug、提功能建议、分享作品、交流工作流 |
 
 调用名是**全小写连字符**写法（`omniailab-ai-director`），不是「OmniAiLab AI 影视导演」这个显示名。支持 skill 的工具直接用调用名最稳；不支持原生 skill 的工具，用自然语言描述任务也能触发（本 skill 允许隐式调用）。
 
@@ -74,7 +75,7 @@
 | **Codex**（推荐主用） | 没有原生 skill 目录：把文件夹放进项目，例如 `<你的项目>/skills/omniailab-ai-director/`，再在项目根目录的 `AGENTS.md` 里加一行：<br>`影视制作任务：先读 skills/omniailab-ai-director/SKILL.md，并按其流程执行。` | 说"按 SKILL.md 开始做片子"。它读 `AGENTS.md` 后会加载这个 skill。 |
 | **Claude / Claude Code** | 个人级：`~/.claude/skills/omniailab-ai-director/`<br><br>项目级：`<你的项目>/.claude/skills/omniailab-ai-director/` | 输入 **`/omniailab-ai-director`**；或直接描述任务（如"照这份剧本走完整影视流程"），它会按描述命中并加载。 |
 | **WorkBuddy** | 用户级（全局可用）：`~/.workbuddy/skills/omniailab-ai-director/`<br><br>项目级（只在该项目可用）：`<你的项目>/.workbuddy/skills/omniailab-ai-director/` | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
-| **OmniAiLab**（omniailabx） | [官网下载](https://www.omniailabx.com/plugin)（Windows 本地版 v0.8.16），或[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；安装后把整个文件夹放进它的 **技能目录**（客户端内可查看技能目录位置） | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
+| **OmniAiLab**（omniailabx） | [官网下载](https://www.omniailabx.com/plugin#desktop-download)（Windows 本地版 0.8.27，含安装版与免安装便携版；版本以官网为准），或[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff)（提取码 `2gff`）；安装后把整个文件夹放进它的 **技能目录**（客户端内可查看技能目录位置） | 新开会话后它出现在技能列表里；直接说 **`$omniailab-ai-director 开始`**。 |
 
 > **必须整个文件夹一起复制，不能只拷 SKILL.md。** 四个子技能（ACTING / EMOTION / LIRA / CINEDANCE）、全部专项层（COMBAT 打斗 / BLOCKING 站位 / AESTHETICS 美学 / PROMPT-DOCTRINE 提示词教义 / ASSET-SYSTEM 资产体系 / SCENE-ENGINE 剧本引擎 / OPTICS 光学 / FEATURE-PRODUCTION 长片工程 / MUSIC-SCENE 音乐场景 / ANIMATION 动画 / DOCUMENTARY 纪实 / PROMO 宣传片线 / ONBOARDING 入门引导 / MOTION-STUDIO 动效工作室）、视觉语言库、7 套现成提示词、纪实模板、**宣传片 14 个方向的完整细则**、**7 条宣传片成品样例**、**机位与布光索引**与 **49 张案例配图**，全都放在 `references/` 与 `examples/` 里；少拷一个目录，运行时就会断链。
 
@@ -626,7 +627,7 @@ omniailab-ai-director/
 | **Codex**（推荐） | 完整跑 P0→P6：工程能力强，可直接操作项目文件、批量处理资产清单、脚本化整理各阶段产物 |
 | **Claude** | 剧本解析、提示词打磨、长篇文档产出（原生支持 skills，长文本改写稳定） |
 | **WorkBuddy** | 完整跑 P0→P6：会话内可读写文件、跑脚本，每阶段产物直接落盘 |
-| **OmniAiLab**（omniailabx） | 完整跑 P0→P6：与 WorkBuddy 同类的对话客户端，[官网下载](https://www.omniailabx.com/plugin)（Windows 本地版 v0.8.16；[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) 提取码 `2gff`）；会话内可读写文件、跑脚本，生成统一在 OmniAiLab 画布完成 |
+| **OmniAiLab**（omniailabx） | 完整跑 P0→P6：与 WorkBuddy 同类的对话客户端，[官网下载](https://www.omniailabx.com/plugin#desktop-download)（Windows 本地版 0.8.27，含安装版与免安装便携版；版本以官网为准；[网盘备用](https://pan.baidu.com/s/12Wtj8pAKmXOGgWN-M07v7A?pwd=2gff) 提取码 `2gff`）；会话内可读写文件、跑脚本，生成统一在 OmniAiLab 画布完成 |
 
 **模型建议**
 
@@ -663,6 +664,21 @@ omniailab-ai-director/
 - **操作手册（Notion，同内容）**：<https://tomatopark.notion.site/3eaa28d2e378800d8b8bee090c32c34d>
 
 > **【强制】文档同步**：本 skill 每次更新（版本号、主干流程、模型口径、子技能接线任一变化）都必须**同步更新**上述操作手册与两份 README，版本号保持一致。
+
+---
+
+## 获取帮助与社区
+
+遇到问题、想反馈 bug 或提功能建议、想看看别人怎么做出好片子——都欢迎进 **OmniAiLab 官方社区**：
+
+| 社区 | 加入链接 | 适合用来 |
+|---|---|---|
+| **Discord** | <https://discord.gg/vdgTEpXMh3> | 提问求助、反馈 bug、提功能建议、分享作品、交流工作流 |
+| **WhatsApp** | <https://chat.whatsapp.com/DIiCmMcCTP94GmihRe4Nn1> | 同上；移动端更方便 |
+
+> 提问前建议先翻本 README 的「避坑总表」与操作手册的对应章节。发问时带上**作品形态、当前阶段、你用的工具与模型**，社区里更容易一次问清。
+
+> 与文档或 skill 本体有关的问题，也欢迎在[开源仓库](https://github.com/tomatoparkdao/omniailab-ai-director)提 issue——留在仓库里最不容易丢。
 
 ---
 

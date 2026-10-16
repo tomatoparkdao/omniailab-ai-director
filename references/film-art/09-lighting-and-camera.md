@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-09-lighting
 description: 电影艺术层 · 光线与摄影——远景忌顺光、布光外化主题、光是人物处境的陈述、景深是叙事态度、技术为概念服务、器材服务于方案。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true

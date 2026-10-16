@@ -1,7 +1,7 @@
 ---
 name: omniailab-film-art-14-genre-craft
 description: 电影艺术层 · 类型实操——动作三要素与打斗三招论、动感来自镜头不来自拳头、悬念给信息与恐惧扣信息两条相反路径、情爱的减法、惯例与反类型。
-version: 2.3.0
+version: 2.4.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
